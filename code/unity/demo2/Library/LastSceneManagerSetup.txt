@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/sTranslate.unity
+  isLoaded: 1
+  isActive: 1

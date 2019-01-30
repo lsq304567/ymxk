@@ -1,0 +1,42 @@
+body {
+    font-size:       small;
+    font-family:     Verdana,  Helvetica,  Arial, sans-serif;
+    line-height: 1.6em;
+  }
+  h1, h2 {
+    color:           #007e7e;
+  }
+  h1 {
+    font-size:       150%;
+    font-family:     "Emblema One", sans-serif;
+  }
+  h2 {
+    font-size:       130%;
+    font-weight:     normal;
+  }
+  blockquote {
+    font-style:      italic;
+  }
+#guarantee{
+    padding: 25px;
+    padding-left: 80px;
+    border-width:1px;
+    border-style: solid;
+    border-color: black;
+    border-top-left-radius: 0em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 0em;
+    border-bottom-left-radius: 2em;
+    margin:30px;
+    margin-right: 250px;
+
+    font-family: Georgia,'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #444;
+    line-height: 1.9em;
+
+    background-color:#a7cece;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}

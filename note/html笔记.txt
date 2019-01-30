@@ -1,0 +1,390 @@
+1、 简介
+	-> HTML
+	-> CSS
+	-> JavaScript
+	
+	-> C#基础加强 + SQL Server
+	
+2、 www.w3school.com.cn
+
+3、 红绿蓝
+	0-255
+	
+	255,0,0
+	0,255,0
+	0,0,255
+	0,0,0
+	255,255,255
+	用16进制数表示
+	0     0
+	255	  ff
+	
+	ff0000
+	00ff00
+	0000ff
+	
+	颜色中需要加井号
+	
+组合数学(屈婉玲)
+初等数论
+离散数学
+
+
+4、 table的一点点补充
+	table -> tbody -> tr
+	跨列colspan  
+	跨行rowspan
+	tfoot
+	caption
+	
+	在表格中有时需要表头
+	name	age		sex
+	杨洪波	19		男
+	刘琦	30		男
+	苏坤	17		男
+	赵小虎	15		女
+	
+	<tr>
+		<td align="center"><b>name</b></td>
+	</tr>
+	----------------------
+	<th>	table head
+	<tr>
+		<th>name</th>
+	</tr>
+
+1、 复习
+	-> HTML的基本结构
+		<html>
+			<head>
+				<title></title>
+			</head>
+			<body>
+			</body>
+		</html>
+	-> 词法的规范
+		-> 标签有始有终
+			<p></p>
+			<img src="" />
+		-> 属性规范
+			键值对的形式出现，值需要用双引号括起来
+			src="imgs/1.jpg"
+	-> 标签总结
+		-> 字体字形
+			-> 标题(h1)、逻辑字体()、物理字体(i,b)、客户端字体(font)
+		-> 文本结构
+			-> 段落(p)、换行(br)、横线(hr)、居中、预处理、marquee
+		-> 图形链接
+			-> img	src width height border title alt
+			-> a	href title name target
+		-> 列表
+			-> ul
+			-> ol
+			-> dl
+		-> 表格
+			table
+			colspan rowspan
+			cellpadding cellspacing
+			border
+		-> 表单
+			-> form
+			-> 	<input type="text" />
+				<input type="submit" />
+				
+2、 表单元素
+	-> 大部分语法规范
+		<input type="" name="" value="" id="" 其他属性=值 />
+		123<input type="hidden" name="times" value="1" />456
+		隐藏域，用于分隔数据，状态信息
+3、 帧标签
+	-> 作用：就是在一个页面中显示多个网页的办法
+	-> 语法：
+		<frameset cols="30%,*">
+			<frame src="页面" />
+			<frame src="页面" />
+		</frameset>
+	
+	-> iframe
+		在页面中嵌入另一个页面
+	-> 问题
+		<frameset>
+			<frame src="http://www.baidu.com" />
+		</frameset>
+
+4、 CSS的基本使用方法
+	如何与元素挂钩
+	布局(重点，难点)
+
+5、 基本使用语法
+		属性特征-方向参数-具体属性 : 值;
+	设置颜色：
+		color : red;
+		color : #ff0000;
+	设置字体大小
+		font-size : 10px;
+	字体描述
+		text-decoration : overline;
+
+6、 CSS分类(如何使用CSS)
+	-> 行内样式
+		直接给元素添加 style="" 属性
+	-> 内嵌样式
+		直接给元素添加一个ID或一个class属性，在head标签中(不一定)写上
+		<style type="text/css">
+		</style>
+		在里面写上样式的语法，并与对应的元素挂钩
+	-> 外部样式
+		在htm文件外有一个css文件，样式写在css文件中，在html页中将这个
+		样式文件加载进来
+		<link href="css路径" rel="stylesheet" type="text/css" />
+	-> 导入样式
+		将样式作为工具零件进行组合使用
+
+7、 选择器(selecter)
+	-> 将样式与标签挂钩的标记(钩子)
+	-> id选择器
+		#id {
+			/* 样式 */
+		}
+	-> 类选择器
+		可以class="s1 s2 s3 s4"表示这个标签有s1 s2 s3 s4所有的样式
+		.className {
+			/* 样式 */
+		}
+	-> 标签选择器
+		tagName {
+			/* 样式 */
+		}
+	三个样式同时使用，如果没有样式冲突，都应用
+	如果有冲突，同级的就近原则
+	如果不是同级的，ID>类>标签(专一的优先级最大)
+	
+	不规范用法：
+		在CSS使用中，id选择器与类选择器可以同样的作用与多个元素
+		id在规范中就是表示唯一，浏览器允许这么使用，但是在js执行中会出现问题
+		类选择器可以使用 class="c1 c2 c3 c4" 的语法将多个类选择器作用与元素上
+
+8、 小结
+	-> 基本语法
+		样式类别-方向-特征 : 值;
+	-> 分类
+		行内
+		内嵌
+		外部
+	-> 选择器
+		id
+		class
+		tag
+		* 通用
+	-> 复合选择器
+		-> 标签类选择器
+			标签.类名 { /* 样式 */ }
+		-> 后面兄弟选择器
+			选择器+* {
+				/* 选中前面元素选择器的后一个元素 */ 
+			}
+		-> 后代选择器
+			将包含在某个元素中的元素都称为其后代
+			<div id="dv1">
+				<p>123</p>
+				<div id="dv2">
+					<span id="span1"></span>
+				</div>
+				<p>456</p>
+			</div>
+			
+			祖代选择器 后代选择器 {
+				/* 样式 */ 
+			}
+		-> 子代选择器
+			父带选择器>子代选择器 {
+				/* 样式 */
+			}
+		-> 组合选择器
+			选择器1, 选择器2, 选择器3, ..., 选择器N {
+				/* 这些选择器的元素都具有这个样式 */
+			}
+			
+9、 常用样式
+	-> 文本
+		color
+		font-size
+		font-family
+		font-weight
+	-> 边框
+		border-color
+		border-style
+		border-width
+	-> 背景
+		background-color
+	-> 布局
+		
+	-> 其他
+
+
+1、 复习
+	-> 语法
+		-> 基本语法
+			大的属性-方向-小的特征 : 值;
+		-> 分类
+			-> 行内样式
+			-> 嵌入样式
+			-> 外部样式
+			-> 导入样式
+		-> 选择器
+			-> 基本选择器
+				#ID
+				.className
+				TagName
+				*
+			-> 复合选择器
+				TagName.className
+				prev+next
+				祖宗 后代
+				fathor>son
+				selector1,selector2,...,selectorN
+	-> 常用样式
+		-> 文本
+			font-weight
+			font-family
+			font-size
+			color
+			text-decoration:overline;
+		-> 背景
+			background-color
+						image : url(...)
+						position
+		-> 边框
+			border-方向-样式
+			width
+			style	solid实现 dashed虚线 dotted点线
+			color
+		-> 	width
+			height
+
+2、 其他的一些用法
+	-> 图片处理
+		-> 大小  <img width="" height="" />
+			在CSS中使用width与height样式控制图片的大小
+			只设置一个表示等比例缩放
+		-> 对齐
+			图片的对齐一定要有一个容器，在容器中设置样式
+			text-align水平对齐与vertical-align设置元素的垂直对齐方式
+	-> 列表处理样式
+		-> 前置符
+			list-style-type
+		-> 一般使用列表的地方
+			-> 作为导航菜单 navigator    none
+			-> 树状菜单 image:url(...)
+	-> 表格边框
+
+3、 伪选择器
+	-> 语法
+		选择器:伪选择器 {
+			样式
+		}
+	-> 伪选择器
+		active	鼠标点击的时候
+		hover	鼠标悬浮在上面的时候
+		visited	鼠标点击过后
+	-> 早期伪选择器用于a标签
+		a:link
+		a:hover
+		a:active
+		a:visited
+		分别表示
+			正常的a标签
+			鼠标进入的a标签
+			鼠标点击的a标签
+			鼠标点击后的a标签
+	-> 模拟链接文本和改变链接文本的面貌(案例)
+	-> 菜单的高亮
+
+4、 (重点、难点)
+	盒子模型和内外补丁与布局
+	-> 盒子模型
+		-> 浏览器中所有的东西都是盒子，页面就是盒子按照从左往右，
+			从上到下的方式进行的堆砌
+	-> div,body,h1,h2,h3,h4,h5 {margin:0px;padding:0px;}
+
+5、 margin与padding的使用语法
+	-> margin-top:10px;
+	-> 如果长度为零，可以省略单位
+	-> 简写形式
+		margin:0;				// 四边都为0
+		margin:0 auto;			// 上下为0，左右为auto，有多少就添多少
+		margin:0 auto 5px;		// 上0，左右auto，下面为5px
+		margin:1px 2px 3px 4px;	// 顺时针：上右下左
+
+6、 float
+	语法：
+		float:left、right
+	功能：
+		是当前元素离开原来默认的位子(脱离文档流，后面的元素会挤过来)
+		飘起来以后会在当前容器中往左边或右边停靠，若果有多个飘动
+		停靠的顺序也是一个挨一个
+	作用：
+		提交按钮
+		并排显示
+
+
+7、 盒子与盒子的关系
+	-> 左右关系
+		边距等于两个外边距之和
+	-> 上下关系
+		边距等于两个外边距较大的一个
+	-> 内外关系
+		-> 使用外部容器的padding调整内部元素的位置(将外部元素的大小改变)
+		-> 修改内部元素的margin
+			这个方法可以让内部元素跑到容器的外边
+
+8、 当float与内部关系一起使用的时候容易出现的问题
+	-> 凡是内部元素的浮动，需要考虑容器的高度，否则可能出现被弹性高度吃掉的情况
+	-> 如果不希望被挤掉，就在后面的元素中添加一个样式clear:both;
+		clear：
+			清除前面的元素浮动对后面元素的影响
+		取值：
+			left
+			right
+			both
+
+9、 布局与position
+	-> 每一个元素都有一个position属性
+		-> static(默认)
+		-> fixed	
+		-> relative		相对定位
+		-> absolute		绝对定位
+	-> left、top、right和bottom
+		-> 语法： left:10px;
+	-> 定位对文档流的影响
+		fixed与absolute会脱离文档流(原来的位子被后面的占了)
+			任意元素设置为absolute后以浏览器窗口为基本坐标系
+			如果不设置left等坐标，就保留在原始位置
+		static是保持文档流(按照文档流的方式进行布局)
+		relative会占用文档流的位子
+			设置元素为relative后，元素原本文档流的位子会一直保持占用
+			相对定位设置left等坐标以后，是基于原来文档流中的位子进行偏移
+			元素作为容器时，设置成相对定位，其内部元素如果是绝对定位
+				内部元素以容器的左上角为坐标原点
+			将坐标原点变成容器的左上角，就可以在页面中有多个模块，这个模块都自成体系不会互相影响
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

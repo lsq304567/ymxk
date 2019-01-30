@@ -1,0 +1,705 @@
+	视频，书籍，开发文档，项目源代码
+	滞后视频观看，在项目中查找相关实现，仿照项目进行创建实现
+	中间掺杂书籍和开发文档查漏补缺 外加一点英文
+
+2017.10.24
+	下载关于mysql与.net的连接程序		配置类库问题
+	查看关于mysql工作台的操作两章节		
+	查看mysql操作的两章节		
+	aspx  cshtml
+	
+	总结：配置类库有问题
+		iis配置之后出现乱码
+		监听请求
+		MD5现在只有32位操作，修改力软
+	
+2017.10.25
+	通过bootstarp和jquery制作网页
+	
+	总结：
+		$(document).read(function(){	//文档完全加载完后执行函数
+			//代码块
+		});
+		选择器
+			元素	$("p").hide();
+			#id选择器	$("#test").hide();
+			.class选择器	$(".test").hide();
+			$("ul li:first")	第一个ul元素的第一个li元素
+			$("[href]")	带有href属性的元素
+		事件
+			dblclick()	双击
+		效果
+			隐藏，淡入，滑动，动画
+
+2017.10.26
+	jquery	HTML和遍历部分
+	
+	总结：
+		svn代码回档
+		mui使用h5进行app打包
+		<header>
+		<footer>
+	
+2017.11.1
+	将矢量图标制作为css字体样式使用
+	
+2017.11.2
+	纯粹的h5,css制作移动京东网页
+	
+	移动布局的几种方式
+	伸缩容器
+	流式布局
+	响应式
+	rem
+	
+2017.11.3
+	京东结构
+	jd_container
+	主体盒子
+		顶部搜索
+		jd_search
+		轮播图
+		jd_banner
+		导航栏
+		jd_nav
+		产品区块
+		jd_product
+	base.css
+	index.css
+	common.js
+	index.js
+	
+	开始清除样式
+		外边框，内边距，点击高亮效果，以边框为基准计算宽度
+		设置字体和大小
+		ul,ol样式
+		a标签	颜色，元素文本样式
+		鼠标移上去之后样式
+		input,textarea，outline元素周围轮廓,边框样式，禁止电脑端拉大，清除表单样式
+	公用样式
+		左浮动
+		右浮动
+	主体盒子
+		相对进行定位
+	顶部搜索
+		最外层相对屏幕容器，搜索盒子
+		form左右两边进行px设定，设置form的内边距内容百分比
+	轮播图
+		相对正常定位
+		10张图多2,1000%放下，向右转换1个图片
+		li20浮动
+		块元素
+		父元素进行定位到图片下面向上
+		制作圆，居中，给选中样式
+		
+2017.11.04
+	赛尔斯商城项目
+	对h5中的布局元素有了更深层的理解
+	大部分元素进行左右浮动处理
+	float:left;
+	float:right;
+	以及定位进行辅助
+	position:relative;
+	position:absolute;
+	遮住的话z-index进行上下显示选择
+	
+	css书写规范
+	1.位置属性(position, top, right, z-index, display, float等)
+　　2.大小(width, height, padding, margin)
+　　3.文字系列(font, line-height, letter-spacing, color- text-align等)
+　　4.背景(background, border等)
+　　5.其他(animation, transition等)
+
+	
+	
+2017.11.05
+	对仿照京东移动布局进行学习
+	拿到设计稿试着进行分析布局结构
+	内部元素无法撑起盒子，可能是盒子浮动问题
+	记得清楚浮动
+	::before;  必须与 content:"";组合进行使用
+	导航栏
+		text-align:center;
+		对文字进行居中
+		对图标进行直接锁死大小
+	产品区块
+	秒杀样式
+		4个样式类似的盒子，共同设置css
+		不同点单独设置
+			小的竖直线直接使用::before
+			元素前面样式
+			
+2017.11.06
+	组合样式
+	仿京东移动项目总结
+	移动js
+	
+	搜索效果
+	轮播图
+	倒计时
+	移动端滑动效果
+	移动端轻触效果
+	移动端手势效果
+	全屏页面
+	
+2017.11.07
+	html5权威指南
+	javascript权威指南
+	css权威指南
+	高性能网站建设指南
+	移动端不使用jquery的原因
+	体积
+	做了大量兼容	没有必要	都是高版本浏览器
+	
+	touch事件：触屏设备特有的事件
+	touchstart
+	手指刚刚触摸到屏幕的时候	触发的事件
+	touchmove
+	在屏幕上滑动	不停触发
+	touchend
+	离开屏幕时候	触发的事件
+	touchcancel
+	被迫终止（来电）滑动	触发的事件
+	//在目标事件中注册监听事件
+        dom.addEventListener('touchstart',function(){
+            console.log('touchstart');
+        });
+	
+	绑定：on	但第二次会覆盖
+	触摸点的集合
+	当前最新改变的触摸点集合	整个事件都会有changedTouches记录
+	changedTouches
+	记录所有元素上面的所有触摸点集合	touchend没有记录
+	targetTouches
+	记录所有
+	touches
+	
+	获取坐标：
+	clientX基于当前客户端视口触摸点的坐标
+	pageX基于当前页面触摸点的坐标
+	screenX基于屏幕触摸点的坐标
+	ArticleController
+	
+2017.11.8
+	`PraiseCount` int(11) NOT NULL DEFAULT '0' COMMENT '点赞量',
+	`ID` bigint(20) NOT NULL,帖子id	4612809804927381811
+	
+	找到一个会员id
+	533561501455058486
+	339
+	api/Article
+	long AppraiseArticle(dto,memid)
+	
+2017.11.9
+	自我驱动，不是工作
+		觉得有需求，就立马动手
+		有BUG，根本睡不着
+		任何地方，打开电脑就开干
+		新技术出来，总是第一时间想去了解
+		年龄增大，兴趣不减
+	极致的追求
+		不容忍任何BUG
+		用户体验第一
+		重构BUG
+		不断优化性能
+		细分市场做到第一
+	
+	创建对象实体
+	/// <summary>
+        /// 返回状态（成功：1/失败：-1）
+        /// </summary>
+        public int state { set; get; }
+
+        /// <summary>
+        /// 返回信息
+        /// </summary>
+        public string msg { set; get; }
+
+        /// <summary>
+        /// 返回信息编码 -1为Token验证失败
+        /// </summary>
+        public string msgCode { set; get; }
+
+        /// <summary>
+        /// token
+        /// </summary>
+        public string token { set; get; }
+
+        /// <summary>
+        /// 返回数据
+        /// </summary>
+        public T data { set; get; }
+	
+	文件进行长传，类型判断
+		在js中进行
+		后台必须进行校验
+	public static ResultModel<T> SetResult<T>(this string msgStr, T resultObj, int state)
+	this静态类，来扩展User类
+	
+2017.11.13
+	class MyClass<T>
+	泛型类
+	泛型方法
+	泛型接口
+		普通类实现泛型接口
+		泛型类实现泛型接口
+	泛型委托
+	
+2017.11.14
+	api操作结果
+	void	
+		204空http内容
+		HTTP/1.1 204 No Content
+		Server: Microsoft-IIS/8.0
+		Date: Mon, 27 Jan 2014 02:13:26 GMT
+	HttpResponseMessage	直接转换为HTTP响应消息
+		返回类型Content-Type: text/plain;
+	
+2017.11.15
+	根据控制器生成xml文件
+	
+2017.11.16
+	数据访问策略
+		简单CRUD功能和基本验证功能
+		DDD领域驱动设计
+		CQRS命令查询职责分离
+			库和工作单元设计模式
+	
+	StoreManager
+	DropCreateDatabaseAlways
+	initializer
+	System.Data.MySqlClient
+	
+2017.11.17
+	Database	优化建库处理
+	Easy.CMS.Web		Copyright Statement	版权声明
+	EasyFrameWork.CMS		Copyright Statement	
+	EasyFrameWork.Web	选择导航产品分类，文章类型
+	EasyFrameWork	数据字典包安装程序
+	EasyZip	添加框架
+	packages	文档链接
+	Solution
+	Modules //各各组件，组件之间相互独立
+		Easy.CMS.Article //文章
+		Easy.CMS.Breadcrumb //路径导航
+		Easy.CMS.Common //基本通用功能
+		Easy.CMS.Message //留言板
+		Easy.CMS.Product //产品
+		Easy.CMS.Section //模板组件
+		ZKEACMS.Core //CMS核心
+		Easy.Web.CMS
+		ZKEASOFT.CMS.Web //CMS Web Host
+
+2017.11.18
+	AlbumEditViewModel
+
+2018.11.17
+	员工管理系统
+	权限管理系统
+	多层工厂/依赖注入模式
+	cookie知识
+	token验证
+	01 Framework 基础设施层
+		01 Cache 数据缓存层
+		02 Util 实用工具
+			LeaRun.Util
+				Attributes	获取实体类自定义属性
+					EnumAttribute	返回枚举项的描述信息。
+		03 Builder代码生成
+	03 DataAccess 数据库核心层
+		LeaRun.Data	数据库扩展
+		LeaRun.Data.Dapper	操作数据库	3种
+		LeaRun.Data.EF
+		LeaRun.Data.Repository	仓库	
+	04 Application 业务逻辑层
+		01 Cache 应用缓存
+		02 Models 实体层
+			LeaRun.Application.Entity	实体
+				SystemManage
+					LogEntity	系统日志，实体成员
+			LeaRun.Application.Mapping	映射
+		LeaRun.Application.Busines
+			BaseManage
+				UserBLL	//用户管理
+		LeaRun.Application.IService	服务层接口
+			BaseManage
+				IUserService	//用户管理
+		LeaRun.Application.Service	服务
+			BaseManage
+				UserService		//用户管理
+	05 Application 界面应用层
+		LeaRun.Application.Code	各种枚举类型
+		LeaRun.Application.Web	后台界面
+			XmlConfig	配置
+				database.config	数据库连接配置
+				ioc.config	默认数据库软件类型
+	源码目录结构说明
+	LeaRun.Cache	–缓存层
+	LeaRun.Resource	–本地语言
+	LeaRun.Utilities	–公共类库
+	LeaRun.DataAccess	–数据库访问核心组件
+	LeaRun.ServiceFactory	–未用
+	LeaRun.WCFHost	–未用
+	LeaRun.WCFLibrary	–未用
+	LeaRun.WebService	–接口层
+	LeaRun.Business	–业务层
+	LeaRun.Entity	–实体层
+	LeaRun.Repository	–数据仓库层
+	LeaRun.WebApp	–UI层
+	出现的问题	
+	index
+		top.$.cookie('learn_password')
+	系统简介：
+	（1）后台采用MVC+EF架构，前台使用Jquery+Bootstrap,界面美观大气，同时支持灵活定制各种美观的界面。
+	（2）系统模块化的架构设计，使得系统前端支持web页面、webapp，微信等客户端，采用SOA架构，扩展升级灵活。
+	（3）框架支持Sqlserver、Mysql、Oracle等多种数据库。在同一系统中可同时连接多个数据库、多个数据库可以是不同类型的数据库
+	（4）灵活通用的工作流和表单构建方式，满足了常用系统的OA流程办公。
+	（5）系统具有通用的组织架构、权限控制、报表输出功能。
+	（6）系统添加了单点登录、访问过滤，缓存机制等等。
+	运行环境：vs2015+ SQL Server 2012
+	一、解决方案简介：
+	1、Code 底层核心类（开发时不涉及，可编绎成dll提供）。
+	2、Data 数据层（开发时不涉及，可编绎成dll提供）。
+	3、Application  应用（有点类似业务逻辑层） 
+	4、Domain 领域层。
+	5、Mapping 数据库映射。
+	6、Repository 数据访问。
+	7、Web 前端视图及控制器。
+	二、框架主要运用技术：
+	1、前端技术
+	JS框架：jquery-2.1.1、Bootstrap.js、JQuery UI
+	CSS框架：Bootstrap v3.3.4（稳定是后台，UI方面根据需求自己升级改造吧）。
+	客户端验证：jQuery Validation Plugin 1.9.0。
+	在线编辑器：ckeditor、simditor
+	上传文件：Uploadify v3.2.1
+	动态页签：Jerichotab（自己改造）
+	数据表格：jqGrid、Bootstrap Talbe
+	对话框：layer-v2.3
+	下拉选择框：jQuery Select2
+	树结构控件：jQuery zTree、jQuery wdtree
+	页面布局：jquery.layout.js 1.4.4
+	图表插件：echarts、highcharts
+	日期控件： My97DatePicker
+	2、后端技术
+	核心框架：ASP.NET MVC5、WEB API
+	持久层框架：EntityFramework 6.0
+	定时计划任务：Quartz.Net组件
+	安全支持：过滤器、Sql注入、请求伪造
+	服务端验证：实体模型验证、自己封装Validator
+	缓存框架：微软自带Cache、Redis
+	日志管理：Log4net、登录日志、操作日志
+	工具类：NPOI、Newtonsoft.Json、验证码、丰富公共类似
+2018.11.19
+	注意js中数据的大小写
+	地图三级联动
+    $("#ProvinceId").trigger("change");
+    if (data.CityId != undefined) {
+        $("#CityId").ComboBoxSetValue(data.CityId).trigger("change");
+            $("#CountyId").ComboBoxSetValue(data.CountyId);
+    }
+    $("#ProvinceId").ComboBox({
+        url: "../../SystemManage/Area/GetAreaListJson",
+        param: { parentId: '000000' },
+        id: "AreaCode",
+        text: "AreaName",
+        description: "选择省",
+        height: "170px",
+    }).bind("change", function () {
+        var value = $(this).attr('data-value');
+        if (value) {
+            $("#CityId").ComboBox({
+                url: "../../SystemManage/Area/GetAreaListJson",
+                param: { parentId: value },
+                id: "AreaCode",
+                text: "AreaName",
+                description: "选择市",
+                height: "170px",
+            });
+        }
+    });
+    //城市
+    $("#CityId").ComboBox({
+        description: "选择市",
+        height: "170px"
+    }).bind("change", function () {
+        var value = $(this).attr('data-value');
+        if (value) {
+            $("#CountyId").ComboBox({
+                url: "../../SystemManage/Area/GetAreaListJson",
+                param: { parentId: value },
+                id: "AreaCode",
+                text: "AreaName",
+                description: "选择县/区",
+                height: "170px",
+            });
+        }
+    });
+    //县/区
+    $("#CountyId").ComboBox({
+        description: "选择县/区",
+        height: "170px"
+    });
+    //var callback = function (id, code, flag)//通用的请求添加的ajax函数
+    //{
+    //    $.ajax({
+    //        type: "get",
+    //        url: "../../SystemManage/Area/GetAreaListJson",
+    //        dataType: "jsonp",
+    //        data: {
+    //            citycode: code,
+    //            flag: flag
+    //        },
+    //        success: function (data) {
+    //            console.log(data);
+    //            $.each(data, function (i, elem) {
+    //                var op = $("<option></option>").attr("value", elem.code).append(elem.name);
+    //                $("#" + id).append(op);
+    //            });
+    //        }
+    //    });
+    //}
+    //var city = function (pcode)//显示 市的函数
+    //{
+    //    callback("city", pcode, 2);
+    //}
+    //var area = function (ccode)//显示 地区的函数
+    //{
+    //    callback("area", ccode, 3);
+    //}
+    //var province = function (pcode) {
+    //    callback("province", pcode, 1);
+    //}//省份的显示函数
+    //province(0);
+    //city('110000');
+    //area('110100');
+    //$("#province").change(function () {
+    //    $("#city").children("option").remove();
+    //    var pcode = $("#province").val();
+    //    city(pcode);
+    //});
+    //$("#city").change(function () {
+    //    $("#area").children("option").remove();
+    //    var ccode = $(this).val();
+    //    area(ccode);
+    //});
+2018.11.20
+	杀死进程	对话框返回自定义关闭窗体
+	private void labelexit_Click(object sender, EventArgs e)
+	{
+		this.Close();
+		System.Diagnostics.Process process = System.Diagnostics.Process.GetProcessById(System.Diagnostics.Process.GetCurrentProcess().Id);
+		process.Kill();
+	}
+	/// <summary>
+	/// 退出事件
+	/// </summary>
+	/// <param name="sender"></param>
+	/// <param name="e"></param>
+	private void labelexit_Click(object sender, EventArgs e)
+	{
+		QuitForm quitForm = new QuitForm();
+		if (quitForm.ShowDialog() == DialogResult.OK)
+		{
+			PageHeper.ShowMainForm();
+			browser.CloseDevTools();
+			browser.GetBrowser().CloseBrowser(true);
+			if (browser != null)
+			{
+				browser.Dispose();
+			}
+			this.Close();
+		}
+	}
+	/// <summary>
+	/// 确认
+	/// </summary>
+	/// <param name="sender"></param>
+	/// <param name="e"></param>
+	private void btn_check_Click(object sender, EventArgs e)
+	{
+		string textPwdValue = txt_pwd.Text.Trim();
+		if (textPwdValue == "123456")
+		{
+			this.DialogResult = DialogResult.OK;
+			this.Close();
+		}
+		else
+		{
+			MessageBox.Show("密码不正确!");
+		}
+	}
+	/// <summary>
+	/// 取消
+	/// </summary>
+	/// <param name="sender"></param>
+	/// <param name="e"></param>
+	private void btn_cancel_Click(object sender, EventArgs e)
+	{
+		this.DialogResult = DialogResult.Cancel;
+		this.Close();
+	}
+2018.11.26
+	1920
+	1820
+2018.11.27
+	unity
+	xyz坐标系
+	project:项目中所有资源		项目窗口
+	screen:当前场景预览视图		场景视图
+	hierarchy:当前场景中物体	层次结构窗口
+	inspector:属性			属性窗口
+	Game:游戏视图
+
+	鼠标
+	左键:选择
+	右键:调整视角,坐标系变换
+	中间(滚轮):移动画布
+
+	“ 移动”，“ 旋转”，“ 缩放”，“ 矩形变换”和“ 变换”工具
+
+	GameObject:游戏对象
+	Component:组件
+	Material:渲染材质	处理布
+	Texture:渲染纹理	布
+
+	Main Camera:主摄像头
+	projection:投影
+	perspective:透视
+	orthographic:正交
+2018.12.10
+	05	大熊猫
+	07 monkey 猴子
+	10 takin 羚牛
+	12 crestedibis 朱鹮
+2018.12.13
+	wordpress
+	主题：WP Bootstrap 4
+		full width without container	没有容器的全宽
+		left sidebar					左侧边栏
+		no sidebar(full width)			没有侧边栏（全宽）
+		right sidebar					右侧边栏
+	插件
+		Kirki Toolkit	主题相关插件，可自己定制主题
+		Huge IT Slider	轮播图
+
+2018.12.14
+	Setup Factory 9
+	文件
+		添加文件
+		添加文件夹引用
+		移除选定的文件
+		编辑文件属性
+	设置
+		会话变量
+		背景窗口
+		系统需求
+		日志文件
+		安全支持
+		程序包
+		语言
+	屏幕
+		工程主题
+		安装之前
+		之时
+		之后
+	操作
+		启动时
+		预安装时
+		进行安装时
+		关机时
+	资源
+		从属
+		原始文件
+		全局函数
+		脚本文件
+		插件
+	卸载
+		设置
+		背景窗体
+		控制面板
+		快捷方式
+		日志文件屏幕
+		操作
+2018.12.15
+	<q></q>		行引用
+	<blockquote></blockquote>	块引用
+	unordered list=ul	无序列表
+	ordered list=ol 	有序列表
+	list item=li
+	&copy;版权	&amp;		特殊字符
+	<pre></pre>		预格式化文本
+		元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽字体
+2018.12.22
+	FTP:
+		Linux:
+			有SSH服务，比FTP服务更安全有效。用scp命令， scp ip:/PATH-TO/filename . 即可传递文件
+		windows：
+			filezilla server	最好的选择
+			Smart FTP	收费
+			WS_FTP	免费	专业收费
+			Cyberduck	免费
+		MAC:
+			Fetch	收费	流行
+			Transmit	收费
+			Cyberduck	免费
+2018.12.23
+	google chrome
+		elements    元素
+		console     角撑架
+		sources     来源  
+		network     网络
+		performance 性能
+		memory      记忆,存储
+		application 应用
+		security    安全
+		audits      审计
+
+2018.12.25
+	Available
+	Disable
+2019.01.04
+    .json 后缀的 JSON 配置文件
+    .wxml 后缀的 WXML 模板文件
+    .wxss 后缀的 WXSS 样式文件
+    .js 后缀的 JS 脚本逻辑文件
+	app.json 是当前小程序的全局配置
+		pages字段 —— 用于描述当前小程序所有页面路径
+		window字段 —— 定义小程序所有页面的顶部背景颜色
+	工具配置 project.config.json
+2019.01.05
+	mysql中判断记录是否存在方法比较
+	select 1 from tablename where col = col limit 1; 
+
+
+
+
+
+
+
+9669【ZBC】基于http://bridge231.qodeinteractive.com/部署
+
+
+
+
+
+东营唐朝网络	首页，联系我们
+F:\work\XiaoChengXu\tcrj\tcrj
+
+泉州大白开锁公司	首页，产品，电话，关于
+E:\download\Compressed\shenli.cc
+
+
+ 9785 【小程序】基于官网的内容， 开发一个公司介绍的简单小程序。基于开锁模板 【李国超】
+ 调研：小程序技术：https://github.com/Tencent/wepy https://github.com/youzan/vant-weapp  【李国超】
+
+《高级Web标准解决方案》《CSS揭秘》
+《JavaScript权威指南》 《JavaScript语言精粹》
+
+jQuery	YUI
+
+css权威指南
+http://www.stylinwithcss.com
+JavaScript高级程序设计
+www.wrox.com
+DOM编程艺术
+www.friendsofed.com

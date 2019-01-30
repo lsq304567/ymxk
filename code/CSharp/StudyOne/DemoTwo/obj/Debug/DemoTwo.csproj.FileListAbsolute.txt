@@ -1,0 +1,11 @@
+E:\code\CSharp\StudyOne\DemoTwo\bin\Debug\DemoTwo.exe.config
+E:\code\CSharp\StudyOne\DemoTwo\bin\Debug\DemoTwo.exe
+E:\code\CSharp\StudyOne\DemoTwo\bin\Debug\DemoTwo.pdb
+E:\code\CSharp\StudyOne\DemoTwo\bin\Debug\DemoOne.exe
+E:\code\CSharp\StudyOne\DemoTwo\bin\Debug\DemoOne.pdb
+E:\code\CSharp\StudyOne\DemoTwo\bin\Debug\DemoOne.exe.config
+E:\code\CSharp\StudyOne\DemoTwo\obj\Debug\DemoTwo.csprojAssemblyReference.cache
+E:\code\CSharp\StudyOne\DemoTwo\obj\Debug\DemoTwo.csproj.CoreCompileInputs.cache
+E:\code\CSharp\StudyOne\DemoTwo\obj\Debug\DemoTwo.csproj.CopyComplete
+E:\code\CSharp\StudyOne\DemoTwo\obj\Debug\DemoTwo.exe
+E:\code\CSharp\StudyOne\DemoTwo\obj\Debug\DemoTwo.pdb

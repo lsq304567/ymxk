@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://v3.bootcss.com/favicon.ico">
+    <title>页脚2测试</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        header {
+            background: #999;
+            flex: 0 0 auto;
+        }
+
+        .main {
+            background: orange;
+            flex: 1 0 auto;
+        }
+
+        footer {
+            box-shadow: inset 0px 3px 3px #cccccc;
+            background-color: #f0f0f0;
+            flex: 0 0 auto;
+        }
+
+        footer .container .line {
+            height: 2rem;
+            border-top: 1px solid #cccccc;
+        }
+
+        footer .container .row div h6 {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            color: #333333;
+            font-size: 16px;
+            font-family: 'SimSun', Arial, sans-serif;
+        }
+
+        footer .container .row div a {
+            display: block;
+            color: #333333;
+            opacity: 0.5;
+            line-height: 30px;
+            transition: all .3s;
+            opacity: 0.5;
+        }
+
+        footer .container .row div a:link {
+            color: #333333;
+            text-decoration: none;
+        }
+
+        footer .container .row div a:hover {
+            opacity: 0.75;
+        }
+
+        footer .container .row div a:focus {
+            outline: none;
+            color: #333333;
+        }
+        footer .container .row .last{
+            text-align: center;
+        }
+
+        a:hover,
+        a:visited,
+        a:link,
+        a:active {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body class="overall">
+    <div id="container">
+        <header>HEADER</header>
+        <section class="main">MAIN</section>
+        <footer>
+            <div class="container">
+                <div style="height: 2rem;"></div>
+                <div class="row">
+                    <div class="col-6 col-sm-3">
+                        <h6>
+                            <a href="http://114.116.53.169/wordpress01/education/">教育培训</a>
+                        </h6>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <h6>
+                            <a href="http://114.116.53.169/wordpress01/training/">落地训练平台</a>
+                        </h6>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <h6>
+                            <a href="http://114.116.53.169/wordpress01/profile/">市场行为简介</a>
+                        </h6>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <h6>
+                            <a href="http://114.116.53.169/wordpress01/about/">关于我们</a>
+                        </h6>
+                    </div>
+                </div>
+                <div style="height: 1.5rem;"></div>
+                <div class="row line"></div>
+                <div class="row">
+                    <div class="col last">
+                        <h6 style="color:#666;">Copyright © 深圳市淘金谷资产管理有限公司 All Right Reserved.</h6>
+                    </div>
+                </div>
+                <div style="height: 1.5rem;"></div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet" />
+    <style>
+        html,body {
+			background-color: #f6f6f6;
+		}
+        .fl{
+            float: left;
+        }
+        .fr{
+            float: right;
+        }
+        .row:after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+        .white{
+            background-color: #fff;
+        }
+        .title .head-portrait{
+            border-radius: 25px;
+            width:50px;
+            height:50px;
+        } 
+        .name{
+            display:block;
+        }
+		.main{
+			margin: 20px 15px 10px;
+			color: #6d6d72;
+			font-size: 15px;
+            overflow: hidden;
+        }
+        img{
+            width:100%;
+            height:auto;
+            display:block;
+        }
+        .main-note{
+            font-size:12px;
+            color:#6d6d72;
+        }
+        .other{
+            padding:15px 15px;
+        }
+        .other img{
+            width:110px;
+            height: 75px;
+        }
+        .more{
+            border-top:1px solid #ececec;
+            margin-bottom: 10px;
+        }
+        .more-text{
+            font-size:18px;
+            line-height: 30px;
+            color:#2396f3;
+            text-align: center;
+        }
+        .comment{
+            padding:10px 15px;
+        }
+	</style>
+</head>
+
+<body>
+    <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 id="title" class="mui-title">详情</h1>
+    </header>
+    <div class="mui-content">
+        <div class="mui-content-padded title">
+            <h3>小时候盼望过年，长大后害怕过年，为什么有的人越长大越不快乐？</h3>
+            <div class="row">
+                <img class="head-portrait fl" src="images/head-portrait.png" />
+                <div class="fl">
+                    <span class="name">张过年</span>
+                    <time class="time">01/23 12:20</time>
+                </div>
+                <button type="button" class="mui-btn mui-btn-success fr">
+                    关注
+                </button>
+            </div>
+        </div>
+        <div class="main">
+            <p>小孩小孩你别馋，过了腊八就是年！新年到新年到，闺女要花小子要炮！小孩小孩你别馋，过了腊八就是年！新年到新年到，闺女要花小子要炮！小孩小孩你别馋，过了腊八就是年！新年到新年到，闺女要花小子要炮！小孩小孩你别馋，过了腊八就是年！新年到新年到，闺女要花小子要炮！</p>
+            <img src="images/detail0.png" />
+            <p>小孩小孩你别馋，过了腊八就是年！新年到新年到，闺女要花小子要炮！小孩小孩你别馋，过了腊八就是年！新年到新年到，闺女要花小子要炮！小孩小孩你别馋，过了腊八就是年！新年到新年到，闺女要花小子要炮！小孩小孩你别馋，过了腊八就是年！新年到新年到，闺女要花小子要炮！</p>
+            <img src="images/detail1.png" />
+            <p>小孩小孩你别馋，过了腊八就是年！新年到新年到，闺女要花小子要炮！小孩小孩你别馋，过了腊八就是年！新年到新年到，闺女要花小子要炮！小孩小孩你别馋，过了腊八就是年！新年到新年到，闺女要花小子要炮！小孩小孩你别馋，过了腊八就是年！新年到新年到，闺女要花小子要炮！</p>
+            <img src="images/detail2.png" />
+            <p class="main-note">本文及配图均为自媒体用户上传，不代表平台观点。</p>
+        </div>
+        <div class="white mui-row other">
+            <div class="fl">
+                <h4>万水千山，回家过年！</h4>
+                <span>明星聊八卦</span>
+                <span>1评</span>
+                <time>刚刚</time>
+            </div>
+            <div class="fr">
+                <img src="images/detail2.png" />
+            </div>
+        </div>
+        <div class="white mui-row other">
+            <div class="fl">
+                <h4>万水千山，回家过年！</h4>
+                <span>明星聊八卦</span>
+                <span>1评</span>
+                <time>刚刚</time>
+            </div>
+            <div class="fr">
+                <img src="images/detail2.png" />
+            </div>
+        </div>
+        <div class="white more">
+            <p class="more-text">点击查看更多</p>
+        </div>
+        <div class="title white comment">
+            <div class="row">
+                <img class="head-portrait fl" src="images/head-portrait.png" />
+                <div class="fl">
+                    <span class="name">用户123</span>
+                    <span>陕西省西安市</span>
+                    <time class="time">1小时前</time>
+                    <p>用户123的评论</p>
+                </div>
+            </div>
+        </div>
+        <div class="title white comment">
+            <div class="row">
+                <img class="head-portrait fl" src="images/head-portrait.png" />
+                <div class="fl">
+                    <span class="name">用户123</span>
+                    <span>陕西省西安市</span>
+                    <time class="time">1小时前</time>
+                    <p>用户123的评论</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://v3.bootcss.com/favicon.ico">
+    <title>页脚测试</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .overall {
+            background-color: #f2f2ff;
+        }
+
+        .overall-two {
+            background-color: #ffffff;
+        }
+
+        .header-ajax {
+            z-index: 4;
+            width: 100%;
+            background: #fff;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        .bocweb-footer .fll-box {
+            width: 70%;
+            padding-left: 10%;
+            background: #3a3a3a;
+            padding-top: 66px;
+            box-sizing: border-box;
+            float: left;
+            height: 400px;
+        }
+
+        .bocweb-footer .fll-box ul {
+            padding-left: 5%;
+        }
+
+        .f-cb {
+            zoom: 1;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .bocweb-footer .fll-box li {
+            width: 20%;
+            box-sizing: border-box;
+            height: 220px;
+        }
+
+        ol,
+        li {
+            list-style: none;
+            float: left;
+        }
+
+        .bocweb-footer .fll-box li p {
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .bocweb-footer .fll-box li a {
+            display: block;
+            color: #fff;
+            opacity: .5;
+            line-height: 30px;
+            transition: all .3s;
+        }
+
+        .bocweb-footer .fll-box .zbot {
+            margin-left: 5%;
+            line-height: 100px;
+            color: #fff;
+            opacity: 0.5;
+            font-size: 14px;
+            border-top: 1px solid #666;
+        }
+
+        .bocweb-footer .fll-box .slide {
+            position: absolute;
+            bottom: 38px;
+            left: 0;
+            width: 218px;
+            height: 60px;
+            padding: 10px 0;
+            border: 1px solid #616161;
+            border-bottom: 0 none;
+            display: none;
+        }
+
+        .bocweb-footer .fll-box .slide .js {
+            height: 60px;
+        }
+
+        .optiscroll.is-enabled {
+            overflow: hidden;
+        }
+
+        .optiscroll {
+            position: relative;
+            overflow: auto;
+        }
+
+        .optiscroll-content {
+            overflow: auto;
+        }
+
+        .optiscroll-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: -19px !important;
+            bottom: 0;
+            z-index: 1;
+            overflow: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .optiscroll-content {
+            padding-right: 6.5%;
+            box-sizing: border-box;
+            overflow: auto;
+        }
+
+        .optiscroll-v {
+            top: 4px;
+            bottom: 4px;
+            width: 0;
+        }
+
+        .optiscroll-v {
+            right: 0;
+        }
+
+        .optiscroll-v,
+        .optiscroll-h {
+            position: absolute;
+            visibility: hidden;
+            z-index: 2;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .optiscroll-vtrack {
+            width: 3px;
+            right: 4px;
+        }
+
+        .optiscroll-vtrack,
+        .optiscroll-htrack {
+            background: rgba(0, 0, 0, .3);
+            border-radius: 2px;
+            box-shadow: 0 0 1px #fff;
+            opacity: 0;
+        }
+
+        .optiscroll-vtrack,
+        .optiscroll-htrack {
+            display: block;
+            position: absolute;
+            opacity: 1;
+            -webkit-transform: translate(0%, 0%);
+            -ms-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+            transition: height .2s ease 0s, width .2s ease 0s, opacity .2s ease 0s;
+            box-sizing: border-box;
+        }
+
+        .optiscroll-h {
+            left: 4px;
+            right: 4px;
+            height: 0;
+        }
+
+        .optiscroll-h {
+            bottom: 0;
+        }
+
+        .optiscroll-v,
+        .optiscroll-h {
+            position: absolute;
+            visibility: hidden;
+            z-index: 2;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .bocweb-footer .frr-box {
+            background: #323232;
+            width: 30%;
+            float: left;
+            padding-left: 5%;
+            padding-right: 5%;
+            height: 400px;
+            padding-top: 66px;
+            box-sizing: border-box;
+        }
+
+        .bocweb-footer .frr-box .w366 {
+            height: 280px;
+        }
+
+        .bocweb-footer .frr-box .us p {
+            font-size: 18px;
+            color: #fff;
+        }
+
+        .bocweb-footer .frr-box .shar {
+            margin-top: 28px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #474747;
+            position: relative;
+        }
+
+        .bdshare-button-style0-24 {
+            zoom: 1;
+        }
+
+        .bdshare-button-style0-24 {
+            zoom: 1;
+        }
+
+        .bocweb-footer .frr-box .shar a.bds_tsina {
+            background: #252525 url(../images/img-25.png) no-repeat;
+        }
+
+        .bocweb-footer .frr-box .shar a {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 !important;
+            margin-right: 25px !important;
+            padding: 0 !important;
+            display: block !important;
+        }
+
+        .bdshare-button-style0-24 .bds_tsina {
+            background-position: 0 -104px;
+        }
+
+        .bdshare-button-style0-24 .bds_tsina {
+            background-position: 0 -104px;
+        }
+
+        .nbix2 img {
+            border: 0;
+            vertical-align: middle;
+            -ms-interpolation-mode: bicubic;
+            transition: transform 1s;
+        }
+
+        .bocweb-footer .frr-box .shar a.bds_weixin1 {
+            background: #252525 url(../images/img-26.png) no-repeat;
+        }
+
+        .bocweb-footer .frr-box .shar a {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 !important;
+            margin-right: 25px !important;
+            padding: 0 !important;
+            display: block !important;
+        }
+
+        .bdshare-button-style0-24 a,
+        .bdshare-button-style0-24 .bds_more {
+            float: left;
+            font-size: 18px;
+            padding-left: 25px;
+            line-height: 24px;
+            height: 24px;
+            background-image: url(../img/share/icons_0_24.png?v=dcaa92d6.png);
+            background-repeat: no-repeat;
+            cursor: pointer;
+            margin: 6px 6px 6px 0;
+        }
+
+        .nbix img {
+            border: 0;
+            vertical-align: middle;
+            -ms-interpolation-mode: bicubic;
+            transition: transform 1s;
+        }
+
+
+
+
+
+
+
+
+        .mobile-footer {
+            display: none;
+        }
+
+        .mobile-footer .top {
+            height: 50px;
+            background: #525252;
+            text-align: center;
+            font-size: 0;
+        }
+
+        .mobile-footer .top div {
+            display: inline-block;
+            width: 25%;
+            vertical-align: top;
+            margin-top: 12px;
+        }
+
+        .top div a {
+            color: #777;
+            outline: none;
+            text-decoration: none;
+            background: transparent;
+        }
+
+        .mobile-footer .top div img {
+            width: 25px;
+            height: 25px;
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            border: 0;
+            -ms-interpolation-mode: bicubic;
+            transition: transform 1s;
+        }
+
+        .mobile-footer .bot {
+            background: #3a3a3a;
+            overflow: hidden;
+            padding-top: 18px;
+        }
+
+        .f-cb {
+            zoom: 1;
+            list-style: none;
+        }
+
+        .mobile-footer .bot li {
+            padding: 0 4%;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .mobile-footer li {
+            width: 100%;
+        }
+
+        .mobile-footer .bot .click {
+            font-size: 24px;
+            color: #fff;
+            width: 100%;
+            font-size: 14px;
+            height: 45px;
+            line-height: 45px;
+            background: url(../images/img-73.png) no-repeat right center;
+            background-size: 16px;
+            border-bottom: 1px solid #757575;
+            transition: all .3s;
+        }
+
+        .mobile-footer .bot .click {
+            font-size: 24px;
+            color: #fff;
+            width: 100%;
+            font-size: 14px;
+            height: 45px;
+            line-height: 45px;
+            background: url(../images/img-73.png) no-repeat right center;
+            background-size: 16px;
+            border-bottom: 1px solid #757575;
+            transition: all .3s;
+        }
+
+        .mobile-footer .bot .slide a {
+            display: block;
+            padding: 0 4%;
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 14px;
+            color: #fff;
+        }
+
+        .mobile-footer .bot .click {
+            font-size: 24px;
+            color: #fff;
+            width: 100%;
+            font-size: 14px;
+            height: 45px;
+            line-height: 45px;
+            background: url(../images/img-73.png) no-repeat right center;
+            background-size: 16px;
+            border-bottom: 1px solid #757575;
+            transition: all .3s;
+        }
+
+        .mobile-footer .bot .shar {
+            text-align: center;
+            margin-top: 24px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .bdshare-button-style0-24 {
+            zoom: 1;
+        }
+
+        .mobile-footer .bot a.bds_tsina {
+            background: #252525 url(../images/img-25.png) no-repeat;
+        }
+
+        .mobile-footer .bot .shar a {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 !important;
+            margin-right: 10px !important;
+            margin-left: 10px !important;
+            padding: 0 !important;
+            display: inline-block !important;
+            float: none;
+        }
+
+        .bdshare-button-style0-24 .bds_tsina {
+            background-position: 0 -104px;
+        }
+
+        .bdshare-button-style0-24 .bds_tsina {
+            background-position: 0 -104px;
+        }
+
+        .bdshare-button-style0-24 a,
+        .bdshare-button-style0-24 .bds_more {
+            float: left;
+            font-size: 18px;
+            padding-left: 25px;
+            line-height: 24px;
+            height: 24px;
+            background-image: url(../img/share/icons_0_24.png?v=dcaa92d6.png);
+            background-repeat: no-repeat;
+            cursor: pointer;
+            margin: 6px 6px 6px 0;
+        }
+    </style>
+</head>
+
+<body class="overall">
+    <!--—------------------------footer--—------------------------->
+    <div class="footer-ajax .d-none .d-sm-block">
+        <div class="footer bocweb-footer d-none d-sm-block">
+            <div class="fll-box">
+                <ul class="f-cb">
+                    <li>
+                        <p>关于我们</p>
+                        <a href="http://www.zibencity.cn/company-profile.html">公司简介</a>
+                        <a href="http://www.zibencity.cn/culture.html">企业文化</a>
+                        <a href="http://www.zibencity.cn/news.html">新闻资讯</a>
+                        <a href="http://www.zibencity.cn/contact.html">联系我们</a>
+                    </li>
+                    <li>
+                        <p>教育培训</p>
+                        <a href="http://www.zibencity.cn/general-knowledge.html">市场行为普及课程</a>
+                        <a href="http://www.zibencity.cn/special-stock.html">交易策略辅导</a>
+                    </li>
+                    <li>
+                        <p>落地训练平台</p>
+                        <a href="http://www.zibencity.cn/stock-training-system.html">单机模拟训练系统</a>
+                        <a href="http://www.zibencity.cn/futures-training-system.html">网络同步训练</a>
+                    </li>
+                    <li>
+                        <p>实地中心</p>
+                        <a href="http://www.zibencity.cn/field-center.html">实地中心</a>
+                    </li>
+                    <!--—--------- <li>
+                    <p>软件下载</p>
+                    <a href="#">系统购买</a>
+                    <a href="#">启动客户端</a>
+                </li>------->
+                    <div style="clear:both"></div>
+                </ul>
+                <div class="zbot">
+
+
+                    <div class="slide">
+                        <div id="os1" class="js optiscroll column is-enabled">
+                            <div class="optiscroll-content" style="right: -17px; bottom: -17px;">
+                                <div class="optiscroll-content" style="right: -17px; bottom: -17px;">
+
+                                </div>
+
+                                <div class="optiscroll-v"><b class="optiscroll-vtrack"></b></div>
+                                <div class="optiscroll-h"><b class="optiscroll-htrack"></b></div>
+                            </div>
+                            <div class="optiscroll-v"><b class="optiscroll-vtrack"></b></div>
+                            <div class="optiscroll-h"><b class="optiscroll-htrack"></b></div>
+                        </div>
+                    </div>
+
+                    <p>
+                        Copyright © 深圳市淘金谷资产管理有限公司 All Right Reserved.
+                    </p>
+                </div>
+            </div>
+            <div class="frr-box=">
+                <div class="w366">
+                    <div class="us">
+                        <p>关注我们</p>
+                        <div class="bdsharebuttonbox shar bdshare-button-style0-24" data-bd-bind="1545112943373">
+                            <a href="javascript:void(0)" class="bds_tsina" data-cmd="" title="分享到新浪微博"></a>
+                            <div class="nbix2">
+
+                                <img src="./团队日志 - 深圳淘金谷资产管理有限公司_files/weibo.jpg" alt="" width="150">
+                            </div>
+                            <a href="javascript:void(0)" class="bds_weixin1" data-cmd="" title="分享到微信"></a>
+                            <div class="nbix">
+
+                                <img src="./团队日志 - 深圳淘金谷资产管理有限公司_files/ewm.jpg" alt="" width="150">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="mobile-footer d-block d-sm-none">
+            <div class="top">
+                <div class=""><a href="tel:0755-8148 7735"><img src="./团队日志 - 深圳淘金谷资产管理有限公司_files/img-70.png" alt=""></a></div>
+                <div class=""><a target="_blank" href="http://map.baidu.com/?newmap=1&amp;ie=utf-8&amp;s=s%26wd%3D%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B7%B1%E5%9C%B3%E5%B8%82%E9%BE%99%E5%8D%8E%E5%8C%BA%E5%A4%A7%E6%B5%AA%E5%8C%97%E8%B7%AF41%E5%8F%B7"><img
+                            src="./团队日志 - 深圳淘金谷资产管理有限公司_files/img-71.png" alt=""></a></div>
+                <div class=""><a href="http://www.zibencity.cn/contact.html"><img src="./团队日志 - 深圳淘金谷资产管理有限公司_files/img-777.png"
+                            alt=""></a></div>
+                <div class="">
+                    <div class="bdsharebuttonbox kloi bdshare-button-style0-24" data-bd-bind="1545112943373">
+                        <!-- <a href="#" class="bds_more" data-cmd="more"></a> -->
+                        <img src="./团队日志 - 深圳淘金谷资产管理有限公司_files/img-72.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="bot">
+                <ul class="f-cb">
+                    <li>
+                        <div class="click">关于我们</div>
+                        <div class="slide">
+                            <a href="http://www.zibencity.cn/team.html#">公司简介</a>
+                            <a href="http://www.zibencity.cn/team.html#">企业文化</a>
+                            <a href="http://www.zibencity.cn/team.html#">新闻资讯</a>
+                            <a href="http://www.zibencity.cn/team.html#">联系我们</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="click">学习系统</div>
+                        <div class="slide">
+                            <a href="http://www.zibencity.cn/team.html#">通用知识</a>
+                            <a href="http://www.zibencity.cn/team.html#">股票专用</a>
+                            <a href="http://www.zibencity.cn/team.html#">期货专用 </a>
+                            <a href="http://www.zibencity.cn/team.html#">其他</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="click">训练系统</div>
+                        <div class="slide">
+                            <a href="http://www.zibencity.cn/team.html#">股票训练系统</a>
+                            <a href="http://www.zibencity.cn/team.html#">期货训练系统</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="click">分析系统</div>
+                        <div class="slide">
+                            <a href="http://www.zibencity.cn/team.html#">分析系统</a>
+                            <a href="http://www.zibencity.cn/team.html#">分析系统</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="click">软件下载</div>
+                        <div class="slide">
+                            <a href="http://www.zibencity.cn/team.html#">系统购买</a>
+                            <a href="http://www.zibencity.cn/team.html#">启动客户端</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="bdsharebuttonbox shar bdshare-button-style0-24" data-bd-bind="1545112943373">
+                    <a href="javascript:void(0)" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <div class="nbix2"><img src="./团队日志 - 深圳淘金谷资产管理有限公司_files/weibo.jpg" alt="" width="180"></div>
+                    <a href="javascript:void(0)" class="bds_weixin" data-cmd="" title="分享到微信"></a>
+                    <div class="nbix"><img src="./团队日志 - 深圳淘金谷资产管理有限公司_files/ewm.jpg" alt="" width="180"></div>
+                </div>
+                <div class="end">
+                    <p>Copyright © 中润国际投资（深圳）有限公司 All Right Reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="toTop" style="display: none;"></div>
+        <!-- <script>
+                $(".toTop").click(function () {
+                    $("html,body").animate({ "scrollTop": "0px" }, "1000");
+                });
+                var h = $(window).height();
+                $(window).scroll(function () {
+                    if ($(window).scrollTop() >= h / 3) {
+                        $('.toTop').css('display', 'block');
+                    }
+                    if ($(window).scrollTop() < h / 3) {
+                        $('.toTop').css('display', 'none');
+                    }
+                })
+                $(".kloi").click(function () {
+                    $(".t-slide").fadeIn()
+                    $(".t-slide .box").addClass('cur')
+                });
+                $(".t-slide .hide").click(function () {
+                    $(".t-slide").fadeOut()
+                    $(".t-slide .box").removeClass('cur')
+                });
+            </script>
+            <script>
+                $(function () {
+                    window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "24" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+                    var os1 = new Optiscroll(document.getElementById('os1'), { maxTrackSize: 60, preventParentScroll: true });
+                    $(".bocweb-footer .frr-box .shar a.bds_weixin1").on("click", function () {
+                        $(".bocweb-footer .frr-box .shar .nbix").fadeToggle();
+                    })
+                    $(".mobile-footer .bot a.bds_weixin").on("click", function () {
+                        $(".mobile-footer .bot .nbix").fadeToggle();
+                    })
+                    $(".bocweb-footer .frr-box .shar a.bds_tsina").on("click", function () {
+                        $(".bocweb-footer .frr-box .shar .nbix2").fadeToggle();
+                    })
+                    $(".mobile-footer .bot a.bds_tsina").on("click", function () {
+                        $(".mobile-footer .bot .nbix2").fadeToggle();
+                    })
+    
+                    $(".mopop").on("click", function () {
+                        $(".ui-table").fadeIn();
+                    })
+                    $(".ui-tbody .rightx").on("click", function () {
+                        $(".ui-table").fadeOut();
+                        location.reload();
+                    })
+                    $(".bocweb-footer .fll-box .click").click(function () {
+                        if ($(this).hasClass('cur')) {
+                            $(this).siblings('.slide').slideUp();
+                            $(this).removeClass('cur')
+                        } else {
+                            $(this).siblings('.slide').slideDown();
+                            $(this).addClass('cur');
+                            $(this).parents("li").siblings('').children('.click').removeClass('cur')
+                            $(this).parents("li").siblings('').children('.slide').slideUp()
+                        }
+                    });
+                    $(".mobile-footer .bot li").on('click', '.click', function () {
+                        if ($(this).siblings('.slide').is(':hidden')) {
+                            $(this).siblings('.slide').slideDown().parents("li").siblings('li').find(".slide").slideUp();
+    
+                        } else {
+                            $(this).siblings('.slide').slideUp()
+                        }
+                    });
+                })
+            </script> -->
+    </div>
+    <div style="background-color: red;height: 25rem;"></div>
+    <footer class="footer navbar-fixed-bottom">
+        <div class="container" style="height: 2rem;">
+            123456
+        </div>
+    </footer>
+    <div>hellow world!</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

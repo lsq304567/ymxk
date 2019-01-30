@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://v3.bootcss.com/favicon.ico">
+    <title>落地训练平台2测试</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        #d1 {
+            background-color: #ffffff;
+        }
+
+        #sp {
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+
+        .more #sp {
+            position: absolute;
+            right: 25px;
+            background: url(http://114.116.53.169/wordpress01/wp-content/uploads/2018/12/icon_more_jt.png) right center no-repeat;
+        }
+
+        #d1:hover {
+            background-color: #43ade7;
+
+        }
+
+        #d1:hover #sp {
+            color: #fff;
+        }
+
+        #a {
+            line-height: 30px;
+            text-align: center;
+            width: 70%;
+            display: block;
+            color: white;
+            border-color: white;
+            border-radius: 30px;
+            border: solid 1px;
+            text-decoration: none;
+            font-size: 23px;
+        }
+
+        #a:hover {
+            background-color: #FFFFFF;
+            color: #666666;
+        }
+
+        .til .co {
+            overflow: hidden;
+            height: 0;
+            padding: 0 0 50% 0;
+        }
+
+        .tile-wrapper:hover {
+            background-color: #D9D9D9;
+        }
+
+        .two-back:hover {
+            background-color: #D9D9D9;
+        }
+
+        footer {
+            box-shadow: inset 0px 3px 3px #cccccc;
+            background-color: #f0f0f0;
+        }
+
+        footer .container .line {
+            height: 2rem;
+            border-top: 1px solid #cccccc;
+        }
+
+        footer .container .row div h6 {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            color: #333333;
+            font-size: 16px;
+            font-family: 'SimSun', Arial, sans-serif;
+        }
+
+        footer .container .row div a {
+            display: block;
+            color: #333333;
+            opacity: .5;
+            line-height: 30px;
+            transition: all .3s;
+            opacity: 0.5;
+        }
+
+        footer .container .row div a:link {
+            color: #333;
+            text-decoration: none;
+        }
+
+        footer .container .row div a:hover {
+            opacity: 0.75;
+        }
+
+        footer .container .row div a:focus {
+            outline: none;
+            color: #333;
+        }
+
+        footer .container .row .last {
+            text-align: center;
+        }
+
+        .overall-two {
+            background-color: #ffffff;
+        }
+
+        .row-col {
+            padding-top: 2rem;
+        }
+
+        .tile-wrapper {
+            background-color: #ffffff;
+            padding: 1rem;
+
+        }
+
+        .tile-wrapper .col-one {
+            overflow: hidden;
+            height: 0;
+            padding: 0 0 100% 0;
+        }
+
+        .tile-wrapper .col-one h3 {
+            font-family: 'SourceHanSansCN-Regular', Arial, sans-serif;
+        }
+
+        .tile-wrapper .col-one h6 {
+            padding: 1em 0 1em 0;
+            overflow: hidden;
+
+            font-size: 1rem;
+            line-height: 200%;
+            color: #666;
+            font-family: 'SimSun', Arial, sans-serif;
+            letter-spacing: 1px;
+        }
+
+        .two-back {
+            background-color: #ffffff;
+        }
+
+        .col-img {
+            overflow: hidden;
+            position: relative;
+            height: 0;
+            padding: 0 0 50% 0;
+        }
+
+        .col-img img:hover {
+            transform: scale(1.2);
+        }
+
+        .col-img img {
+            cursor: pointer;
+            transition: all 0.6s;
+        }
+
+        .col-img .img-text {
+            position: absolute;
+            left: 0;
+            top: 80%;
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+            height: 0;
+            padding-bottom: 14%;
+            background: rgba(52, 116, 160, .8);
+            padding-top: 0.5rem;
+        }
+
+        .col-img .img-text h6 {
+            font-weight: 600;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        a:hover,
+        a:visited,
+        a:link,
+        a:active {
+            text-decoration: none;
+            color: black;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        time {
+            color: #999;
+            font-family: 'SourceHanSansCN-Light', Arial, sans-serif;
+        }
+
+        .nav-item a {
+            font-family: 'SimSun', Arial, sans-serif;
+        }
+
+        .nav-item a:hover {
+            color: #333333;
+        }
+
+        .nav-item.active {
+            background-color: #f5f5f5;
+            opacity: 1;
+        }
+
+        .entry-content p {
+            text-indent: 2em;
+            line-height: 200%;
+            color: #666;
+            font-family: 'SimSun', Arial, sans-serif;
+            letter-spacing: 1px;
+        }
+
+        #site-navigation {
+            padding: 0 1rem;
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body class="overall">
+    <img class="img-fluid" src="http://114.116.53.169/wordpress01/wp-content/uploads/2018/12/banner01.jpg" alt="" />
+    <div style="height: 2rem;"></div>
+    <div class="overall">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 col-sm-12 col-lg-12">
+                    <h1 style="text-align: center;">关于实践和训练的重要性</h1>
+                    <div style="height: 2rem;"></div>
+                    <p>
+                        当一个普通人开始接触市场。接触方式往往是读书、参加培训、或者直接拎包就上去了。以上几种人最开始都有一个幸运期。在幸运期赶上趋势，不需要想买的理由，然后把回调扛过来，最后都是赚钱。那么这些赶上幸运趋势的朋友，就会很膨胀，甚至认为在证券市场赚钱是一件十分简单的事。然而，当趋势进入TR行情，或者进入派发阶段之后，他们这种买入死扛的方法会导致严重的亏损甚至爆仓。
+                    </p>
+
+                    &nbsp;
+
+                    <p>
+                        于是有些人开始反思，然后寻求一些帮助，这些帮助包括参加培训班，或者买更多五花八门的技术分析和基本面分析的书。期望复制书中和培训班中的“成功”方法，不过学习之后，实盘交易还是巨亏。这中间出现了几个问题。
+                    </p>
+
+                    &nbsp;
+
+                    <p>
+                        第一个问题：碰上滥竽充数的了。中国的证券市场时间比较短，而公众又急于想参与市场，于是有了这种需求，市场产生了诸多的滥竽充数的专家，他们开办三、五天短期速成班诱惑公众，然后讲几个指标讲几个基本面，讲几个平均线，让大家拿几种组合再次回到市场亏损。
+                    </p>
+                    &nbsp;
+
+                    <p>
+                        第二个问题：即使碰上愿意讲一点真东西的人，因为公众太急于回到市场翻本。在没有完全掌握理论的情况下，直接用大资金去交易，最后导致巨额亏损，这反应了在整个学习当中欠缺的一个重要环节——把正确的理论落实到实际的行情中，而理论落地环节需要一名成功的资深交易员手把手的指导，才能避免少走弯路，少在市场中交学费。
+                    </p>
+                    &nbsp;
+
+                    &nbsp;
+                    <h2 style="text-align: left;">我们的优势</h2>
+                    <div style="height: 2rem;"></div>
+                    <P>既然培训和学习还会导致亏损，到底有没有方法解决这样的问题？下面我们威科夫团队就跟大家解释如何解决这样的问题。</P>
+
+                    &nbsp;
+
+                    <P>上述第一个问题的解决方案。我们带给大家看市场的角度，不是从技术指标曲线或者基本面这些表象来看市场，而是从市场的自身行为来判断下一波的走势。懂得市场自身行为的内涵，就等于拿到了一个以不变应万变的工具，无论是长线、短线、趋势和波段，各个周期都适用，无论是股票、期货、外汇等市场品种，全都适用。因为我们研究的是市场内涵以及量价背后的人性特点。任何市场都是人操作的，那么在量价行为里面都体现着一种人性。这里边的人性包括主控资金的操控节奏，也包括公众被操控的节奏。我们如果能够清楚的从量价行为当中和趋势当中识别出这些节奏，我们就会站在市场对的一方，而不是站在公众一方吃亏上当。我们的辅导完全是站在市场的自身行为基础上，按照市场的自身行为总结出高概率的交易策略。</P>
+
+                    <div style="height: 2rem;"></div>
+                    <img class="img-fluid alignleft" src="http://114.116.53.169/wordpress01/wp-content/uploads/2018/12/training-1.png"
+                        alt="training-1" />
+                    <P>针对上述第二个问题，也是重中之重。我们有非常切合实际的，能够顺利帮助大家走入盈利交易的解决方案。这个解决方案就是孟老师和团队精心打造的威科夫操盘法落地训练营。在这个落地训练营当中。我们把您该考虑的事情都已经考虑了，不用您自己再伤脑筋想怎么去学习。只要跟着我们的训练坚持下去，就会顺理成章的走进了聪明钱的交易队伍。如果您在实战当中遇到了无法解决的问题或者认为需要重新走一遍训练过程。我们会随时准备好为您服务。</P>
+
+                    &nbsp;
+
+                    <P>关于落地训练营的设计和建设，孟老师把20多年在华尔街的实战交易经验全部倾注到行情选择和训练内容的编写当中。对于市场行为当中的很多我们忽视的或者感到蒙圈的细节。我们都会从精选的行情当中把它们展现出来，并且告知大家如何去处理，如何去解决。每一段精选行情目的性都非常强，对每一个重要的市场行为都是反复的，多次的实战训练，直到你掌握为止。对于交易策略，我们精心准备了波段交易策略和中长线趋势交易策略。针对每一种交易策略，我们从48年世界（包括中国的）股票期货行情当中精选了大量的实战训练行情。每一段行情都经过孟老师亲自过目和亲自标注。在作业总结当中，孟老师会亲自讲解每一段我们训练过的行情，从中大家可以体会到聪明钱的操盘思想以及对疑难杂症判断思维。在训练期间，我们也会邀请威科夫专家大卫卫斯先生点评。</P>
+
+                    &nbsp;
+
+                    <P>如果在您参加学习辅导之后，在经历一段这样由老师全程跟踪的落地训练营。首先，你所学到的知识会得到进一步的巩固。更重要的，是您可以马上在实战当中消化，理解和使用所学的交易策略。在这一段落地训练营当中。一个关键的收获是：在实战当中，您会暴露出诸多的市场行为理解上的问题、情绪控制上的问题、坏习惯的问题、风控策略方面的问题，以及持仓和资金管理方面的大大小小的问题。这些问题暴露之后，在这个训练营当中，在孟老师的亲自帮助下，我们实行有一个问题解决一个问题的实地解决方案。所以说落地训练营是一个过程，可以把你交易当中遇到的各种市场上的和情绪习惯上的都过滤掉和解决掉。让您带着对市场本质充分的理解，和经过纠正、训练过的良好交易习惯和策略，顺利走入稳定盈利的行列。</P>
+
+                    &nbsp;
+
+                    &nbsp;
+                    <h2>威科夫操盘法交易策略训练平台</h2>
+                    <div style="height: 2rem;"></div>
+                    <P>为了使威科夫操盘法落地训练营更好的为您服务，威科夫团队研发了威科夫操盘法交易策略训练平台。通过平台逐根量价训练，孟老师亲自解读每一根线背后的意义，读懂其市场内涵，让每一个参与学员可以不用任何指标就能看出市场下一步趋势，以及当前市场处在整个市场周期的哪一个阶段。更重要的是能够识别出最佳的好中最好扣扳机时机。我们采取固定做多和做空策略反复训练方法，让学员在交易中形成好中最好的进场、出场和持仓情绪控制的好习惯。您将与有同一理念的专业操盘团队一起训练和成长。</P>
+                    <div style="height: 2rem;"></div>
+                    <div class="row ">
+                        <div class="col-12 col-sm-6 col-lg-6">
+                            <img class="img-fluid alignleft" src="http://114.116.53.169/wordpress01/wp-content/uploads/2018/12/training-2.png"
+                                alt="training-2" />
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-6">
+                            <img class="img-fluid alignright" src="http://114.116.53.169/wordpress01/wp-content/uploads/2018/12/training-3.png"
+                                alt="training-3" />
+                        </div>
+                    </div>
+                    <div style="height: 2rem;"></div>
+                    <P>针对每一个交易策略和每一个重要的市场行为，孟老师及其团队精选大量期货和股票行情进行模拟实战训练。我们训练的目的是让大家：</P>
+
+                    <P>第一、掌握和习惯使用好中最好进场时机和交易策略。</P>
+
+                    <P>第二、暴露更多大家在实际交易中所遇到的困惑，然后由团队当场解决。</P>
+
+                    <P>第三、尽可能多的暴露大家实际交易中的情绪和习惯问题。</P>
+
+                    <P>第四、指导和训练大家的资金管理，持仓和风控能力，经过这种严格环境下的训练，相信大家能够安全的过渡到独立交易阶段。</P>
+                    <div style="height: 2rem;"></div>
+                    <img class="img-fluid" src="http://114.116.53.169/wordpress01/wp-content/uploads/2018/12/training-4.png"
+                        alt="training-4" />
+                    <div style="height: 2rem;"></div>
+                    <P>在训练当中，我们还采取交作业和学员作业总结的方式，您的每一次作业，老师和团队都会认真阅读，仔细批改回复，通过老师和团队的点评，让大家认识自己在交易和理解市场当中的不足。</P>
+
+                    &nbsp;
+
+                    <P>谢谢您的参与，报名表格递交之后，经过我们工作人员审核之后，会尽快与您联系。</P>
+                    <div style="height:4rem;"></div>
+
+                </div>
+            </div>
+            <style>
+                p {
+                    text-indent: 2em;
+                    font-size: 1rem;
+                    line-height: 200%;
+                    color: #666;
+                    font-family: 'SimSun', Arial, sans-serif;
+                    letter-spacing: 1px;
+                }
+            </style>
+        </div>
+    </div>
+    <div style="background-color: red;height: 2rem;"></div>
+    <div>hellow world!</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

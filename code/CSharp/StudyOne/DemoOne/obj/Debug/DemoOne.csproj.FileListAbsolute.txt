@@ -1,0 +1,7 @@
+E:\code\CSharp\StudyOne\DemoOne\bin\Debug\DemoOne.exe.config
+E:\code\CSharp\StudyOne\DemoOne\bin\Debug\DemoOne.exe
+E:\code\CSharp\StudyOne\DemoOne\bin\Debug\DemoOne.pdb
+E:\code\CSharp\StudyOne\DemoOne\obj\Debug\DemoOne.csprojAssemblyReference.cache
+E:\code\CSharp\StudyOne\DemoOne\obj\Debug\DemoOne.csproj.CoreCompileInputs.cache
+E:\code\CSharp\StudyOne\DemoOne\obj\Debug\DemoOne.exe
+E:\code\CSharp\StudyOne\DemoOne\obj\Debug\DemoOne.pdb

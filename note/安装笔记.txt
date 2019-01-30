@@ -1,0 +1,193 @@
+谷歌浏览器http://www.chromeliulanqi.com/
+pdf阅读器https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
+2018.11.16
+    win7/win10 未分配磁盘创建扩展分区 也就是逻辑分区
+    我们有时候用windows7的磁盘管理工具对windows7系统分区管理的时候，我们可能会不小心把我们的电脑硬盘扩展分区都删除了，扩展分区变为了未分配的空间，这时候如果我们新建分区的话，建立的都是主分区，那么我们如何重新建立扩展分区呢？小编根据自己的经验说一下自己对windows7系统硬盘【未分配】空间建立扩展分区的方法，希望对各位朋友有帮助！我们开始吧！小编提醒大家做好电脑重要数据的备份！
+    我们在桌面的“计算机”图标上单击鼠标右键选择管理！打开计算机管理窗口，然后找到磁盘管理！大家看到小编的电脑除了C盘是主分区外，剩余的空间变为了未分配空间！
+    我们现在在未分配空间建立分区大家看看效果如何！我们在未分配空间上单击鼠标右键，选择新建简单卷！我们现在新建一个50G大小的D盘，大家来看最终效果！
+    经过上面步骤，新建了一个50G大小的D盘分区，可以看到新建的D盘是个主分区！
+    我们如何让新建的分区都是逻辑分区呢？小编给大家说一下具体的方法，我们现在先把D盘删除，在D盘上单击鼠标右键，然后删除卷！
+    现在打开开始菜单，在最下面搜索框中输入命令“CMD”，然后运行cmd.exe程序！
+    运行命令窗口后，我们输入命令“diskpart”回车！
+    然后我们在DISKPART>后面输入select disk 0 选择我们的硬盘，然后回车！当然如果你电脑上有好几块硬盘的话，你可以输入select disk X，X代表你的那个硬盘通常为数字0,1,2,3,4等等！不过一般电脑只有一块硬盘我们输入0即可！
+    然后我们输入命令“create partition extended”创建扩展分区，然后回车！这样系统会自动把主分区后的剩余空间全部划分为扩展分区！
+    经过上面的方法，我们现在来看一下我们的磁盘管理！我们发现我们的【未分配空间】变为了可用空间，并且颜色发生了变化！
+    现在用上面的方法，重新建立D盘，我们在可用空间上单击鼠标右键，然后新建卷！
+    中间过程小编就省略了，我们还建立一个50G的D盘，大家发现最终我们的D盘变为了逻辑分区而不是主分区了！当然扩展分区的分区方法不在介绍，大家可以参考http://jingyan.baidu.com/article/4d58d54131dba39dd4e9c0a9.html小编的经验进行操作！
+    原文出处：https://jingyan.baidu.com/article/e75aca855f971c142edac6ae.html
+2018.11.17
+    MySQL-mysql 8.0.11安装教程  https://www.cnblogs.com/laumians-notes/p/9069498.html
+    1、下载zip安装包：
+    MySQL8.0 For Windows zip包下载地址：https://dev.mysql.com/downloads/file/?id=476233，进入页面后可以不登录。后点击底部“No thanks, just start my download.”即可开始下载。
+    2、安装
+    2.1 解压zip包到安装目录
+    我的解压在了d:\app\mysql
+    解压后的文件目录
+    2.2 配置环境变量
+    　　　　将解压文件夹下的bin路径添加到变量值中，前后以 ; 开头结尾
+    2.3 配置初始化的my.ini文件
+    我们发现解压后的目录并没有my.ini文件，没关系可以自行创建。在安装根目录下添加 my.ini（新建文本文件，将文件类型改为.ini），写入基本配置：
+    [mysqld]
+    # 设置3306端口
+    port=3306
+    # 设置mysql的安装目录
+    basedir=D:\app\MySQL
+    # 设置mysql数据库的数据的存放目录
+    datadir=D:\app\MySQL\Data
+    # 允许最大连接数
+    max_connections=200
+    # 允许连接失败的次数。
+    max_connect_errors=10
+    # 服务端使用的字符集默认为UTF8
+    character-set-server=utf8
+    # 创建新表时将使用的默认存储引擎
+    default-storage-engine=INNODB
+    # 默认使用“mysql_native_password”插件认证
+    #mysql_native_password
+    default_authentication_plugin=mysql_native_password
+    [mysql]
+    # 设置mysql客户端默认字符集
+    default-character-set=utf8
+    [client]
+    # 设置mysql客户端连接服务端时默认使用的端口
+    port=3306
+    default-character-set=utf8
+    注意：其中的data目录不需要创建，下一步初始化工作中会自动创建。
+
+    3、安装mysql
+    在安装时，必须以管理员身份运行cmd，否则在安装时会报错，会导致安装失败的情况
+    　　　　3.1 初始化数据库
+    在MySQL安装目录的 bin 目录下执行命令：
+    mysqld --initialize --console
+    执行完成后，会打印 root 用户的初始默认密码，比如：
+    D:\Users\Administrator>cd d:\app\MySQL\bin
+    D:\app\MySQL\bin>mysqld --initialize --console
+    2018-04-28T15:57:17.087519Z 0 [System] [MY-013169] [Server] D:\app\MySQL\bin\mysqld.exe (mysqld 8.0.11) initializing of server in progress as process 4984
+    2018-04-28T15:57:24.859249Z 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: rI5rvf5x5G,E
+    2018-04-28T15:57:27.106660Z 0 [System] [MY-013170] [Server] D:\app\MySQL\bin\mysqld.exe (mysqld 8.0.11) initializing of server has completed
+    kY/Ax=RXq7u6
+    　　注意！执行输出结果里面有一段： [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: rI5rvf5x5G,E 其中root@localhost:后面的“rI5rvf5x5G,E”就是初始密码（不含首位空格）。在没有更改密码前，需要记住这个密码，后续登录需要用到。
+    　　要是你手贱，关快了，或者没记住，那也没事，删掉初始化的 datadir 目录，再执行一遍初始化命令，又会重新生成的。当然，也可以使用安全工具，强制改密码，用什么方法，自己随意。
+
+    参考：https://dev.mysql.com/doc/refman/8.0/en/data-directory-initialization-mysqld.html
+    3.2 安装服务
+    在MySQL安装目录的 bin 目录下执行命令：
+    mysqld --install [服务名]
+    后面的服务名可以不写，默认的名字为 mysql。当然，如果你的电脑上需要安装多个MySQL服务，就可以用不同的名字区分了，比如 mysql5 和 mysql8。
+    安装完成之后，就可以通过命令net start mysql启动MySQL的服务了。通过命令net stop mysql停止服务。通过命令sc delete MySQL/mysqld -remove卸载 MySQL 服务
+
+    4、更改密码
+    在MySQL安装目录的 bin 目录下执行命令：
+    mysql -u root -p
+    　　这时候会提示输入密码，记住了上面第3.1步安装时的密码，填入即可登录成功，进入MySQL命令模式。
+    在MySQL中执行命令：
+    ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '新密码';  
+    修改密码，注意命令尾的；一定要有，这是mysql的语法
+    到此，安装部署就完成了。官方说测试速度MySQL8比5快两倍。
+    　　可以用 命令查看一下默认安装的数据库：
+    show databases;
+    use mysql;
+    show tables;
+    mysql> show databases;
+    +--------------------+
+    | Database           |
+    +--------------------+
+    | information_schema |
+    | mysql              |
+    | performance_schema |
+    | sys                |
+    +--------------------+
+    4 rows in set (0.01 sec)
+    看到默认初始化了mysql数据库，其中user表里面存储MySQL用户信息。我们可以看一下默认MySQL用户：
+    select user,host,authentication_string from mysql.user;
+    mysql> select user,host,authentication_string from mysql.user;
+    +------------------+-----------+-------------------------------------------+
+    | user             | host      | authentication_string                     |
+    +------------------+-----------+-------------------------------------------+
+    | mysql.infoschema | localhost | *THISISNOTAVALIDPASSWORDTHATDANBEUSEDHERE |
+    | mysql.session    | localhost | *THISISNOTAVALIDPASSWORDTHATDANBEUSEDHERE |
+    | mysql.sys        | localhost | *THISISNOTAVALIDPASSWORDTHATDANBEUSEDHERE |
+    | root             | localhost | *27D237A977F4F44D3F551F1A673BE14DFD232961 |
+    +------------------+-----------+-------------------------------------------+
+    4 rows in set (0.00 sec)
+    管理员root的host是localhost，代表仅限localhost登录访问。如果要允许开放其他ip登录，则需要添加新的host。如果要允许所有ip访问，可以直接修改成“%”
+    创建用户：
+    CREATE USER '新账户'@'%' IDENTIFIED WITH mysql_native_password BY '新账户密码';
+    #(需要注意：mysql8.0加密方式修改了)
+    #检查用户
+    select user, host, plugin, authentication_string from user\G;
+    授权远程数据库
+    #授权所有权限 
+    GRANT ALL PRIVILEGES ON *.* TO '新账户'@'%';
+    #授权基本的查询修改权限，按需求设置
+    GRANT SELEDT,INSERT,UPDATE,DELETE,DREATE,DROP,ALTER ON *.* TO '新账户'@'%';
+    查看用户权限
+    show grants for '新账户'@'%';
+    示例：
+    mysql> use mysql;
+    Database changed
+    mysql> DREATE USER '新账户'@'%' IDENTIFIED WITH mysql_native_password BY '新账户123!@#'; #创建用户(注意：mysql8.0加密方式修改了)
+    Query OK, 0 rows affected (0.07 sec)
+    查看密码加密方式：
+    mysql> select user, host, plugin, authentication_string from user;
+    +------------------+-----------+-----------------------+-------------------------------------------+
+    | user             | host      | plugin                | authentication_string                     |
+    +------------------+-----------+-----------------------+-------------------------------------------+
+    | 新账户              | %         | mysql_native_password | *70FD6FB4F675E08FF785A754755B5EBA6DA62851 |
+    | mysql.infoschema | localhost | mysql_native_password | *THISISNOTAVALIDPASSWORDTHATDANBEUSEDHERE |
+    | mysql.session    | localhost | mysql_native_password | *THISISNOTAVALIDPASSWORDTHATDANBEUSEDHERE |
+    | mysql.sys        | localhost | mysql_native_password | *THISISNOTAVALIDPASSWORDTHATDANBEUSEDHERE |
+    | root             | localhost | mysql_native_password | *27D237A977F4F44D3F551F1A673BE14DFD232961 |
+    +------------------+-----------+-----------------------+-------------------------------------------+
+    5 rows in set (0.00 sec)
+    
+2018.11.17
+    MySQL创建用户与授权 https://www.cnblogs.com/sos-blue/p/6852945.html
+    一. 创建用户
+    命令:
+    CREATE USER 'username'@'host' IDENTIFIED BY 'password';
+    说明：
+    username：你将创建的用户名
+    host：指定该用户在哪个主机上可以登陆，如果是本地用户可用localhost，如果想让该用户可以从任意远程主机登陆，可以使用通配符%
+    password：该用户的登陆密码，密码可以为空，如果为空则该用户可以不需要密码登陆服务器
+    例子：
+    CREATE USER 'dog'@'localhost' IDENTIFIED BY '123456';
+    CREATE USER 'pig'@'192.168.1.101_' IDENDIFIED BY '123456';
+    CREATE USER 'pig'@'%' IDENTIFIED BY '123456';
+    CREATE USER 'pig'@'%' IDENTIFIED BY '';
+    CREATE USER 'pig'@'%';
+    二. 授权:
+    命令:
+    GRANT privileges ON databasename.tablename TO 'username'@'host'
+    说明:
+    privileges：用户的操作权限，如SELECT，INSERT，UPDATE等，如果要授予所的权限则使用ALL
+    databasename：数据库名
+    tablename：表名，如果要授予该用户对所有数据库和表的相应操作权限则可用*表示，如*.*
+    例子:
+    GRANT SELECT, INSERT ON test.user TO 'pig'@'%';
+    GRANT ALL ON *.* TO 'pig'@'%';
+    GRANT ALL ON maindataplus.* TO 'pig'@'%';
+    注意:
+    用以上命令授权的用户不能给其它用户授权，如果想让该用户可以授权，用以下命令:
+    GRANT privileges ON databasename.tablename TO 'username'@'host' WITH GRANT OPTION;
+    三.设置与更改用户密码
+    命令:
+    SET PASSWORD FOR 'username'@'host' = PASSWORD('newpassword');
+    如果是当前登陆用户用:
+    SET PASSWORD = PASSWORD("newpassword");
+    例子:
+    SET PASSWORD FOR 'pig'@'%' = PASSWORD("123456");
+    四. 撤销用户权限
+    命令:
+    REVOKE privilege ON databasename.tablename FROM 'username'@'host';
+    说明:
+    privilege, databasename, tablename：同授权部分
+    例子:
+    REVOKE SELECT ON *.* FROM 'pig'@'%';
+    注意:
+    假如你在给用户'pig'@'%'授权的时候是这样的（或类似的）：GRANT SELECT ON test.user TO 'pig'@'%'，则在使用REVOKE SELECT ON *.* FROM 'pig'@'%';命令并不能撤销该用户对test数据库中user表的SELECT 操作。相反，如果授权使用的是GRANT SELECT ON *.* TO 'pig'@'%';则REVOKE SELECT ON test.user FROM 'pig'@'%';命令也不能撤销该用户对test数据库中user表的Select权限。
+    具体信息可以用命令SHOW GRANTS FOR 'pig'@'%'; 查看。
+    五.删除用户
+    命令:
+    DROP USER 'username'@'host';
+    http://blog.csdn.net/piaocoder/article/details/53704126
