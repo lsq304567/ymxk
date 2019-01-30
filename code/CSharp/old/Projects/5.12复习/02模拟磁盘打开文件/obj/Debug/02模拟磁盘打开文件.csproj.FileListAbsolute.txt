@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\5.12复习\02模拟磁盘打开文件\obj\Debug\02模拟磁盘打开文件.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\5.12复习\02模拟磁盘打开文件\bin\Debug\02模拟磁盘打开文件.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\5.12复习\02模拟磁盘打开文件\bin\Debug\02模拟磁盘打开文件.exe
+c:\users\pc\documents\visual studio 2015\Projects\5.12复习\02模拟磁盘打开文件\bin\Debug\02模拟磁盘打开文件.pdb
+c:\users\pc\documents\visual studio 2015\Projects\5.12复习\02模拟磁盘打开文件\obj\Debug\02模拟磁盘打开文件.exe
+c:\users\pc\documents\visual studio 2015\Projects\5.12复习\02模拟磁盘打开文件\obj\Debug\02模拟磁盘打开文件.pdb

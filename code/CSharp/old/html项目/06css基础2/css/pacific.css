@@ -1,0 +1,39 @@
+body {background-color:#ffffff;color:#666666;
+background: url(../img/WallPaper.jpg);
+font-family: verdana,Arial,sans-serif;
+width: 800px;min-width: 600px;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 5px 5px 5px #lelele;}
+header {background-color:#000033; color: #FFFFFF;}
+nav { background-color: #90c7e3;
+font-weight: bold;}
+h1 {height: 70px;
+font-family: Georgia,"times new roman",serif;
+line-height: 250%;
+text-indent: 140px;
+background: url(../img/Lighthouse.bmp) no-repeat bottom left;
+background-clip: border-box;
+background-size: 100% 100%;
+padding-left: 150px; padding-top: 30px;
+border-radius: 15px;
+text-shadow: 3px 3px 3px #666;}
+p{text-indent: 3em;}
+h2 { color: #3399cc;text-shadow: 1px 1px 0 #ccc;}
+ul {list-style-type: upper-alpha;}
+dt {color: #000033;}
+footer{background-image: url(../img/WallPaper.jpg);
+background-repeat: no-repeat;
+background-position: center top;
+height:75px;
+font-family: georgia,"times new roman",serif;
+font-size:.80em;
+font-style:italic;
+text-align: center;}
+.resort {color: #5c7fa3;
+font-weight:bold;}
+#wrapper{ margin-left: auto;
+margin-right: auto;
+width: 80%;
+min-width:700px;
+box-shadow: 5px 5px 5px #lelele;}

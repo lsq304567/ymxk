@@ -1,0 +1,6 @@
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\06使用out参数做登陆\bin\Debug\06使用out参数做登陆.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\06使用out参数做登陆\bin\Debug\06使用out参数做登陆.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\06使用out参数做登陆\bin\Debug\06使用out参数做登陆.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\06使用out参数做登陆\obj\Debug\06使用out参数做登陆.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\06使用out参数做登陆\obj\Debug\06使用out参数做登陆.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\06使用out参数做登陆\obj\Debug\06使用out参数做登陆.pdb

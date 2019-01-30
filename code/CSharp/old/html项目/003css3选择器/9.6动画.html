@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>9.6动画</title>
+		<style type="text/css">
+			div{
+				width: 100px;
+				height: 100px;
+				background: red;
+				position: relative;
+				animation-name: mymove;
+				animation-duration: 5s;
+				animation-timing-function: ease;
+				animation-delay: 2s;
+				animation-iteration-count: 3;
+				animation-direction: alternate;
+			}
+			@keyframes mymove{
+				from{left: 0px;}
+				to{left: 500px;}
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html>

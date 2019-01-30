@@ -1,0 +1,19 @@
+/*重置浏览器默认样式*/
+body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,img{
+	margin: 0; padding: 0; border: 0; list-style: none;
+}
+/*全局控制*/
+body{
+	font-family: "微软雅黑", arial, helvetica, sans-serif; font-size: 14px;
+}
+/*未单击和单击后样式*/
+a:link,a:visited{
+	color: #999; text-decoration: none;
+}
+/*鼠标移上时的样式*/
+a:hover{
+	color: #FFFFFF;
+}
+input,textarea{
+	outline: none;
+}

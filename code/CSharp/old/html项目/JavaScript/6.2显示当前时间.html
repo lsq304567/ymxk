@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>6.2显示当前时间</title>
+    <script language="javascript">
+        function showtime()
+        {
+            var now_time = new Date();
+            var hours = now_time.getHours();
+            var minutes = now_time.getMinutes();
+            var seconds = now_time.getSeconds();
+            var timer = "" + ((hours > 12) ? hours - 12 : hours);
+            timer += ((minutes < 10) ? ":0" : ":") + minutes;
+            timer += ((seconds < 10) ? ":0" : ":") + seconds;
+            timer += "  " + ((hours > 12) ? "pm" : "am");
+            document.clock.show.value = timer;
+            setTimeout("showtime()", 1000);
+        }
+    </script>
+</head>
+<body onload="showtime()">
+    <form name="clock" onsubmit="0">
+        <input type="text" name="show" size="15" />
+    </form>
+    <hr />
+    <form>
+        <input type="button" value="单击事件  " onclick=alert("这是一个例子") />
+        <input type="text" name="Test" value="Test" onchange="check('this.test')" />
+    </form>
+</body>
+</html>

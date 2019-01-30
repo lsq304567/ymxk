@@ -1,0 +1,8 @@
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\04TextBox\bin\Debug\04TextBox.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\04TextBox\bin\Debug\04TextBox.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\04TextBox\bin\Debug\04TextBox.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\04TextBox\obj\Debug\_04TextBox.Form1.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\04TextBox\obj\Debug\_04TextBox.Properties.Resources.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\04TextBox\obj\Debug\04TextBox.csproj.GenerateResource.Cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\04TextBox\obj\Debug\04TextBox.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\04TextBox\obj\Debug\04TextBox.pdb

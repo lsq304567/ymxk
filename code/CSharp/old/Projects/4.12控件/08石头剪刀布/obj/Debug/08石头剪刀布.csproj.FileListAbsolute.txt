@@ -1,0 +1,12 @@
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\08石头剪刀布\bin\Debug\08石头剪刀布.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\08石头剪刀布\bin\Debug\08石头剪刀布.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\08石头剪刀布\bin\Debug\08石头剪刀布.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\08石头剪刀布\obj\Debug\08石头剪刀布.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\08石头剪刀布\obj\Debug\_08石头剪刀布.Form1.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\08石头剪刀布\obj\Debug\_08石头剪刀布.Properties.Resources.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\08石头剪刀布\obj\Debug\08石头剪刀布.csproj.GenerateResource.Cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\08石头剪刀布\obj\Debug\08石头剪刀布.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\08石头剪刀布\obj\Debug\08石头剪刀布.pdb
+G:\b学习笔记\C#项目\Projects\4.12控件\08石头剪刀布\bin\Debug\08石头剪刀布.exe.config
+G:\b学习笔记\C#项目\Projects\4.12控件\08石头剪刀布\obj\Debug\08石头剪刀布.exe
+G:\b学习笔记\C#项目\Projects\4.12控件\08石头剪刀布\obj\Debug\08石头剪刀布.pdb

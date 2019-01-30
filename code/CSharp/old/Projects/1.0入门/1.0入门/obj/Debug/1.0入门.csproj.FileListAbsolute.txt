@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\1.0入门\1.0入门\bin\Debug\1.0入门.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\1.0入门\1.0入门\bin\Debug\1.0入门.exe
+c:\users\pc\documents\visual studio 2015\Projects\1.0入门\1.0入门\bin\Debug\1.0入门.pdb
+c:\users\pc\documents\visual studio 2015\Projects\1.0入门\1.0入门\obj\Debug\1.0入门.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\1.0入门\1.0入门\obj\Debug\1.0入门.exe
+c:\users\pc\documents\visual studio 2015\Projects\1.0入门\1.0入门\obj\Debug\1.0入门.pdb

@@ -1,0 +1,6 @@
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\07自己动手写TryParse\bin\Debug\07自己动手写TryParse.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\07自己动手写TryParse\bin\Debug\07自己动手写TryParse.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\07自己动手写TryParse\bin\Debug\07自己动手写TryParse.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\07自己动手写TryParse\obj\Debug\07自己动手写TryParse.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\07自己动手写TryParse\obj\Debug\07自己动手写TryParse.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\07自己动手写TryParse\obj\Debug\07自己动手写TryParse.csprojResolveAssemblyReference.cache

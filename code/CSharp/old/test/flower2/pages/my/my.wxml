@@ -1,0 +1,32 @@
+<!--wxml-->
+<span style="box-sizing: border-box; font-family: 'Comic Sans MS'; font-size: 18px;">
+<view class="widget-arr">
+<image class="widget-arrow" src="/images/wode.png" mode="aspectFill">  
+</image>
+</view>
+
+<!--列表-->
+<block wx:for="{{userListInfo}}"wx:key="item.id">  
+    <view bindtap="readDetail" class="weui_cell">  
+        <view class="weui_cell_hd">  
+          <image src="{{item.icon}}"></image>
+        </view>  
+        <view class="weui_cell_bd">  
+            <view class="weui_cell_bd_p"> 
+              <navigator url="../myoa/{{item.content}}/{{item.content}}">
+                {{item.text}} 
+              </navigator> 
+            </view> 
+        </view>  
+          <view wx:if="{{item.isunread}}" class="badge">{{item.unreadNum}}</view>  
+        <view class="wrap-item">  
+    </view>  
+    <view class="with_arrow"></view>
+   </view>
+ </block></span>
+<!--button-->
+<view class="body-view">
+  <button class="btnlogin1" type="primary" form-type="submit" bindtap="primary"> 退出登录 </button>
+
+  <!--<button bindtap="add">退出登录</button>-->
+</view>

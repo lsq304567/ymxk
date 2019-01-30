@@ -1,0 +1,11 @@
+hellow world
+<view class="btn-area">
+  <view class="body-view">
+    <button bindtap="add">add line</button>
+    <button type="primary" bindtap="remove">{{btnText}}</button>
+    <view wx:if="{{show}}">{{text}}</view>
+    <view wx:for="{{news}}"> 
+      循环内容{{index}} {{item}}
+    </view>>
+  </view>
+</view>

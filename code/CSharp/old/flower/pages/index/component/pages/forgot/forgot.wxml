@@ -1,0 +1,30 @@
+<!--李国超-->
+<view class="new-login">
+
+  <view class="row">
+    <text>手机号</text>
+    <input type="number" name="userIphone" placeholder="{{txtiphone}}" focus="Boolean" />
+  </view>
+
+  <view class="row">
+    <text>验证码</text>
+    <input class="inputYzm" type="idcard" name="yanzhengma" placeholder="{{txtyzm}}" />
+    <button class="btnyzm" type="primary" form-type="submit" bindtap="primary"> 获取验证码 </button>
+
+  </view>
+
+  <view class="row">
+    <text>密码</text>
+    <input type="idcard" name="userPassword" placeholder="{{txtpwd}}" />
+  </view>
+
+  <view class="row">
+    <text>确认密码</text>
+    <input type="idcard" name="userPassword2" placeholder="{{txtpwd2}}" />
+  </view>
+
+  <view class="btnuser">
+    <button class="btnlogin1" type="primary" form-type="submit" bindtap="primary"> 登录 </button>
+  </view>
+
+</view>

@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>9.2获得浏览器对象的属性值</title>
+</head>
+<body>
+    <script language="javascript">
+        with (document) {
+            write("浏览器信息：<ol>");
+            write("<li>代码：" + navigator.appCodeName);
+            write("<li>名称：" + navigator.appName);
+            write("<li>版本：" + navigator.appVersion);
+            write("<li>语言：" + navigator.language);
+            write("<li>编译平台：" + navigator.platform);
+            write("<li>用户表头：" + navigator.userAgent);
+        }
+    </script>
+</body>
+</html>

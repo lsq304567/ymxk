@@ -1,0 +1,11 @@
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\08StreamReader和StreamWriter\bin\Debug\08StreamReader和StreamWriter.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\08StreamReader和StreamWriter\bin\Debug\08StreamReader和StreamWriter.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\08StreamReader和StreamWriter\bin\Debug\08StreamReader和StreamWriter.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\08StreamReader和StreamWriter\obj\Debug\08StreamReader和StreamWriter.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\08StreamReader和StreamWriter\obj\Debug\08StreamReader和StreamWriter.pdb
+G:\b学习笔记\C#项目\Projects\3.31对象多态\08StreamReader和StreamWriter\bin\Debug\08StreamReader和StreamWriter.exe.config
+G:\b学习笔记\C#项目\Projects\3.31对象多态\08StreamReader和StreamWriter\bin\Debug\08StreamReader和StreamWriter.exe
+G:\b学习笔记\C#项目\Projects\3.31对象多态\08StreamReader和StreamWriter\bin\Debug\08StreamReader和StreamWriter.pdb
+G:\b学习笔记\C#项目\Projects\3.31对象多态\08StreamReader和StreamWriter\obj\Debug\08StreamReader和StreamWriter.csprojResolveAssemblyReference.cache
+G:\b学习笔记\C#项目\Projects\3.31对象多态\08StreamReader和StreamWriter\obj\Debug\08StreamReader和StreamWriter.exe
+G:\b学习笔记\C#项目\Projects\3.31对象多态\08StreamReader和StreamWriter\obj\Debug\08StreamReader和StreamWriter.pdb

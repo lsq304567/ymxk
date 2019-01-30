@@ -1,0 +1,9 @@
+c:\users\pc\documents\visual studio 2015\Projects\4.31GDI\02绘制验证码\bin\Debug\02绘制验证码.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\4.31GDI\02绘制验证码\bin\Debug\02绘制验证码.exe
+c:\users\pc\documents\visual studio 2015\Projects\4.31GDI\02绘制验证码\bin\Debug\02绘制验证码.pdb
+c:\users\pc\documents\visual studio 2015\Projects\4.31GDI\02绘制验证码\obj\Debug\_02绘制验证码.Form1.resources
+c:\users\pc\documents\visual studio 2015\Projects\4.31GDI\02绘制验证码\obj\Debug\_02绘制验证码.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2015\Projects\4.31GDI\02绘制验证码\obj\Debug\02绘制验证码.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2015\Projects\4.31GDI\02绘制验证码\obj\Debug\02绘制验证码.exe
+c:\users\pc\documents\visual studio 2015\Projects\4.31GDI\02绘制验证码\obj\Debug\02绘制验证码.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.31GDI\02绘制验证码\obj\Debug\02绘制验证码.csprojResolveAssemblyReference.cache

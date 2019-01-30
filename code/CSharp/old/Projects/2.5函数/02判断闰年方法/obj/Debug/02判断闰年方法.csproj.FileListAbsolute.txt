@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\2.5函数\02判断闰年方法\bin\Debug\02判断闰年方法.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\2.5函数\02判断闰年方法\bin\Debug\02判断闰年方法.exe
+c:\users\pc\documents\visual studio 2015\Projects\2.5函数\02判断闰年方法\bin\Debug\02判断闰年方法.pdb
+c:\users\pc\documents\visual studio 2015\Projects\2.5函数\02判断闰年方法\obj\Debug\02判断闰年方法.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\2.5函数\02判断闰年方法\obj\Debug\02判断闰年方法.exe
+c:\users\pc\documents\visual studio 2015\Projects\2.5函数\02判断闰年方法\obj\Debug\02判断闰年方法.pdb

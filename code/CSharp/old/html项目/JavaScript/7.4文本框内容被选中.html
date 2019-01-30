@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>7.4文本框内容被选中</title>
+    <script type="text/javascript">
+        function setStyle(x) {
+            document.getElementById(x).style.background = "red";
+        }
+    </script>
+</head>
+<body>
+    用户名：<input type="text" onfocus="setStyle(this.id)" id="fname" />
+    <br />
+    密码：<input type="text" id="lname" onfocus="setStyle(this.id)" />
+
+    <!--<script language="javascript">
+        function strcon(str) {
+            if (str!='请选择') {
+                form1.text.value = "您选择的是：" + str;
+            }
+            else {
+                form1.text.value = "";
+            }
+        }
+    </script>
+    <form id="form1" name="form1" method="post" action="">
+        <label>
+            <textarea name="text" cols="50" rows="2" onselect="alert('您想拷贝的吗？')"></textarea>
+        </label>
+        <p>
+            <label>
+                <select name="select1" onchange="stradd(this.value)">
+                    <option value="请选择">选择</option>
+                    <option value="北京">北京</option>
+                    <option value="南京">南京</option>
+                    <option value="安徽">安徽</option>
+                    <option value="广西">广西</option>
+                    <option value="四川">四川</option>
+                    <option value="其他">其他</option>
+                </select>
+            </label>
+        </p>
+    </form>-->
+</body>
+</html>

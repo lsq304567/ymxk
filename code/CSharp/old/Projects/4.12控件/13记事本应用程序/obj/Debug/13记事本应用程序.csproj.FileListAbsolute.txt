@@ -1,0 +1,9 @@
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\13记事本应用程序\bin\Debug\13记事本应用程序.exe.config
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\13记事本应用程序\bin\Debug\13记事本应用程序.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\13记事本应用程序\bin\Debug\13记事本应用程序.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\13记事本应用程序\obj\Debug\_13记事本应用程序.Form1.resources
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\13记事本应用程序\obj\Debug\_13记事本应用程序.Properties.Resources.resources
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\13记事本应用程序\obj\Debug\13记事本应用程序.csproj.GenerateResource.Cache
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\13记事本应用程序\obj\Debug\13记事本应用程序.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\13记事本应用程序\obj\Debug\13记事本应用程序.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\13记事本应用程序\obj\Debug\13记事本应用程序.csprojResolveAssemblyReference.cache

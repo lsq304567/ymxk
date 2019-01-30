@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>10.2document</title>
+</head>
+<body>
+    <script>
+        function test1()
+        {
+            var txt = document.getElementById("txt_1");
+            window.alert(txt.type);
+            var pwds = document.getElementsByName("txtUpwd");
+            window.alert(pwds.length);
+            window.alert(pwds[1].id);
+            var eles = document.getelementsbytagname("input");
+            window.alert = (eles.length);
+            window.alert = (eles[3].value);
+        }
+    </script>
+    <form id="frm" method="post">
+        用户名：<input type="text" id="txt_1" name="txtUName" />
+        密码：<input type="password" id="txt_2" name="txtUPwd" />
+        确认密码：<input type="password" id="txt_3" name="txtUPwd" />
+        <input type="button" name="btnTest" value="测试" onload="test1();" />
+    </form>
+</body>
+</html>

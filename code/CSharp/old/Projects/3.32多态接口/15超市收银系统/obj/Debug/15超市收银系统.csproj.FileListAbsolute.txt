@@ -1,0 +1,6 @@
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\15超市收银系统\bin\Debug\15超市收银系统.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\15超市收银系统\bin\Debug\15超市收银系统.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\15超市收银系统\bin\Debug\15超市收银系统.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\15超市收银系统\obj\Debug\15超市收银系统.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\15超市收银系统\obj\Debug\15超市收银系统.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\15超市收银系统\obj\Debug\15超市收银系统.pdb

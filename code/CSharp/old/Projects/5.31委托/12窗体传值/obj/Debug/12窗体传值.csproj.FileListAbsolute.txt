@@ -1,0 +1,20 @@
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\12窗体传值\bin\Debug\12窗体传值.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\12窗体传值\bin\Debug\12窗体传值.exe
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\12窗体传值\bin\Debug\12窗体传值.pdb
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\12窗体传值\obj\Debug\12窗体传值.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\12窗体传值\obj\Debug\_12窗体传值.Form1.resources
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\12窗体传值\obj\Debug\_12窗体传值.Form2.resources
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\12窗体传值\obj\Debug\_12窗体传值.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\12窗体传值\obj\Debug\12窗体传值.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\12窗体传值\obj\Debug\12窗体传值.exe
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\12窗体传值\obj\Debug\12窗体传值.pdb
+G:\b学习笔记\C#项目\Projects\5.31委托\12窗体传值\bin\Debug\12窗体传值.exe.config
+G:\b学习笔记\C#项目\Projects\5.31委托\12窗体传值\obj\Debug\12窗体传值.exe
+G:\b学习笔记\C#项目\Projects\5.31委托\12窗体传值\obj\Debug\12窗体传值.pdb
+G:\b学习笔记\C#项目\Projects\5.31委托\12窗体传值\bin\Debug\12窗体传值.exe
+G:\b学习笔记\C#项目\Projects\5.31委托\12窗体传值\bin\Debug\12窗体传值.pdb
+G:\b学习笔记\C#项目\Projects\5.31委托\12窗体传值\obj\Debug\12窗体传值.csprojResolveAssemblyReference.cache
+G:\b学习笔记\C#项目\Projects\5.31委托\12窗体传值\obj\Debug\_12窗体传值.Form1.resources
+G:\b学习笔记\C#项目\Projects\5.31委托\12窗体传值\obj\Debug\_12窗体传值.Form2.resources
+G:\b学习笔记\C#项目\Projects\5.31委托\12窗体传值\obj\Debug\_12窗体传值.Properties.Resources.resources
+G:\b学习笔记\C#项目\Projects\5.31委托\12窗体传值\obj\Debug\12窗体传值.csproj.GenerateResource.Cache

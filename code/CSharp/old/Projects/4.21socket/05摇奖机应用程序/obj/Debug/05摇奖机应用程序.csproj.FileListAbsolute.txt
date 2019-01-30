@@ -1,0 +1,9 @@
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\05摇奖机应用程序\bin\Debug\05摇奖机应用程序.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\05摇奖机应用程序\bin\Debug\05摇奖机应用程序.exe
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\05摇奖机应用程序\bin\Debug\05摇奖机应用程序.pdb
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\05摇奖机应用程序\obj\Debug\_05摇奖机应用程序.Form1.resources
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\05摇奖机应用程序\obj\Debug\_05摇奖机应用程序.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\05摇奖机应用程序\obj\Debug\05摇奖机应用程序.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\05摇奖机应用程序\obj\Debug\05摇奖机应用程序.exe
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\05摇奖机应用程序\obj\Debug\05摇奖机应用程序.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\05摇奖机应用程序\obj\Debug\05摇奖机应用程序.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\PC\Documents\Visual Studio 2015\Projects\3.21面向对象继承\06字符串的各种方法\bin\Debug\06字符串的各种方法.exe.config
+C:\Users\PC\Documents\Visual Studio 2015\Projects\3.21面向对象继承\06字符串的各种方法\bin\Debug\06字符串的各种方法.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\3.21面向对象继承\06字符串的各种方法\bin\Debug\06字符串的各种方法.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\3.21面向对象继承\06字符串的各种方法\obj\Debug\06字符串的各种方法.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\3.21面向对象继承\06字符串的各种方法\obj\Debug\06字符串的各种方法.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\3.21面向对象继承\06字符串的各种方法\obj\Debug\06字符串的各种方法.csprojResolveAssemblyReference.cache

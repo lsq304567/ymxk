@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02基础语言", "2基础语言\02基础语言.csproj", "{4D5B09C7-D919-4BA8-AFAB-BB541040037F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07+号的使用", "07+号的使用\07+号的使用.csproj", "{AAF8D4C1-8014-4730-B583-5F401B40B04E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10交换变量", "10交换变量\10交换变量.csproj", "{02393595-9864-4B97-9373-0CE972E6F9FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D5B09C7-D919-4BA8-AFAB-BB541040037F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5B09C7-D919-4BA8-AFAB-BB541040037F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5B09C7-D919-4BA8-AFAB-BB541040037F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5B09C7-D919-4BA8-AFAB-BB541040037F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF8D4C1-8014-4730-B583-5F401B40B04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF8D4C1-8014-4730-B583-5F401B40B04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF8D4C1-8014-4730-B583-5F401B40B04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF8D4C1-8014-4730-B583-5F401B40B04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02393595-9864-4B97-9373-0CE972E6F9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02393595-9864-4B97-9373-0CE972E6F9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02393595-9864-4B97-9373-0CE972E6F9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02393595-9864-4B97-9373-0CE972E6F9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

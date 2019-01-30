@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+
+    "pages/index/component/pages/login/login",
+    "pages/index/component/pages/newuser/newuser",
+    "pages/index/component/pages/agreement/agreement",
+    "pages/index/component/pages/forgot/forgot"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F9F7F8",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"black"
+  }
+}

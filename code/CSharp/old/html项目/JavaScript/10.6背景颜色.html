@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>10.6背景颜色</title>
+		<script type="text/javascript">
+			document.bgColor="grenn";//背景颜色
+			document.fgColor="white";//字体颜色
+			function changeColor(){
+				document.bgColor="";//背景颜色
+				document.body.text="blue";//字体颜色
+			}
+			function outColor(){
+				document.bgColor="red";  //背景颜色
+				document.body.text="white";  //字体颜色
+			}
+		</script>
+	</head>
+	<body>
+		<h1 align="center" onmouseover="changeColor()" onmouseout="outColor()">
+			设置网页背景颜色和默认文字颜色
+		</h1>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Order>
+  <CustomerName>
+    <p>我是一个p标签</p>
+  </CustomerName>
+  <CustomerNumber>&lt;p&gt;我是一个p标签&lt;/p&gt;</CustomerNumber>
+  <Items>
+    <OrderItem Name="充气娃娃" Count="10" />
+    <OrderItem Name="充气娃娃" Count="10" />
+    <OrderItem Name="充气娃娃" Count="10" />
+  </Items>
+</Order>

@@ -1,0 +1,9 @@
+c:\users\pc\documents\visual studio 2015\Projects\5.12复习\01复习\bin\Debug\01复习.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\5.12复习\01复习\bin\Debug\01复习.exe
+c:\users\pc\documents\visual studio 2015\Projects\5.12复习\01复习\bin\Debug\01复习.pdb
+c:\users\pc\documents\visual studio 2015\Projects\5.12复习\01复习\obj\Debug\01复习.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\5.12复习\01复习\obj\Debug\01复习.exe
+c:\users\pc\documents\visual studio 2015\Projects\5.12复习\01复习\obj\Debug\01复习.pdb
+G:\b学习笔记\C#项目\Projects\5.12复习\01复习\bin\Debug\01复习.exe.config
+G:\b学习笔记\C#项目\Projects\5.12复习\01复习\obj\Debug\01复习.exe
+G:\b学习笔记\C#项目\Projects\5.12复习\01复习\obj\Debug\01复习.pdb

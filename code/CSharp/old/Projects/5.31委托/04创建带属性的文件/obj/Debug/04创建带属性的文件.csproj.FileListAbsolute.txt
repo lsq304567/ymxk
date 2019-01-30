@@ -1,0 +1,9 @@
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\04创建带属性的文件\bin\Debug\04创建带属性的文件.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\04创建带属性的文件\bin\Debug\04创建带属性的文件.exe
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\04创建带属性的文件\bin\Debug\04创建带属性的文件.pdb
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\04创建带属性的文件\obj\Debug\04创建带属性的文件.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\04创建带属性的文件\obj\Debug\04创建带属性的文件.exe
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\04创建带属性的文件\obj\Debug\04创建带属性的文件.pdb
+G:\b学习笔记\C#项目\Projects\5.31委托\04创建带属性的文件\bin\Debug\04创建带属性的文件.exe.config
+G:\b学习笔记\C#项目\Projects\5.31委托\04创建带属性的文件\obj\Debug\04创建带属性的文件.exe
+G:\b学习笔记\C#项目\Projects\5.31委托\04创建带属性的文件\obj\Debug\04创建带属性的文件.pdb

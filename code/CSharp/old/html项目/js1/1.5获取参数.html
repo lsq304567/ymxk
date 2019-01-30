@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>1.5获取参数</title>
+		<script type="text/javascript">
+			function init(){
+				var str=window.location.href;   //取得当前地址
+				var pos=str.indexOf("?");      //以？为标志找到其所在位置
+				if(pos==-1){
+					text.value="无参数";
+				}
+				else{
+					var strs=str.substring(pos+1,str.length);
+					var strValue=strs.split('&');
+					var i=0;
+					while(i<strValue.length){
+						text.value+=strValue[i]+"/r/n";
+						i++;                       //变量自加1
+					}
+				}
+			}
+		</script>
+	</head>
+	<body onload="init()">
+	    <label>
+	    	<div align="center">
+	    		<p>
+	    			<textarea name="text" rows="10"></textarea>
+	    		</p>
+	    		<p>
+	    			<a href="获取参数.html?id1=10&id2=11&id3=12&id4=13&id5=14&id9=19">查看参数</a>
+	    		</p>
+	    	</div>
+	    </label>
+	</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>7.2input控件</title>
+	</head>
+	<body>
+		<form action="#" method="post">
+			用户名：
+			<input type="text" value="张三" maxlength="6" /><br /><br />
+			密码：
+			<input type="password" size="40" /><br /><br />
+			性别：
+			<input type="radio" name="sex" checked="checked" />男
+			<input type="radio" name="sex"  />女<br /><br />
+			兴趣：
+			<input type="checkbox" />唱歌
+			<input type="checkbox" />跳舞
+			<input type="checkbox" />游泳<br /><br />
+			上传头像：
+			<input type="file" /><br /><br />
+			<input type="submit" />
+			<input type="reset" />
+			<input type="button" value="普通按钮" />
+			<input type="image" src="img/音乐符号-4217977.jpg" />
+			<input type="hidden" />
+		</form>
+		<hr />
+		<form action="#" method="post">
+			选取一种颜色：<input type="color" name="color1" />
+			<input type="color" name="color2" value="#ff3e96" />
+			<input type="date" /><br />
+			请输入网址：
+			<input type="url" list="url_list" name="wedurl" />
+			<datalist id="url_list">
+				<option label="新浪" value="http://www.sina.com.cn"></option>
+				<option label="搜狐" value="http://www.sohu.com"></option>
+			</datalist>
+			<input type="submit" value="提交" />
+		</form>
+		<hr />
+		<form action="#" method="post">
+			评论：<br />
+			<textarea cols="60" rows="8">
+				评论的时候，请遵纪守法并注意语言文明，多给文档分享人一些支持。
+			</textarea><br /> 
+			爱好（多选）：
+			<select multiple="multiple" size="4">
+				<option>读书</option>
+				<option selected="selected">写代码</option>
+				<option>旅行</option>
+				<option selected="selected">听音乐</option>
+				<option>踢球</option>
+			</select>
+			<input type="submit" value="提交" />
+		</form>
+	</body>
+</html>

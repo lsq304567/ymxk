@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>10.4用户提交信息</title>
+    <script type="text/javascript">
+        function img() {
+            for (var i = 0; i < document.forms[1].length-1; i++) {
+                document.Myform.showMsg.value += document.forms[1].elements[i].value + "\n";
+            }
+            alert(Myform.showMsg.value);  //用对话框的形式显示
+        }
+    </script>
+</head>
+<body>
+    <form name="Myform">
+        <p>个人简介</p>
+        <p>
+            <textarea name="showMsg" cols="40" rows="8"></textarea>
+        </p>
+    </form>
+    <form name="form1" method="post" action="">
+        用户信息<br />
+        姓名：<input type="text" name="Name" />
+        <p>
+            性别：<input type="text" name="sex" />
+            <lavel>
+                <input type="submit" name="Submit" value="提交" onclick="img()" />
+            </lavel>
+        </p>
+    </form>
+</body>
+</html>

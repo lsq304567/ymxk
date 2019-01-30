@@ -1,0 +1,48 @@
+<!--李国超-->
+<view class="new-login">
+
+  <view class="row">
+    <text>用户名</text>
+    <input type="text" name="userName" placeholder="{{txtname}}" focus="Boolean" />
+  </view>
+
+  <view class="row">
+    <text>手机号</text>
+    <input type="number" name="userIphone" placeholder="{{txtiphone}}" />
+  </view>
+
+  <view class="row">
+    <text>验证码</text>
+    <input class="inputYzm" type="idcard" name="yanzhengma" placeholder="{{txtyzm}}" />
+   <!--   <view class="Yanzhengma"><text>{{YzmValue}}</text></view>-->
+  <button class="btnyzm" type="primary" form-type="submit" bindtap="primary"> 获取验证码 </button>
+
+  </view>
+
+  <view class="row">
+    <text>密码</text>
+    <input type="idcard" name="userPassword" placeholder="{{txtpwd}}" />
+  </view>
+
+  <view class="row">
+    <text>确认密码</text>
+    <input type="idcard" name="userPassword2" placeholder="{{txtpwd2}}" />
+  </view>
+
+  <view class="viewXieyi">
+    <checkbox-group bindchange="checkboxChange">
+      <label class="checkbox" wx:for="{{items}}">
+      <checkbox value="{{item.name}}" checked="{{item.checked}}"/>
+      <text class="text1">{{item.value}}</text>
+    </label>
+    </checkbox-group>
+    <view bindtap="viewXieyi1">
+      <text class="text2">{{txtXieyi}}</text>
+    </view>
+  </view>
+
+  <view class="btnuser">
+    <button class="btnlogin1" type="primary" form-type="submit" bindtap="primary"> 注册 </button>
+  </view>
+
+</view>

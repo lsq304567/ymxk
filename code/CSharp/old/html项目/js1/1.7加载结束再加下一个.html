@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>1.7加载结束再加下一个</title>
+		<script type="text/javascript">
+			function next1(){
+				location.href="1.6重新装载当前文档.html"
+			}
+		</script>
+		<style type="text/css">
+			body{
+				background-color: #ffffff;
+			}
+		</style>
+	</head>
+	<body onload="setTimeout('next1()',10000)">
+		*页面加载结束后，加载下一个页面
+		<p>页面加载结束10秒后加载下一个页面</p>
+	</body>
+</html>

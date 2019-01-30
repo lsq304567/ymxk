@@ -1,0 +1,6 @@
+C:\Users\PC\documents\visual studio 2015\Projects\2折叠冗余代码\10交换变量\bin\Debug\10交换变量.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\2折叠冗余代码\10交换变量\obj\Debug\10交换变量.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\2折叠冗余代码\10交换变量\bin\Debug\10交换变量.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2折叠冗余代码\10交换变量\bin\Debug\10交换变量.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\2折叠冗余代码\10交换变量\obj\Debug\10交换变量.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2折叠冗余代码\10交换变量\obj\Debug\10交换变量.pdb

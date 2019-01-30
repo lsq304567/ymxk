@@ -1,0 +1,8 @@
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\07单选和多选\bin\Debug\07单选和多选.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\07单选和多选\bin\Debug\07单选和多选.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\07单选和多选\bin\Debug\07单选和多选.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\07单选和多选\obj\Debug\_07单选和多选.Form1.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\07单选和多选\obj\Debug\_07单选和多选.Properties.Resources.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\07单选和多选\obj\Debug\07单选和多选.csproj.GenerateResource.Cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\07单选和多选\obj\Debug\07单选和多选.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\07单选和多选\obj\Debug\07单选和多选.pdb

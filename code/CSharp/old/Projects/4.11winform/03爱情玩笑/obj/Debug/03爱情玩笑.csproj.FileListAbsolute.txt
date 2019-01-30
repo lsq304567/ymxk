@@ -1,0 +1,9 @@
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\03爱情玩笑\bin\Debug\03爱情玩笑.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\03爱情玩笑\bin\Debug\03爱情玩笑.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\03爱情玩笑\bin\Debug\03爱情玩笑.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\03爱情玩笑\obj\Debug\_03爱情玩笑.Form1.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\03爱情玩笑\obj\Debug\_03爱情玩笑.Properties.Resources.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\03爱情玩笑\obj\Debug\03爱情玩笑.csproj.GenerateResource.Cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\03爱情玩笑\obj\Debug\03爱情玩笑.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\03爱情玩笑\obj\Debug\03爱情玩笑.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\03爱情玩笑\obj\Debug\03爱情玩笑.csprojResolveAssemblyReference.cache

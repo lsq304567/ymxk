@@ -1,0 +1,6 @@
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\08ref参数\bin\Debug\08ref参数.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\08ref参数\bin\Debug\08ref参数.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\08ref参数\bin\Debug\08ref参数.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\08ref参数\obj\Debug\08ref参数.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\08ref参数\obj\Debug\08ref参数.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\08ref参数\obj\Debug\08ref参数.pdb

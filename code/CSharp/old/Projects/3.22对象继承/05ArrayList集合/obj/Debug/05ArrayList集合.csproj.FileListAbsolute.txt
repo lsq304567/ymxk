@@ -1,0 +1,6 @@
+C:\Users\PC\documents\visual studio 2015\Projects\3.22对象继承\05ArrayList集合\bin\Debug\05ArrayList集合.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\3.22对象继承\05ArrayList集合\bin\Debug\05ArrayList集合.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.22对象继承\05ArrayList集合\bin\Debug\05ArrayList集合.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\3.22对象继承\05ArrayList集合\obj\Debug\05ArrayList集合.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\3.22对象继承\05ArrayList集合\obj\Debug\05ArrayList集合.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.22对象继承\05ArrayList集合\obj\Debug\05ArrayList集合.pdb

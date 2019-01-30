@@ -1,0 +1,9 @@
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\07Client\bin\Debug\07Client.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\07Client\bin\Debug\07Client.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\07Client\bin\Debug\07Client.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\07Client\obj\Debug\07Client.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\07Client\obj\Debug\_07Client.Form1.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\07Client\obj\Debug\_07Client.Properties.Resources.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\07Client\obj\Debug\07Client.csproj.GenerateResource.Cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\07Client\obj\Debug\07Client.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\07Client\obj\Debug\07Client.pdb

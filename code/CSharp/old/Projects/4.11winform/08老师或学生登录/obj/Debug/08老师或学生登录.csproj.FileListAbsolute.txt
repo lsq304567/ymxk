@@ -1,0 +1,9 @@
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\08老师或学生登录\bin\Debug\08老师或学生登录.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\08老师或学生登录\bin\Debug\08老师或学生登录.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\08老师或学生登录\bin\Debug\08老师或学生登录.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\08老师或学生登录\obj\Debug\08老师或学生登录.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\08老师或学生登录\obj\Debug\_08老师或学生登录.Form1.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\08老师或学生登录\obj\Debug\_08老师或学生登录.Properties.Resources.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\08老师或学生登录\obj\Debug\08老师或学生登录.csproj.GenerateResource.Cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\08老师或学生登录\obj\Debug\08老师或学生登录.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\08老师或学生登录\obj\Debug\08老师或学生登录.pdb

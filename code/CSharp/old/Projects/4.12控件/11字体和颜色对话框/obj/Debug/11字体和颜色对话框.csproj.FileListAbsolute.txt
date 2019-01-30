@@ -1,0 +1,9 @@
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\11字体和颜色对话框\bin\Debug\11字体和颜色对话框.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\11字体和颜色对话框\bin\Debug\11字体和颜色对话框.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\11字体和颜色对话框\bin\Debug\11字体和颜色对话框.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\11字体和颜色对话框\obj\Debug\_11字体和颜色对话框.Form1.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\11字体和颜色对话框\obj\Debug\_11字体和颜色对话框.Properties.Resources.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\11字体和颜色对话框\obj\Debug\11字体和颜色对话框.csproj.GenerateResource.Cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\11字体和颜色对话框\obj\Debug\11字体和颜色对话框.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\11字体和颜色对话框\obj\Debug\11字体和颜色对话框.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\11字体和颜色对话框\obj\Debug\11字体和颜色对话框.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\11方法的递归\bin\Debug\11方法的递归.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\11方法的递归\bin\Debug\11方法的递归.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\11方法的递归\bin\Debug\11方法的递归.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\11方法的递归\obj\Debug\11方法的递归.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\11方法的递归\obj\Debug\11方法的递归.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\11方法的递归\obj\Debug\11方法的递归.pdb

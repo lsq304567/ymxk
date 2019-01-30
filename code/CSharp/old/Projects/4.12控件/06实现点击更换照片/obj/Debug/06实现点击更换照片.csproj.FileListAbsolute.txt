@@ -1,0 +1,9 @@
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\06实现点击更换照片\bin\Debug\06实现点击更换照片.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\06实现点击更换照片\bin\Debug\06实现点击更换照片.exe
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\06实现点击更换照片\bin\Debug\06实现点击更换照片.pdb
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\06实现点击更换照片\obj\Debug\06实现点击更换照片.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\06实现点击更换照片\obj\Debug\_06实现点击更换照片.Form1.resources
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\06实现点击更换照片\obj\Debug\_06实现点击更换照片.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\06实现点击更换照片\obj\Debug\06实现点击更换照片.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\06实现点击更换照片\obj\Debug\06实现点击更换照片.exe
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\06实现点击更换照片\obj\Debug\06实现点击更换照片.pdb

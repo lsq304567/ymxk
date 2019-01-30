@@ -1,0 +1,11 @@
+body { background-image: url(../img/BaiseJianye.jpg);
+background-repeat: no-repeat;
+margin: auto;
+width: 640px;
+height: 480px;
+padding-top: 20px;}
+h1 { color: #ffcccc;
+color: hsla(60, 100%, 90%, 0.8);
+font-family: georgia, "times new roman", serif;
+font-size:6em;
+padding: 20px;}

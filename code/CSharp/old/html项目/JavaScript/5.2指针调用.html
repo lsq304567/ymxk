@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>5.2指针调用</title>
+</head>
+<body>
+    <!--<script type="text/javascript">
+        funtion SortNumber(obj,func)
+        {
+            if(!(obj instanceof Array)||!(func instanceof Array))
+            {
+                var e=new Error();
+                e.number=100000;
+                e.message="参数无效";
+                throw e;
+            }
+            for(n in obj)
+            {
+                for(m in obj)
+                {
+                    if(func(obj[n],obj[m]))
+                var temp=obj[n];
+                obj[n]=obj[m]
+                obj[m]=temp;
+                }
+                return obj;
+            }
+        }
+    </script>-->
+
+    <script type="text/javascript">
+        var d = new Date();
+        theDay = d.getDay();
+        switch (theDay)
+        {
+            case 5: document.write("<b>今天星期五了。</b>"); break;
+            case 6: document.write("<b>终于到周六了。</b>"); break;
+            case 7: document.write("<b>星期天啦！</b>"); break;
+            default:
+                document.write("<b>周末又过完了啊！</b>");
+        }
+        document.write(theDay);
+    </script>
+</body>
+</html>

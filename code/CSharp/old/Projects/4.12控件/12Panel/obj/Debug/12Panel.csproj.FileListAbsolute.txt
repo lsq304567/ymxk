@@ -1,0 +1,12 @@
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\12Panel\bin\Debug\12Panel.exe.config
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\12Panel\bin\Debug\12Panel.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\12Panel\bin\Debug\12Panel.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\12Panel\obj\Debug\12Panel.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\12Panel\obj\Debug\_12Panel.Form1.resources
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\12Panel\obj\Debug\_12Panel.Properties.Resources.resources
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\12Panel\obj\Debug\12Panel.csproj.GenerateResource.Cache
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\12Panel\obj\Debug\12Panel.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\4.12控件\12Panel\obj\Debug\12Panel.pdb
+G:\b学习笔记\C#项目\Projects\4.12控件\12Panel\bin\Debug\12Panel.exe.config
+G:\b学习笔记\C#项目\Projects\4.12控件\12Panel\obj\Debug\12Panel.exe
+G:\b学习笔记\C#项目\Projects\4.12控件\12Panel\obj\Debug\12Panel.pdb

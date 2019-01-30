@@ -1,0 +1,58 @@
+/*重置浏览器默认样式*/
+*{ margin: 0; padding: 0; list-style: none; outline: none;}
+/*全局控制*/
+a{ text-decoration: none; font-size: 30px; color: #FFFFFF;}
+div{    /*整体页面控制*/
+	width: 580px;
+	height: 200px;
+	margin: 50px auto;
+	position: relative;  /*相对位置*/
+}
+a{
+	float: left;
+	width: 25px;
+	height: 90px;
+	line-height: 90px;
+	background: #333333;
+	opacity: 0.7;
+	border-radius: 4px;
+	text-align: center;
+	display: none;
+	cursor: pointer;
+}
+.left{
+	position: absolute;
+	left: -12px;
+	top: 60px;
+}
+.right{
+	position: absolute;
+	right: -12px;
+	top: 60px;
+}
+div:hover a{
+	display: block;
+}
+ul{
+	width: 110px;
+	height: 20px;
+	background: #333333;
+	opacity: 0.5;
+	border-radius: 8px;
+	position: absolute;
+	right: 30px;
+	bottom: 20px;
+	text-align: center;
+}
+li{
+	width: 5px;
+	height: 5px;
+	background: #CCCCCC;
+	border-radius: 50%;
+	display: inline-block;
+}
+.max{
+	width: 12px;
+	background: #03bde4;
+	border-radius: 6px;
+}

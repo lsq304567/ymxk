@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>1.3获取URL</title>
+		<script language="JavaScript">
+			function getMsg(){
+				url=window.location.href;
+				with(document)
+				{
+					write("协议："+location.protocol+"<br/>");
+					write("主机名："+location.hostname+"<br/>");
+					write("主机和端口号："+location.host+"<br/>");
+					write("路径名："+location.pathname+"<br/>");
+					write("整个地址："+location.href+"<br/>");
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<input type="submit" name="Submit" value="获取指定地址属性值" onclick="getMsg()" />
+	</body>
+</html>

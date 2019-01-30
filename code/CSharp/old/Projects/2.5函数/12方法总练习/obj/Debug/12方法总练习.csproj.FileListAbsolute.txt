@@ -1,0 +1,6 @@
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\12方法总练习\bin\Debug\12方法总练习.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\12方法总练习\bin\Debug\12方法总练习.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\12方法总练习\bin\Debug\12方法总练习.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\12方法总练习\obj\Debug\12方法总练习.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\12方法总练习\obj\Debug\12方法总练习.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2.5函数\12方法总练习\obj\Debug\12方法总练习.pdb

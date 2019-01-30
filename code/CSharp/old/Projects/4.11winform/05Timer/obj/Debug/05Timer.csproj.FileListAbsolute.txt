@@ -1,0 +1,9 @@
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\05Timer\bin\Debug\05Timer.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\05Timer\bin\Debug\05Timer.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\05Timer\bin\Debug\05Timer.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\05Timer\obj\Debug\_05Timer.Form1.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\05Timer\obj\Debug\_05Timer.Properties.Resources.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\05Timer\obj\Debug\05Timer.csproj.GenerateResource.Cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\05Timer\obj\Debug\05Timer.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\05Timer\obj\Debug\05Timer.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\05Timer\obj\Debug\05Timer.csprojResolveAssemblyReference.cache

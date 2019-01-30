@@ -1,0 +1,6 @@
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.31流程控制\05修改后的年份\bin\Debug\05修改后的年份.exe.config
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.31流程控制\05修改后的年份\bin\Debug\05修改后的年份.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.31流程控制\05修改后的年份\bin\Debug\05修改后的年份.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.31流程控制\05修改后的年份\obj\Debug\05修改后的年份.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.31流程控制\05修改后的年份\obj\Debug\05修改后的年份.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.31流程控制\05修改后的年份\obj\Debug\05修改后的年份.pdb

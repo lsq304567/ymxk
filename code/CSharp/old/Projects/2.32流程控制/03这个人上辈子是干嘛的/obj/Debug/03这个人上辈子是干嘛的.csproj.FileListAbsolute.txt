@@ -1,0 +1,6 @@
+C:\Users\PC\documents\visual studio 2015\Projects\2.32流程控制\03这个人上辈子是干嘛的\bin\Debug\03这个人上辈子是干嘛的.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\2.32流程控制\03这个人上辈子是干嘛的\bin\Debug\03这个人上辈子是干嘛的.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2.32流程控制\03这个人上辈子是干嘛的\bin\Debug\03这个人上辈子是干嘛的.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\2.32流程控制\03这个人上辈子是干嘛的\obj\Debug\03这个人上辈子是干嘛的.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\2.32流程控制\03这个人上辈子是干嘛的\obj\Debug\03这个人上辈子是干嘛的.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2.32流程控制\03这个人上辈子是干嘛的\obj\Debug\03这个人上辈子是干嘛的.pdb

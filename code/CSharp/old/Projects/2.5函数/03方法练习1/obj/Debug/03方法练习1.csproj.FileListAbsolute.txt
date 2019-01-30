@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\2.5函数\03方法练习1\bin\Debug\03方法练习1.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\2.5函数\03方法练习1\bin\Debug\03方法练习1.exe
+c:\users\pc\documents\visual studio 2015\Projects\2.5函数\03方法练习1\bin\Debug\03方法练习1.pdb
+c:\users\pc\documents\visual studio 2015\Projects\2.5函数\03方法练习1\obj\Debug\03方法练习1.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\2.5函数\03方法练习1\obj\Debug\03方法练习1.exe
+c:\users\pc\documents\visual studio 2015\Projects\2.5函数\03方法练习1\obj\Debug\03方法练习1.pdb

@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>9.3Plugin插件</title>
+</head>
+<body>
+    <script type="text/javascript">
+        document.writeln("<table border=1><tr valing=top>", "<th aling=left>A",
+            "<th aling=left>名称", "<th aling=left>文件名", "<th aling=left>描述", "<th aling=left>类型</tr>");
+        for (var i = 0; i < navigator.plugins.length; i++) {
+            document.writeln("<TR valing=top><TD>",i,
+                "<td>,navigator.plugins[i].name",
+                "<td>,navigator.plugins[i].filename",
+                "<td>,navigator.plugins[i].description",
+                "<td>,navigator.plugins[i].length",
+                "</tr>")
+        }
+        document.writeln("</table>")
+    </script>
+</body>
+</html>

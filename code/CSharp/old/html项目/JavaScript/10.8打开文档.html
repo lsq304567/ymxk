@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>10.8打开文档</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function createNewDoc(){
+				var nowDoc=document.open("10.7网页上输入内容.html","replace");
+				var txt="<html><body>欢迎进入javascript学习教程！</body></hrml>";
+				nowdoc.write(txt);
+				nowdoc.close();
+			}
+		</script>
+		<input type="button" value="打开一个新文档" onclick="createNewDoc()">
+	</body>
+</html>

@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\2.4复杂数据类型\01常量\bin\Debug\01常量.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\2.4复杂数据类型\01常量\obj\Debug\01常量.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\2.4复杂数据类型\01常量\bin\Debug\01常量.exe
+c:\users\pc\documents\visual studio 2015\Projects\2.4复杂数据类型\01常量\bin\Debug\01常量.pdb
+c:\users\pc\documents\visual studio 2015\Projects\2.4复杂数据类型\01常量\obj\Debug\01常量.exe
+c:\users\pc\documents\visual studio 2015\Projects\2.4复杂数据类型\01常量\obj\Debug\01常量.pdb

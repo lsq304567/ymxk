@@ -1,0 +1,12 @@
+c:\users\pc\documents\visual studio 2015\Projects\3.31对象多态\02List泛型集合\bin\Debug\02List泛型集合.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\3.31对象多态\02List泛型集合\bin\Debug\02List泛型集合.exe
+c:\users\pc\documents\visual studio 2015\Projects\3.31对象多态\02List泛型集合\bin\Debug\02List泛型集合.pdb
+c:\users\pc\documents\visual studio 2015\Projects\3.31对象多态\02List泛型集合\obj\Debug\02List泛型集合.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\3.31对象多态\02List泛型集合\obj\Debug\02List泛型集合.exe
+c:\users\pc\documents\visual studio 2015\Projects\3.31对象多态\02List泛型集合\obj\Debug\02List泛型集合.pdb
+G:\b学习笔记\C#项目\Projects\3.31对象多态\02List泛型集合\bin\Debug\02List泛型集合.exe.config
+G:\b学习笔记\C#项目\Projects\3.31对象多态\02List泛型集合\bin\Debug\02List泛型集合.exe
+G:\b学习笔记\C#项目\Projects\3.31对象多态\02List泛型集合\bin\Debug\02List泛型集合.pdb
+G:\b学习笔记\C#项目\Projects\3.31对象多态\02List泛型集合\obj\Debug\02List泛型集合.csprojResolveAssemblyReference.cache
+G:\b学习笔记\C#项目\Projects\3.31对象多态\02List泛型集合\obj\Debug\02List泛型集合.exe
+G:\b学习笔记\C#项目\Projects\3.31对象多态\02List泛型集合\obj\Debug\02List泛型集合.pdb

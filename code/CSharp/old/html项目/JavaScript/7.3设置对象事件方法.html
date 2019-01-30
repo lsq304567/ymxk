@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>7.3设置对象事件方法</title>
+</head>
+<body>
+    <form name="searchForm" action="">
+        <tbody>
+            <tr>
+                <td align=middle width="100%">
+                    <input name="textfield" type="text" size="20" onchange="alert('输入搜索内容')" />
+                </td>
+            </tr>
+            <tr>
+                <td align="middle" width="100%">
+                    <select size="1" name="serch">
+                        <option value="Name" selected>按名称</option>
+                        <option value="Singer">按歌手</option>
+                    </select>
+                    <input type="submit" name="Submit2" value="提交" />
+                </td>
+            </tr>
+        </tbody>
+    </form>
+
+    <!--<input type="submit" name="submit" value="打印本页" onclick="javascript:window.print()" />-->
+
+    <!--<script type="text/javascript">
+        window.onload = function () {
+            var btn = document.getElementById("myBtn");
+            if (btn.addEventListener) {
+                btn.addEventListener("click", function (event) {
+                    alert(event.type);
+                },false);
+            } else {
+                btn.attachEvent("onmouseout", function (event) {
+                    alert(event.type + " " + window.event.type);
+                });
+            }
+        }
+    </script>
+    <input type="button" id="myBtn" value="click" onclick="alert(event.type)" />-->
+</body>
+</html>

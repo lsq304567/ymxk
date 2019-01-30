@@ -1,0 +1,9 @@
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\06Server\bin\Debug\06Server.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\06Server\bin\Debug\06Server.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\06Server\bin\Debug\06Server.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\06Server\obj\Debug\06Server.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\06Server\obj\Debug\_06Server.Form1.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\06Server\obj\Debug\_06Server.Properties.Resources.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\06Server\obj\Debug\06Server.csproj.GenerateResource.Cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\06Server\obj\Debug\06Server.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.21socket\06Server\obj\Debug\06Server.pdb

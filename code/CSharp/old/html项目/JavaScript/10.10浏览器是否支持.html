@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>10.10浏览器是否支持</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			if (navigator.cookieEnabled){
+				document.write("您的浏览器支持cookie功能");
+			} else {
+				document.write("您的浏览器不支持cookie");
+			}
+			document.cookie="userId=88";
+			document.cookie="userNzme=make";
+			var strCookie=document.cookie;
+			alert(strCookie);
+		</script>
+	</body>
+</html>

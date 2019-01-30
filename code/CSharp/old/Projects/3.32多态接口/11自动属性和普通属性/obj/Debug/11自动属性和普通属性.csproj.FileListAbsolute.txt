@@ -1,0 +1,6 @@
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\11自动属性和普通属性\bin\Debug\11自动属性和普通属性.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\11自动属性和普通属性\bin\Debug\11自动属性和普通属性.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\11自动属性和普通属性\bin\Debug\11自动属性和普通属性.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\11自动属性和普通属性\obj\Debug\11自动属性和普通属性.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\11自动属性和普通属性\obj\Debug\11自动属性和普通属性.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\11自动属性和普通属性\obj\Debug\11自动属性和普通属性.pdb

@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\2.32流程控制\02continue和质数\bin\Debug\02continue和质数.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\2.32流程控制\02continue和质数\bin\Debug\02continue和质数.exe
+c:\users\pc\documents\visual studio 2015\Projects\2.32流程控制\02continue和质数\bin\Debug\02continue和质数.pdb
+c:\users\pc\documents\visual studio 2015\Projects\2.32流程控制\02continue和质数\obj\Debug\02continue和质数.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\2.32流程控制\02continue和质数\obj\Debug\02continue和质数.exe
+c:\users\pc\documents\visual studio 2015\Projects\2.32流程控制\02continue和质数\obj\Debug\02continue和质数.pdb

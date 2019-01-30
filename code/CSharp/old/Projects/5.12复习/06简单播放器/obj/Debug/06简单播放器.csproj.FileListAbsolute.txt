@@ -1,0 +1,20 @@
+C:\Users\PC\documents\visual studio 2015\Projects\5.12复习\06简单播放器\bin\Debug\06简单播放器.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\5.12复习\06简单播放器\bin\Debug\06简单播放器.exe
+C:\Users\PC\documents\visual studio 2015\Projects\5.12复习\06简单播放器\bin\Debug\06简单播放器.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\5.12复习\06简单播放器\bin\Debug\Interop.WMPLib.dll
+C:\Users\PC\documents\visual studio 2015\Projects\5.12复习\06简单播放器\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\PC\documents\visual studio 2015\Projects\5.12复习\06简单播放器\obj\Debug\06简单播放器.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\5.12复习\06简单播放器\obj\Debug\Interop.WMPLib.dll
+C:\Users\PC\documents\visual studio 2015\Projects\5.12复习\06简单播放器\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\PC\documents\visual studio 2015\Projects\5.12复习\06简单播放器\obj\Debug\06简单播放器.csproj.ResolveComReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\5.12复习\06简单播放器\obj\Debug\_06简单播放器.Form1.resources
+C:\Users\PC\documents\visual studio 2015\Projects\5.12复习\06简单播放器\obj\Debug\_06简单播放器.Properties.Resources.resources
+C:\Users\PC\documents\visual studio 2015\Projects\5.12复习\06简单播放器\obj\Debug\06简单播放器.csproj.GenerateResource.Cache
+C:\Users\PC\documents\visual studio 2015\Projects\5.12复习\06简单播放器\obj\Debug\06简单播放器.exe
+C:\Users\PC\documents\visual studio 2015\Projects\5.12复习\06简单播放器\obj\Debug\06简单播放器.pdb
+G:\b学习笔记\C#项目\Projects\5.12复习\06简单播放器\bin\Debug\06简单播放器.exe.config
+G:\b学习笔记\C#项目\Projects\5.12复习\06简单播放器\obj\Debug\Interop.WMPLib.dll
+G:\b学习笔记\C#项目\Projects\5.12复习\06简单播放器\obj\Debug\AxInterop.WMPLib.dll
+G:\b学习笔记\C#项目\Projects\5.12复习\06简单播放器\obj\Debug\06简单播放器.csproj.ResolveComReference.cache
+G:\b学习笔记\C#项目\Projects\5.12复习\06简单播放器\obj\Debug\06简单播放器.exe
+G:\b学习笔记\C#项目\Projects\5.12复习\06简单播放器\obj\Debug\06简单播放器.pdb

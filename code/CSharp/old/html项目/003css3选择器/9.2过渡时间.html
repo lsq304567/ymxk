@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>9.2过渡时间</title>
+		<style type="text/css">
+			div{
+				width: 400px;
+				height: 100px;
+				background: red;
+				font-weight: bold;
+				color: #FFFFFF;
+			}
+			div:hover{
+				background: blue;
+				/*指定动画过度的css属性*/
+				transition-property: background-color;
+				
+				transition-duration: 5s;
+			}
+		</style>
+	</head>
+	<body>
+		<div>使用transition-property属性改变元素背景色</div>
+	</body>
+</html>

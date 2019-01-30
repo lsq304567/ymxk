@@ -1,0 +1,6 @@
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.32流程控制\04面向对象练习\bin\Debug\04面向对象练习.exe.config
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.32流程控制\04面向对象练习\bin\Debug\04面向对象练习.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.32流程控制\04面向对象练习\bin\Debug\04面向对象练习.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.32流程控制\04面向对象练习\obj\Debug\04面向对象练习.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.32流程控制\04面向对象练习\obj\Debug\04面向对象练习.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.32流程控制\04面向对象练习\obj\Debug\04面向对象练习.pdb

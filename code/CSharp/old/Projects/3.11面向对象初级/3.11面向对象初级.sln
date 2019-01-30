@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01面向对象", "01面向对象\01面向对象.csproj", "{6260BF8E-ADA1-4637-B511-FF5041872466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03静态和非静态的区别", "03静态和非静态的区别\03静态和非静态的区别.csproj", "{C8D6D0D0-E79D-43C6-B17F-B0B9C9E236A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04面向对象练习", "04面向对象练习\04面向对象练习.csproj", "{DDF4F011-655B-416B-8B26-26E5CD254923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05练习", "05练习\05练习.csproj", "{214446E3-01C4-4A69-AB64-3E6EA42C964B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6260BF8E-ADA1-4637-B511-FF5041872466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6260BF8E-ADA1-4637-B511-FF5041872466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6260BF8E-ADA1-4637-B511-FF5041872466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6260BF8E-ADA1-4637-B511-FF5041872466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D6D0D0-E79D-43C6-B17F-B0B9C9E236A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D6D0D0-E79D-43C6-B17F-B0B9C9E236A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D6D0D0-E79D-43C6-B17F-B0B9C9E236A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D6D0D0-E79D-43C6-B17F-B0B9C9E236A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF4F011-655B-416B-8B26-26E5CD254923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF4F011-655B-416B-8B26-26E5CD254923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF4F011-655B-416B-8B26-26E5CD254923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF4F011-655B-416B-8B26-26E5CD254923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214446E3-01C4-4A69-AB64-3E6EA42C964B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214446E3-01C4-4A69-AB64-3E6EA42C964B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214446E3-01C4-4A69-AB64-3E6EA42C964B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214446E3-01C4-4A69-AB64-3E6EA42C964B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.31流程控制\06while的用法和练习\bin\Debug\06while的用法和练习.exe.config
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.31流程控制\06while的用法和练习\bin\Debug\06while的用法和练习.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.31流程控制\06while的用法和练习\bin\Debug\06while的用法和练习.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.31流程控制\06while的用法和练习\obj\Debug\06while的用法和练习.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.31流程控制\06while的用法和练习\obj\Debug\06while的用法和练习.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.31流程控制\06while的用法和练习\obj\Debug\06while的用法和练习.pdb

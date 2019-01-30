@@ -1,0 +1,8 @@
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\05ListBox\bin\Debug\05ListBox.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\05ListBox\bin\Debug\05ListBox.exe
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\05ListBox\bin\Debug\05ListBox.pdb
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\05ListBox\obj\Debug\_05ListBox.Form1.resources
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\05ListBox\obj\Debug\_05ListBox.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\05ListBox\obj\Debug\05ListBox.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\05ListBox\obj\Debug\05ListBox.exe
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\05ListBox\obj\Debug\05ListBox.pdb

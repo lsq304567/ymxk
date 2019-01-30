@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\2.31流程控制\02异常捕获\bin\Debug\02异常捕获.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\2.31流程控制\02异常捕获\bin\Debug\02异常捕获.exe
+c:\users\pc\documents\visual studio 2015\Projects\2.31流程控制\02异常捕获\bin\Debug\02异常捕获.pdb
+c:\users\pc\documents\visual studio 2015\Projects\2.31流程控制\02异常捕获\obj\Debug\02异常捕获.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\2.31流程控制\02异常捕获\obj\Debug\02异常捕获.exe
+c:\users\pc\documents\visual studio 2015\Projects\2.31流程控制\02异常捕获\obj\Debug\02异常捕获.pdb

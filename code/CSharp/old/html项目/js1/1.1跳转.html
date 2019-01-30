@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>1.1跳转</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var scnds=7;//7秒
+			function Go{//处理定时器事件
+				if(--scnds==0) window.location.href="https://www.baicu.com";//时间到时跳转
+				else info.innerhtml="浏览器将在"+scnds+"后跳转到百度首页";//输出提示
+			}
+			sefinterval("go(),1000");      //设置定时器
+		</script>
+		<label id="info"></label>     <!--信息标签-->
+	</body>
+</html>

@@ -1,0 +1,6 @@
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.6飞行棋项目\04飞行棋游戏\bin\Debug\04飞行棋游戏.exe.config
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.6飞行棋项目\04飞行棋游戏\bin\Debug\04飞行棋游戏.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.6飞行棋项目\04飞行棋游戏\bin\Debug\04飞行棋游戏.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.6飞行棋项目\04飞行棋游戏\obj\Debug\04飞行棋游戏.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.6飞行棋项目\04飞行棋游戏\obj\Debug\04飞行棋游戏.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\2.6飞行棋项目\04飞行棋游戏\obj\Debug\04飞行棋游戏.pdb

@@ -1,0 +1,6 @@
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\16GUID\bin\Debug\16GUID.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\16GUID\bin\Debug\16GUID.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\16GUID\bin\Debug\16GUID.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\16GUID\obj\Debug\16GUID.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\16GUID\obj\Debug\16GUID.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\16GUID\obj\Debug\16GUID.pdb

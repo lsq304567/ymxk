@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\06读取\bin\Debug\06读取.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\06读取\bin\Debug\06读取.exe
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\06读取\bin\Debug\06读取.pdb
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\06读取\obj\Debug\06读取.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\06读取\obj\Debug\06读取.exe
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\06读取\obj\Debug\06读取.pdb

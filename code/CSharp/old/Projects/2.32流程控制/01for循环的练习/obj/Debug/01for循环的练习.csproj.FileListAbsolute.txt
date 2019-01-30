@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\2.32流程控制\01for循环的练习\bin\Debug\01for循环的练习.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\2.32流程控制\01for循环的练习\bin\Debug\01for循环的练习.exe
+c:\users\pc\documents\visual studio 2015\Projects\2.32流程控制\01for循环的练习\bin\Debug\01for循环的练习.pdb
+c:\users\pc\documents\visual studio 2015\Projects\2.32流程控制\01for循环的练习\obj\Debug\01for循环的练习.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\2.32流程控制\01for循环的练习\obj\Debug\01for循环的练习.exe
+c:\users\pc\documents\visual studio 2015\Projects\2.32流程控制\01for循环的练习\obj\Debug\01for循环的练习.pdb

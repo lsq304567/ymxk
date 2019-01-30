@@ -1,0 +1,9 @@
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\09保存文件对话框\bin\Debug\09保存文件对话框.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\09保存文件对话框\bin\Debug\09保存文件对话框.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\09保存文件对话框\bin\Debug\09保存文件对话框.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\09保存文件对话框\obj\Debug\_09保存文件对话框.Form1.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\09保存文件对话框\obj\Debug\_09保存文件对话框.Properties.Resources.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\09保存文件对话框\obj\Debug\09保存文件对话框.csproj.GenerateResource.Cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\09保存文件对话框\obj\Debug\09保存文件对话框.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\09保存文件对话框\obj\Debug\09保存文件对话框.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\09保存文件对话框\obj\Debug\09保存文件对话框.csprojResolveAssemblyReference.cache

@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>5.3禁止鼠标右键</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function click() {
+            if (event.button==2) {
+                alert("禁止鼠标右键")
+            }
+        }
+        function CtrlKeuDown() {
+            alert("禁止鼠标右键拷贝！")
+        }
+        document.onkeydown = CtrlKeuDown;
+        document.onmousedown = click;
+    </script>
+    <pre>
+        dsag
+sgag
+sga
+gdsag
+sdga
+    </pre>
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\Users\PC\AppData\Local\Temporary Projects\3.21面向对象继承\bin\Debug\3.21面向对象继承.exe.config
+C:\Users\PC\AppData\Local\Temporary Projects\3.21面向对象继承\bin\Debug\3.21面向对象继承.exe
+C:\Users\PC\AppData\Local\Temporary Projects\3.21面向对象继承\bin\Debug\3.21面向对象继承.pdb
+C:\Users\PC\AppData\Local\Temporary Projects\3.21面向对象继承\obj\Debug\01复习.csprojResolveAssemblyReference.cache
+C:\Users\PC\AppData\Local\Temporary Projects\3.21面向对象继承\obj\Debug\3.21面向对象继承.exe
+C:\Users\PC\AppData\Local\Temporary Projects\3.21面向对象继承\obj\Debug\3.21面向对象继承.pdb

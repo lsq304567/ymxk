@@ -1,0 +1,9 @@
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\07双击播放音乐\bin\Debug\07双击播放音乐.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\07双击播放音乐\bin\Debug\07双击播放音乐.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\07双击播放音乐\bin\Debug\07双击播放音乐.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\07双击播放音乐\obj\Debug\07双击播放音乐.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\07双击播放音乐\obj\Debug\_07双击播放音乐.Form1.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\07双击播放音乐\obj\Debug\_07双击播放音乐.Properties.Resources.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\07双击播放音乐\obj\Debug\07双击播放音乐.csproj.GenerateResource.Cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\07双击播放音乐\obj\Debug\07双击播放音乐.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\07双击播放音乐\obj\Debug\07双击播放音乐.pdb

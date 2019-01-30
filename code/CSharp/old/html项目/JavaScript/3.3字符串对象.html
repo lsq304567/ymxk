@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>3.3字符串对象</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var string = "I LOVE YOU";
+        document.write(string);
+        document.write("<p>将字符串转换为小写：" + string.toLowerCase() + "</P>");
+        document.write("<p>将字符串转化为链接：" + string.link("http://cn.bing.com/" + "</p>"));
+        function sortNumber(a,b)
+        {
+            return a-b
+        }
+        var arr = new Array(6)
+        arr[0] = "8"
+        arr[1] = "0"
+        arr[2] = "50"
+        arr[3] = "30"
+        arr[4] = "20000"
+        arr[5] = "70"
+        document.write("<br/>" + arr + "<br/>");
+        document.write(arr.sort(sortNumber));
+        document.write("<li>" + 7 + "一星期7天");
+        if(true)
+        {
+            document.write("<br><li>布尔常量：" + true);
+        }
+        document.write("<li>八进制数值常量012输出为十进制：" + 012);
+        document.write("<li>" + 12);
+        document.write("<li>" + 013);
+    </script>
+</body>
+</html>

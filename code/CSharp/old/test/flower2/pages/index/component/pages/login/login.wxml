@@ -1,0 +1,38 @@
+<!--login.wxml-->
+<image src="../../resources/pic/1.jpg"></image>
+<view class="login-hd">
+  <form bindsubmit="formSubmit">
+    <view class="input-login">
+
+      <view class="hr">
+
+        <view class="row">
+          <text>手机号</text>
+          <input type="number" name="userName" placeholder="{{txtname}}" focus="Boolean" />
+        </view>
+
+        <view class="row">
+          <text>密码</text>
+          <input type="idcard" name="userPassword" placeholder="{{txtpwd}}" />
+        </view>
+
+      </view>
+
+      <view class="btnlogin">
+        <button class="btnlogin1" type="primary" form-type="submit" bindtap="primary"> 登录 </button>
+      </view>
+
+      <view class="row1">
+        <view bindtap="bindViewTap" class="txtZhuce"><text>注册</text></view>
+        <view bindtap="bindForgot" class="txtForgot"><text>忘记密码</text></view>
+      </view>
+      <!--login.wxml
+        <view class="row1">
+          <button type="warn" class="btn1" size="mini" plain="false"> 注册 </button>
+          <button  class="btn2" type="warn" size="mini" plain="false"> 忘记密码 </button>
+        </view>
+-->
+
+    </view>
+  </form>
+</view>

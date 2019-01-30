@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>9.1检测显示器参数</title>
+</head>
+<body>
+    <script language="javascript">
+        with (document) {//with引用document属性
+            write("屏幕显示设定值：<p>");
+            write("屏幕的实际高度", screen.availHeight, "<br>");
+            write("屏幕实际宽度", screen.availWidth, "<br>");
+            write("屏幕色盘深度", screen.colorDepth, "<br>");
+            write("屏幕区域高度", screen.height, "<br>");
+            write("屏幕区域宽度", screen.width,"<hr>");
+            write("网页可见区域宽", body.clientWidth + "<br>");
+            write("网页可见区域高",body.clientHeight+"<br>")
+        }
+    </script>
+</body>
+</html>

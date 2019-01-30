@@ -1,0 +1,5 @@
+C:\Users\PC\documents\visual studio 2015\Projects\2.4复杂数据类型\07冒泡排序\bin\Debug\07冒泡排序.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\2.4复杂数据类型\07冒泡排序\bin\Debug\07冒泡排序.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2.4复杂数据类型\07冒泡排序\bin\Debug\07冒泡排序.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\2.4复杂数据类型\07冒泡排序\obj\Debug\07冒泡排序.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2.4复杂数据类型\07冒泡排序\obj\Debug\07冒泡排序.pdb

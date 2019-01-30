@@ -1,0 +1,8 @@
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\16线程\bin\Debug\16线程.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\16线程\bin\Debug\16线程.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\16线程\bin\Debug\16线程.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\16线程\obj\Debug\16线程.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\16线程\obj\Debug\16线程.pdb
+G:\b学习笔记\C#项目\Projects\4.12控件\16线程\bin\Debug\16线程.exe.config
+G:\b学习笔记\C#项目\Projects\4.12控件\16线程\obj\Debug\16线程.exe
+G:\b学习笔记\C#项目\Projects\4.12控件\16线程\obj\Debug\16线程.pdb

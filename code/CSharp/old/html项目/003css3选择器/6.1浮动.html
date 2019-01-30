@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>6.1浮动</title>
+		<style type="text/css">
+			.father{         /*定义父元素样式*/
+				background: #CCCCCC;
+				border: 1px dashed #999;
+			}
+			.father:after{
+				display: block;
+				clear: both;
+				content: "";
+				visibility: hidden;
+				height: 0;
+			}
+			.box01,.box02,.box03{             /*定义三个盒子样式*/
+				height: 50px;
+				line-height: 50px;
+				background: #ff9;
+				border: 1px solid #f33;
+				margin: 15px;
+				padding: 0px 10px;
+				float: left;
+			}
+			.box04{
+				clear: left;
+			}
+			p{
+				background: #fcf;
+				border: 1px dashed #FF3333;
+				margin: 15px;
+				padding: 0px 15px;
+				clear: left;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="father">
+			<div class="box01">box1</div>
+			<div class="box02">box2</div>
+			<div class="box03">box3</div>
+		</div>
+	</body>
+</html>

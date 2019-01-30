@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/components/dishes/dishes",
+    "pages/components/take/take",
+    "pages/components/takea/takea",
+    "pages/components/takeb/takeb",
+    "pages/components/takec/takec",
+    "pages/components/taked/taked",
+    "pages/my/my",
+    "pages/myoa/mya/mya",
+    "pages/myoa/myb/myb",
+    "pages/myoa/myc/myc",
+    "pages/myod/mya/myd",
+
+    "pages/index/component/pages/login/login",
+    "pages/index/component/pages/newuser/newuser",
+    "pages/index/component/pages/agreement/agreement",
+    "pages/index/component/pages/forgot/forgot"
+  ],
+   "window": {
+    "backgroundColor": "#f4f4f4",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1e90ff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#2A2C2E",
+    "color": "#a7a7a7",
+    "selectedColor": "#ffffff",
+    "list": [
+      {
+        "iconPath": "images/find.png",
+        "selectedIconPath": "images/find.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/account.png",
+        "selectedIconPath": "images/account.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+  }

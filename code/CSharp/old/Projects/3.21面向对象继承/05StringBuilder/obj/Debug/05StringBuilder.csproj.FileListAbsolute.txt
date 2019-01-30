@@ -1,0 +1,6 @@
+C:\Users\PC\Documents\Visual Studio 2015\Projects\3.21面向对象继承\05StringBuilder\bin\Debug\05StringBuilder.exe.config
+C:\Users\PC\Documents\Visual Studio 2015\Projects\3.21面向对象继承\05StringBuilder\bin\Debug\05StringBuilder.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\3.21面向对象继承\05StringBuilder\bin\Debug\05StringBuilder.pdb
+C:\Users\PC\Documents\Visual Studio 2015\Projects\3.21面向对象继承\05StringBuilder\obj\Debug\05StringBuilder.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2015\Projects\3.21面向对象继承\05StringBuilder\obj\Debug\05StringBuilder.exe
+C:\Users\PC\Documents\Visual Studio 2015\Projects\3.21面向对象继承\05StringBuilder\obj\Debug\05StringBuilder.pdb

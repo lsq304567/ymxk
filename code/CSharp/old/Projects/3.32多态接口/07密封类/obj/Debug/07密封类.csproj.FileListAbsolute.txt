@@ -1,0 +1,6 @@
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\07密封类\bin\Debug\07密封类.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\07密封类\bin\Debug\07密封类.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\07密封类\bin\Debug\07密封类.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\07密封类\obj\Debug\07密封类.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\07密封类\obj\Debug\07密封类.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\07密封类\obj\Debug\07密封类.pdb

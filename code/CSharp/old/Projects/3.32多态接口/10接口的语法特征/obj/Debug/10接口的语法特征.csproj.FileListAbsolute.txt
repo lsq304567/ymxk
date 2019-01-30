@@ -1,0 +1,6 @@
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\10接口的语法特征\bin\Debug\10接口的语法特征.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\10接口的语法特征\bin\Debug\10接口的语法特征.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\10接口的语法特征\bin\Debug\10接口的语法特征.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\10接口的语法特征\obj\Debug\10接口的语法特征.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\10接口的语法特征\obj\Debug\10接口的语法特征.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\10接口的语法特征\obj\Debug\10接口的语法特征.pdb

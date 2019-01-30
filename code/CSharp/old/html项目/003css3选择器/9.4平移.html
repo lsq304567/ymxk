@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>9.4平移 </title>
+		<style type="text/css">
+			div{
+				width: 100px;
+				height: 50px;
+				background: #ff0;
+				border: 1px solid black;
+				position: relative;
+			}
+			#div2{
+				margin: 100px;
+				transform: rotate(45deg);
+				position: absolute;
+				transform-origin: 20% 40%;
+			}
+			#div3{
+				margin: 100px;
+				transform: rotate(45deg);
+				background: red;
+				position: absolute;
+			}
+		</style>
+	</head>
+	<body>
+		<div>我是元素原来的位置</div>
+		<div id="div2">更改远点坐标位置</div>
+		<div id="div3">我是元素平移后的位置</div>
+	</body>
+</html>

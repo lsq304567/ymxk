@@ -1,0 +1,12 @@
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\10多态练习\bin\Debug\10多态练习.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\10多态练习\bin\Debug\10多态练习.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\10多态练习\bin\Debug\10多态练习.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\10多态练习\obj\Debug\10多态练习.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\10多态练习\obj\Debug\10多态练习.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\10多态练习\obj\Debug\10多态练习.pdb
+G:\b学习笔记\C#项目\Projects\3.31对象多态\10多态练习\bin\Debug\10多态练习.exe.config
+G:\b学习笔记\C#项目\Projects\3.31对象多态\10多态练习\bin\Debug\10多态练习.exe
+G:\b学习笔记\C#项目\Projects\3.31对象多态\10多态练习\bin\Debug\10多态练习.pdb
+G:\b学习笔记\C#项目\Projects\3.31对象多态\10多态练习\obj\Debug\10多态练习.csprojResolveAssemblyReference.cache
+G:\b学习笔记\C#项目\Projects\3.31对象多态\10多态练习\obj\Debug\10多态练习.exe
+G:\b学习笔记\C#项目\Projects\3.31对象多态\10多态练习\obj\Debug\10多态练习.pdb

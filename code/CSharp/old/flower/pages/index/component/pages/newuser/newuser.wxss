@@ -1,0 +1,62 @@
+page {
+  background-color: #f4f4f4;
+}
+
+.new-login {
+  margin-top: 40rpx;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+  background-color: #fff;
+  font-size: 32rpx;
+  height: 110rpx;
+  margin: 2rpx;
+}
+
+.row text {
+  flex-grow: 1;
+  padding:30rpx;
+  text-align: left;
+  width: 80rpx;
+  margin-right: 0rpx;
+}
+
+.row button {
+  margin: 0rpx;
+  margin-right: 30rpx;
+  text-align: center;
+}
+.inputYzm{
+  width: 150rpx;
+}
+
+.row input {
+  color: #858585;
+  flex-grow: 4;
+  border: none;
+  text-align: left;
+}
+
+.viewXieyi {
+  margin: 32rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.text1{
+  font-size:28rpx;
+  color: #898989;
+}
+.text2{
+  font-size:28rpx;
+  color:#f58b3c;  
+}
+
+.btnuser {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+

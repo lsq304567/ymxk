@@ -1,0 +1,9 @@
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\04线程执行带参数的方法\bin\Debug\04线程执行带参数的方法.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\04线程执行带参数的方法\bin\Debug\04线程执行带参数的方法.exe
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\04线程执行带参数的方法\bin\Debug\04线程执行带参数的方法.pdb
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\04线程执行带参数的方法\obj\Debug\04线程执行带参数的方法.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\04线程执行带参数的方法\obj\Debug\_04线程执行带参数的方法.Form1.resources
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\04线程执行带参数的方法\obj\Debug\_04线程执行带参数的方法.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\04线程执行带参数的方法\obj\Debug\04线程执行带参数的方法.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\04线程执行带参数的方法\obj\Debug\04线程执行带参数的方法.exe
+c:\users\pc\documents\visual studio 2015\Projects\4.21socket\04线程执行带参数的方法\obj\Debug\04线程执行带参数的方法.pdb

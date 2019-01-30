@@ -1,0 +1,9 @@
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\03创建XML\bin\Debug\03创建XML.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\03创建XML\bin\Debug\03创建XML.exe
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\03创建XML\bin\Debug\03创建XML.pdb
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\03创建XML\obj\Debug\03创建XML.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\03创建XML\obj\Debug\03创建XML.exe
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\03创建XML\obj\Debug\03创建XML.pdb
+G:\b学习笔记\C#项目\Projects\5.31委托\03创建XML\bin\Debug\03创建XML.exe.config
+G:\b学习笔记\C#项目\Projects\5.31委托\03创建XML\obj\Debug\03创建XML.exe
+G:\b学习笔记\C#项目\Projects\5.31委托\03创建XML\obj\Debug\03创建XML.pdb

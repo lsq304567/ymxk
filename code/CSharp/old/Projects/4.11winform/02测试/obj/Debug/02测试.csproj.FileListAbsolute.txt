@@ -1,0 +1,11 @@
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\02测试\bin\Debug\02测试.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\02测试\bin\Debug\02测试.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\02测试\bin\Debug\02测试.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\02测试\obj\Debug\02测试.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\02测试\obj\Debug\_02测试.Form1.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\02测试\obj\Debug\_02测试.Properties.Resources.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\02测试\obj\Debug\02测试.csproj.GenerateResource.Cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\02测试\obj\Debug\02测试.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\02测试\obj\Debug\02测试.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\02测试\obj\Debug\_02测试.Form2.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.11winform\02测试\obj\Debug\_02测试.Form3.resources

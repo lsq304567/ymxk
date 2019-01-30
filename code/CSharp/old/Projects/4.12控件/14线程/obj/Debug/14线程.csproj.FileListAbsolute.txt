@@ -1,0 +1,9 @@
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\14线程\bin\Debug\14线程.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\14线程\bin\Debug\14线程.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\14线程\bin\Debug\14线程.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\14线程\obj\Debug\14线程.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\14线程\obj\Debug\_14线程.Form1.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\14线程\obj\Debug\_14线程.Properties.Resources.resources
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\14线程\obj\Debug\14线程.csproj.GenerateResource.Cache
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\14线程\obj\Debug\14线程.exe
+C:\Users\PC\documents\visual studio 2015\Projects\4.12控件\14线程\obj\Debug\14线程.pdb

@@ -1,0 +1,25 @@
+body { color:brown;
+font-size: 1.2em;
+font-family: arial, verdana, sans-serif;}
+h1 { text-shadow: 3px 3px 3px #666;
+opacity: 0.5;
+font-size: 4em;
+font-family: sans-serif;}
+footer { background-color: #74C0FF;
+color: darkblue;
+font-family: arial, sans-serif;
+padding: 10px;
+border: 1px dashed #00008B;}
+#notice { margin-left: auto;
+margin-right: auto;
+width: 80%;
+min-width: 700px;}
+.biaoti { border-bottom: 1px dashed #1E1E1E;
+color: blueviolet;}
+#section { background-color: #FFFFFF;
+color: red;
+font-size: 0.9em;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 5px 5px 5px #1E1E1E;}

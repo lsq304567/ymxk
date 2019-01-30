@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>1.8登录验证</title>
+		<script type="text/javascript">
+			function ok(){
+				if(document.myform.myname.value.length<1){
+					alert("用户名不能为空");
+				}
+				else if(document.myform.psw.value!="123456")
+				alert("密码错误");
+				else
+				window.open().docuent.write("欢迎光临，"+document.myform.myname.value+"<a href='1.5获取参数.html'>获取参数</a>")
+			}
+		</script>
+	</head>
+	<body>
+		<form name="myform" method="post" >
+        用户信息<br />
+        用户名：<input type="text" name="myname" />
+        <p>
+            密码：<input type="password" name="psw" />
+            <lavel>
+                <input type="button" name="Submit" value="提交" onclick="ok()" />
+            </lavel>
+        </p>
+    </form>
+	</body>
+</html>

@@ -1,0 +1,6 @@
+c:\users\pc\documents\visual studio 2015\Projects\3.11面向对象初级\01面向对象\bin\Debug\01面向对象.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\3.11面向对象初级\01面向对象\bin\Debug\01面向对象.exe
+c:\users\pc\documents\visual studio 2015\Projects\3.11面向对象初级\01面向对象\bin\Debug\01面向对象.pdb
+c:\users\pc\documents\visual studio 2015\Projects\3.11面向对象初级\01面向对象\obj\Debug\01面向对象.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\3.11面向对象初级\01面向对象\obj\Debug\01面向对象.exe
+c:\users\pc\documents\visual studio 2015\Projects\3.11面向对象初级\01面向对象\obj\Debug\01面向对象.pdb

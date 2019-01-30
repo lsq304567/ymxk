@@ -1,0 +1,13 @@
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\01单例模式\bin\Debug\01单例模式.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\01单例模式\bin\Debug\01单例模式.exe
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\01单例模式\bin\Debug\01单例模式.pdb
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\01单例模式\obj\Debug\01单例模式.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\01单例模式\obj\Debug\_01单例模式.Form1.resources
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\01单例模式\obj\Debug\_01单例模式.Form2.resources
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\01单例模式\obj\Debug\_01单例模式.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\01单例模式\obj\Debug\01单例模式.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\01单例模式\obj\Debug\01单例模式.exe
+c:\users\pc\documents\visual studio 2015\Projects\5.31委托\01单例模式\obj\Debug\01单例模式.pdb
+G:\b学习笔记\C#项目\Projects\5.31委托\01单例模式\bin\Debug\01单例模式.exe.config
+G:\b学习笔记\C#项目\Projects\5.31委托\01单例模式\obj\Debug\01单例模式.exe
+G:\b学习笔记\C#项目\Projects\5.31委托\01单例模式\obj\Debug\01单例模式.pdb

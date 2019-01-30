@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>9.3过渡效果速度</title>
+		<style type="text/css">
+			div{
+				width: 200px;
+				height: 200px;
+				margin: 0 auto;
+				background: yellow;
+				border: 5px solid red;
+				border-radius: 0px;
+			}
+			div:hover{
+				border-radius: 105px;
+				transition-property: border-radius;
+				transition-duration: 5s;
+				transition-timing-function: ease-in-out;
+				transition-delay: 2s;
+			}
+			h2{
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+		<h2>sfada</h2>
+	</body>
+</html>

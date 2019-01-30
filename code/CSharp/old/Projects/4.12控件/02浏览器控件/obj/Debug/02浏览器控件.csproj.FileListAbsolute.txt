@@ -1,0 +1,9 @@
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\02浏览器控件\bin\Debug\02浏览器控件.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\02浏览器控件\bin\Debug\02浏览器控件.exe
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\02浏览器控件\bin\Debug\02浏览器控件.pdb
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\02浏览器控件\obj\Debug\02浏览器控件.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\02浏览器控件\obj\Debug\_02浏览器控件.Form1.resources
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\02浏览器控件\obj\Debug\_02浏览器控件.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\02浏览器控件\obj\Debug\02浏览器控件.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\02浏览器控件\obj\Debug\02浏览器控件.exe
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\02浏览器控件\obj\Debug\02浏览器控件.pdb

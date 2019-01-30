@@ -1,0 +1,6 @@
+C:\Users\PC\documents\visual studio 2015\Projects\2折叠冗余代码\2基础语言\bin\Debug\2基础语言.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\2折叠冗余代码\2基础语言\obj\Debug\2基础语言.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2折叠冗余代码\2基础语言\obj\Debug\2基础语言.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\2折叠冗余代码\2基础语言\bin\Debug\2基础语言.exe
+C:\Users\PC\documents\visual studio 2015\Projects\2折叠冗余代码\2基础语言\bin\Debug\2基础语言.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\2折叠冗余代码\2基础语言\obj\Debug\02基础语言.csprojResolveAssemblyReference.cache

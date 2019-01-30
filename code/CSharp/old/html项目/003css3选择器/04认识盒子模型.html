@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>04认识盒子模型</title>
+		<style type="text/css">
+			.box{
+				width: 300px;
+				height: 100px;
+				padding-right: 10px;
+				background: #f90;
+				border: 10px solid #ccc;
+				box-sizing: content-box;
+			}
+			.box2{
+				width: 300px;
+				height: 100px;
+				padding-right: 10px;
+				background: #f90;
+				border: 10px solid #ccc;
+				box-sizing: border-box;
+			}
+			.box3{
+				background-image: url(img/4628577_161519016775_2.jpg),url(img/Photoshop.png),url(img/图片边框.jpg);
+				background-position: bottom,right top,center;
+				background-repeat: no-repeat;
+			}
+			div{
+				width: 300px;
+				height: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<p class="box">盒子中包含的内容</p>
+		<p class="box2">盒子中包含的内容</p>
+		<div>111</div>
+		<div class="box3">222</div>
+	</body>
+</html>

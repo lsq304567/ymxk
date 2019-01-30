@@ -1,0 +1,12 @@
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\06FileStrem\bin\Debug\06FileStrem.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\06FileStrem\bin\Debug\06FileStrem.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\06FileStrem\bin\Debug\06FileStrem.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\06FileStrem\obj\Debug\06FileStrem.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\06FileStrem\obj\Debug\06FileStrem.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.31对象多态\06FileStrem\obj\Debug\06FileStrem.pdb
+G:\b学习笔记\C#项目\Projects\3.31对象多态\06FileStrem\bin\Debug\06FileStrem.exe.config
+G:\b学习笔记\C#项目\Projects\3.31对象多态\06FileStrem\bin\Debug\06FileStrem.exe
+G:\b学习笔记\C#项目\Projects\3.31对象多态\06FileStrem\bin\Debug\06FileStrem.pdb
+G:\b学习笔记\C#项目\Projects\3.31对象多态\06FileStrem\obj\Debug\06FileStrem.csprojResolveAssemblyReference.cache
+G:\b学习笔记\C#项目\Projects\3.31对象多态\06FileStrem\obj\Debug\06FileStrem.exe
+G:\b学习笔记\C#项目\Projects\3.31对象多态\06FileStrem\obj\Debug\06FileStrem.pdb

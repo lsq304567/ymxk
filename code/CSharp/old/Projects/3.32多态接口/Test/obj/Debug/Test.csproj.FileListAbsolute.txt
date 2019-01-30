@@ -1,0 +1,8 @@
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\Test\bin\Debug\Test.exe.config
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\Test\bin\Debug\Test.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\Test\bin\Debug\Test.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\Test\bin\Debug\02访问修饰符.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\Test\bin\Debug\02访问修饰符.pdb
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\Test\obj\Debug\Test.exe
+C:\Users\PC\documents\visual studio 2015\Projects\3.32多态接口\Test\obj\Debug\Test.pdb

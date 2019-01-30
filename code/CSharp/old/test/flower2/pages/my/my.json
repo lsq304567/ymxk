@@ -1,0 +1,21 @@
+{
+"pages": [
+  "pages/index/index",
+  "pages/components/dishes/dishes",
+  "pages/components/take/take",
+  "pages/components/takea/takea",
+  "pages/components/takeb/takeb",
+  "pages/components/takec/takec",
+  "pages/components/taked/taked",
+  "pages/my/my",
+  "pages/myoa/mya/mya",
+  "pages/myoa/myb/myb",
+  "pages/myoa/myc/myc",
+  "pages/myod/mya/myd"
+],
+  "backgroundColor": "#f4f4f4",
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#1e90ff",
+  "navigationBarTitleText": "我的",
+  "navigationBarTextStyle": "white"
+}

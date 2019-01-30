@@ -1,0 +1,9 @@
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\01Directory\bin\Debug\01Directory.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\01Directory\bin\Debug\01Directory.exe
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\01Directory\bin\Debug\01Directory.pdb
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\01Directory\obj\Debug\01Directory.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\01Directory\obj\Debug\01Directory.exe
+c:\users\pc\documents\visual studio 2015\Projects\4.12控件\01Directory\obj\Debug\01Directory.pdb
+G:\b学习笔记\C#项目\Projects\4.12控件\01Directory\bin\Debug\01Directory.exe.config
+G:\b学习笔记\C#项目\Projects\4.12控件\01Directory\obj\Debug\01Directory.exe
+G:\b学习笔记\C#项目\Projects\4.12控件\01Directory\obj\Debug\01Directory.pdb
