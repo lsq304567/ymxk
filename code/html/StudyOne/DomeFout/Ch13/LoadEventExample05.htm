@@ -10,10 +10,10 @@
             var image = document.createElement("img");
             EventUtil.addHandler(image, "load", function(event){
                 event = EventUtil.getEvent(event);
-                alert(EventUtil.getTarget(event).src);
+                console.log(EventUtil.getTarget(event).src);
             });
             document.body.appendChild(image);
-            image.src = "smile.gif";            
+            image.src = "smile.gif";
         });
     </script>
 </body>

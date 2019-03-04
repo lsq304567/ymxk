@@ -5,20 +5,20 @@
     </head>
     <body>
         <script type="text/javascript">
-        
+
             function outputNumbers(count){
-            
+
                 (function () {
                     for (var i=0; i < count; i++){
-                        alert(i);
+                        console.log(i);
                     }
                 })();
-                
-                alert(i);   //causes an error
+
+                console.log(i);   //causes an error
             }
 
             outputNumbers(5);
         </script>
-     
+
     </body>
 </html>

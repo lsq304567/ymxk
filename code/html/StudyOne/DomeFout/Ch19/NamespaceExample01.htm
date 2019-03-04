@@ -6,7 +6,7 @@
 <body>
     <p>This example only works in Firefox 1.5+.</p>
     <script type="text/javascript;e4x=1">
-    
+
         var messages = <messages>
             <message>Hello world!</message>
         </messages>;
@@ -14,9 +14,9 @@
         messages.setNamespace(wrox);
         messages.message.setNamespace(wrox);
 
-        alert(messages);
-        
-        alert(messages.wrox::message);
+        console.log(messages);
+
+        console.log(messages.wrox::message);
     </script>
 </body>
 </html>

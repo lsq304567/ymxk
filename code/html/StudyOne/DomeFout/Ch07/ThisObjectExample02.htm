@@ -5,12 +5,12 @@
     </head>
     <body>
         <script type="text/javascript">
-        
+
             var name = "The Window";
-            
+
             var object = {
                 name : "My Object",
-            
+
                 getNameFunc : function(){
                     var that = this;
                     return function(){
@@ -18,11 +18,11 @@
                     };
                 }
             };
-            
-            alert(object.getNameFunc()());  //"MyObject"
+
+            console.log(object.getNameFunc()());  //"MyObject"
 
 
         </script>
-     
+
     </body>
 </html>

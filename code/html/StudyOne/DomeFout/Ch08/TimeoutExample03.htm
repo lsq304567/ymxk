@@ -8,18 +8,18 @@
 
         var num = 0;
         var max = 100;
-        
+
         function incrementNumber() {
             num++;
-        
+
             //if the max has not been reached, set another timeout
             if (num < max) {
                 setTimeout(incrementNumber, 500);
             } else {
-                alert("Done");
+                console.log("Done");
             }
         }
-        
+
         setTimeout(incrementNumber, 500);
 
 

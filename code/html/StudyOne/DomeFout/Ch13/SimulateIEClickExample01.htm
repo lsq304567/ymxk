@@ -9,20 +9,20 @@
     <input type="button" value="Send click to the other button" id="myBtn2" />
     <p>This example works only in Internet Explorer.</p>
     <script type="text/javascript">
-    
+
     (function(){
         var btn = document.getElementById("myBtn");
         var btn2 = document.getElementById("myBtn2");
-        
+
         EventUtil.addHandler(btn, "click", function(event){
-            alert("Clicked!");
-            alert(event.screenX);   //100
+            console.log("Clicked!");
+            console.log(event.screenX);   //100
         });
 
         EventUtil.addHandler(btn2, "click", function(event){
             //create event object
             var event = document.createEventObject();
-            
+
             //initialize the event object
             event.view = window;
             event.detail = 0;
@@ -36,7 +36,7 @@
             event.shiftKey = false;
             event.button = 0;
             event.relatedTarget = null;
-            
+
             //fire the event
             btn.fireEvent("onclick", event);
 

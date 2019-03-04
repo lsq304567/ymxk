@@ -3,36 +3,36 @@
 <head>
     <title>getBoundingClientRect() Example</title>
     <script type="text/javascript">
-    
+
         function getElementLeft(element){
             var actualLeft = element.offsetLeft;
             var current = element.offsetParent;
-        
-            while (current !== null){        
+
+            while (current !== null){
                 actualLeft += current.offsetLeft;
                 current = current.offsetParent;
             }
-        
+
             return actualLeft;
         }
-    
+
         function getElementTop(element){
             var actualTop = element.offsetTop;
             var current = element.offsetParent;
-        
-            while (current !== null){        
+
+            while (current !== null){
                 actualTop += current. offsetTop;
                 current = current.offsetParent;
             }
-        
+
             return actualTop;
         }
-    
+
     function getBoundingClientRect(element){
-    
+
         var scrollTop = document.documentElement.scrollTop;
         var scrollLeft = document.documentElement.scrollLeft;
-        
+
         if (element.getBoundingClientRect){
             if (typeof arguments.callee.offset != "number"){
                 var temp = document.createElement("div");
@@ -42,22 +42,22 @@
                 document.body.removeChild(temp);
                 temp = null;
             }
-    
+
             var rect = element.getBoundingClientRect();
             var offset = arguments.callee.offset;
-    
+
             return {
                 left: rect.left + offset,
                 right: rect.right + offset,
                 top: rect.top + offset,
                 bottom: rect.bottom + offset
-    
+
             };
         } else {
-    
+
             var actualLeft = getElementLeft(element);
             var actualTop = getElementTop(element);
-    
+
            return {
                 left: actualLeft - scrollLeft,
                 right: actualLeft + element.offsetWidth - scrollLeft,
@@ -67,14 +67,14 @@
         }
     }
 
-    
+
         function getDimensions(){
             var rect = getBoundingClientRect(document.getElementById("myDiv"));
-            alert("left: " + rect.left + "\nright: " + rect.right  + "\ntop: " + rect.top + "\nbottom: " + rect.bottom);        
+            console.log("left: " + rect.left + "\nright: " + rect.right  + "\ntop: " + rect.top + "\nbottom: " + rect.bottom);
         }
-        
-        
-    
+
+
+
 
     </script>
 </head>
@@ -86,6 +86,6 @@
     </div>
     <input type="button" value="Get Element Dimensions" onclick="getDimensions()" />
 
-    
+
 </body>
 </html>

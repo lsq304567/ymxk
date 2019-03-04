@@ -3,15 +3,15 @@
 <head>
     <title>Creating Objects Example</title>
     <script type="text/javascript">
-    
+
         var person = new Object();
         person.name = "Nicholas";
         person.age = 29;
         person.job = "Software Engineer";
         person.sayName = function(){
-            alert(this.name);
+            console.log(this.name);
         };
-        
+
         person.sayName();
 
     </script>

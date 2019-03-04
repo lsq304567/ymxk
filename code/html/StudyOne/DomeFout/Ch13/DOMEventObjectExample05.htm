@@ -8,12 +8,12 @@
     <script type="text/javascript">
         var btn = document.getElementById("myBtn");
         btn.onclick = function(event){
-            alert("Clicked");
+            console.log("Clicked");
             event.stopPropagation();
         };
-        
+
         document.body.onclick = function(event){
-            alert("Body clicked");
+            console.log("Body clicked");
         };
     </script>
 </body>

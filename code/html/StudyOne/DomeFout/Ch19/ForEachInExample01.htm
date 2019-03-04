@@ -6,7 +6,7 @@
 <body>
     <p>This example only works in Firefox 1.5+.</p>
     <script type="text/javascript;e4x=1">
-    
+
         var employees =  <employees name="something">
                             <employee position="Software Engineer">
                                 <name>Nicholas C. Zakas</name>
@@ -15,16 +15,16 @@
                                 <name>Jim Smith</name>
                             </employee>
                         </employees>;
-                        
+
         for each (var child in employees){
-            alert(child);
+            console.log(child);
         }
-        
+
         var colors = ["red","green","blue"];
         for each(var color in colors){
-            alert(color);
+            console.log(color);
         }
-        
+
     </script>
 </body>
 </html>

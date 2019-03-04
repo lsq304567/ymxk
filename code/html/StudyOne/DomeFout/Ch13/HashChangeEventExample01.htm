@@ -13,7 +13,7 @@
     <p>This example only works in browsers that <code>onhashchange</code>.</p>
     <script type="text/javascript">
         EventUtil.addHandler(window, "hashchange", function(event){
-            alert("Old URL: " + event.oldURL + "\nNew URL: " + event.newURL);
+            console.log("Old URL: " + event.oldURL + "\nNew URL: " + event.newURL);
         });
     </script>
 </body>

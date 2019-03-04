@@ -3,24 +3,24 @@
 <head>
     <title>Prototypal Inheritance Example</title>
     <script type="text/javascript">
-                            
+
         var person = {
             name: "Nicholas",
             friends: ["Shelby", "Court", "Van"]
         };
-        
+
         var anotherPerson = Object.create(person);
         anotherPerson.name = "Greg";
         anotherPerson.friends.push("Rob");
-        
+
         var yetAnotherPerson = Object.create(person);
         yetAnotherPerson.name = "Linda";
         yetAnotherPerson.friends.push("Barbie");
-        
-        alert(person.friends);   //"Shelby,Court,Van,Rob,Barbie"
 
-               
-        
+        console.log(person.friends);   //"Shelby,Court,Van,Rob,Barbie"
+
+
+
     </script>
 </head>
 <body>

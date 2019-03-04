@@ -5,7 +5,7 @@
 </head>
 <body>
     <script type="text/javascript">
-            
+
         function Polygon(sides){
             if (this instanceof Polygon) {
                 this.sides = sides;
@@ -16,7 +16,7 @@
                 return new Polygon(sides);
             }
         }
-        
+
         function Rectangle(width, height){
             Polygon.call(this, 2);
             this.width = width;
@@ -25,9 +25,9 @@
                 return this.width * this.height;
             };
         }
-        
+
         var rect = new Rectangle(5, 10);
-        alert(rect.sides);   //undefined
+        console.log(rect.sides);   //undefined
 
 
 

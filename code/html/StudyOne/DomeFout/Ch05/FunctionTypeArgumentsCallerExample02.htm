@@ -3,15 +3,15 @@
 <head>
     <title>Function Type Arguments Caller Example</title>
     <script type="text/javascript">
-        
+
         function outer(){
             inner();
         }
-        
+
         function inner(){
-            alert(arguments.callee.caller);
+            console.log(arguments.callee.caller);
         }
-        
+
         outer();
 
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>DOM XPath Example</title>           
+        <title>DOM XPath Example</title>
     </head>
     <body>
         <p>This example gets the first node matching the expression <code>employee/name</code>.</p>
@@ -11,10 +11,10 @@
             var result = xmldom.evaluate("employee/name", xmldom.documentElement, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null);
 
             if (result != null){
-                alert(serializer.serializeToString(result.singleNodeValue));
+                console.log(serializer.serializeToString(result.singleNodeValue));
             }
         </script>
- 
- 
+
+
     </body>
 </html>

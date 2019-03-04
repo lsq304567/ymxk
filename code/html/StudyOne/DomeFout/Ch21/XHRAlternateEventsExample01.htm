@@ -7,7 +7,7 @@
     <p>This example must be run on a server to work properly and will only work in Firefox.</p>
     <div id="status"></div>
     <script type="text/javascript">
-    
+
         function createXHR(){
             if (typeof XMLHttpRequest != "undefined"){
                 return new XMLHttpRequest();
@@ -15,7 +15,7 @@
                 if (typeof arguments.callee.activeXString != "string"){
                     var versions = ["MSXML2.XMLHttp.6.0", "MSXML2.XMLHttp.3.0",
                                     "MSXML2.XMLHttp"];
-            
+
                     for (var i=0,len=versions.length; i < len; i++){
                         try {
                             var xhr = new ActiveXObject(versions[i]);
@@ -26,27 +26,27 @@
                         }
                     }
                 }
-            
+
                 return new ActiveXObject(arguments.callee.activeXString);
             } else {
                 throw new Error("No XHR object available.");
             }
         }
-                
-        var xhr = createXHR();        
+
+        var xhr = createXHR();
         xhr.onload = function(event){
-            alert(xhr.responseText);
-            alert(xhr.status);
+            console.log(xhr.responseText);
+            console.log(xhr.status);
         };
         xhr.onerror = function(event){
-            alert("Error: " + xhr.status);
+            console.log("Error: " + xhr.status);
         };
         xhr.onprogress = function(event){
             var statusDiv = document.getElementById("status");
             statusDiv.innerHTML = "Received " + event.position + " of " + event.totalSize;
         };
         xhr.onloadend = function(event){
-            alert("End!");
+            console.log("End!");
         };
         xhr.open("get", "example.txt", true);
 

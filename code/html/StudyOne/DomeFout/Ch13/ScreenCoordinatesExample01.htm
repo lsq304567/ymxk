@@ -10,7 +10,7 @@
         var div = document.getElementById("myDiv");
         EventUtil.addHandler(div, "click", function(event){
             event = EventUtil.getEvent(event);
-            alert("Screen coordinates: " + event.screenX + "," + event.screenY);        
+            console.log("Screen coordinates: " + event.screenX + "," + event.screenY);
         });
     </script>
 </body>

@@ -7,15 +7,15 @@
     <p>This only works in browsers that natively support ECMAScript 5.</p>
     <script>
         var person = { name: "Nicholas" };
-        alert(Object.isExtensible(person));   //true
-        alert(Object.isSealed(person));       //false
-        
+        console.log(Object.isExtensible(person));   //true
+        console.log(Object.isSealed(person));       //false
+
         Object.seal(person);
-        alert(Object.isExtensible(person));   //false
-        alert(Object.isSealed(person));       //true
-        
+        console.log(Object.isExtensible(person));   //false
+        console.log(Object.isSealed(person));       //true
+
         person.age = 29;
-        alert(person.age);
+        console.log(person.age);
     </script>
 </body>
 </html>

@@ -14,23 +14,23 @@
             if (div == null) {
                 div = document.getElementById("myDiv");
             }
-            alert(div.id);         //"myDiv"
-            alert(div.className);  //"bd"
-            alert(div.title);      //"Body text"
-            alert(div.lang);       //"en"
-            alert(div.dir);        //"ltr"
-        }    
-        
+            console.log(div.id);         //"myDiv"
+            console.log(div.className);  //"bd"
+            console.log(div.title);      //"Body text"
+            console.log(div.lang);       //"en"
+            console.log(div.dir);        //"ltr"
+        }
+
         function setValues(){
             if (div == null) {
                 div = document.getElementById("myDiv");
             }
-        
+
             div.id = "someOtherId";
             div.className = "ft";
             div.title = "Some other text";
             div.lang = "fr";
-            div.dir ="rtl";        
+            div.dir ="rtl";
         }
     </script>
 </body>

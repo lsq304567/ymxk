@@ -3,51 +3,51 @@
 <head>
     <title>DOM Event Flow Example</title>
     <script type="text/javascript">
-    
+
         window.onload = function(){
             window.addEventListener("click", function(){
-                alert("Window (capture)");
+                console.log("Window (capture)");
             }, true);
             window.addEventListener("click", function(e){
-                alert("Window (bubble)");
+                console.log("Window (bubble)");
             }, false);
-            
+
             document.addEventListener("click", function(){
-                alert("Document (capture)");
+                console.log("Document (capture)");
             }, true);
             document.addEventListener("click", function(){
-                alert("Document (bubble)");
+                console.log("Document (bubble)");
             }, false);
-            
+
             document.getElementsByTagName("html")[0].addEventListener("click", function(){
-                alert("Html (capture)");
+                console.log("Html (capture)");
             }, true);
             document.getElementsByTagName("html")[0].addEventListener("click", function(){
-                alert("Html (bubble)");
+                console.log("Html (bubble)");
             }, false);
-            
+
             document.body.addEventListener("click", function(){
-                alert("Body (capture)");
+                console.log("Body (capture)");
             }, true);
             document.body.addEventListener("click", function(){
-                alert("Body (bubble)");
+                console.log("Body (bubble)");
             }, false);
-            
+
             document.getElementById("myDiv").addEventListener("click", function(){
-                alert("Div (capture)");
+                console.log("Div (capture)");
             }, true);
             document.getElementById("myDiv").addEventListener("click", function(e){
-                alert("Div (bubble)");
+                console.log("Div (bubble)");
             }, false);
 
         }
-    
+
 
     </script>
 </head>
 <body>
     <div id="myDiv">Click Me</div>
     <p>This won't work in Internet Explorer.</p>
-    
+
 </body>
 </html>

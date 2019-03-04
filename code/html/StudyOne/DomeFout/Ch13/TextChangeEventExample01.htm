@@ -10,18 +10,18 @@
     <script type="text/javascript">
         EventUtil.addHandler(window, "load", function(event){
             var div = document.getElementById("myDiv");
-                        
+
             EventUtil.addHandler(document, "DOMSubtreeModified", function(event){
-                alert(event.type);
-                alert(event.target);
+                console.log(event.type);
+                console.log(event.target);
             });
             EventUtil.addHandler(document, "DOMCharacterDataModified", function(event){
-                alert(event.type);
-                alert(event.target);
-                alert(event.prevValue);
-                alert(event.newValue);
-            });     
-            
+                console.log(event.type);
+                console.log(event.target);
+                console.log(event.prevValue);
+                console.log(event.newValue);
+            });
+
             div.firstChild.nodeValue = "Some new text";
         });
 

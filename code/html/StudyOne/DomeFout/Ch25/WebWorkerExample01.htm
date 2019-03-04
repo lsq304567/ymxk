@@ -9,18 +9,18 @@
     <p>Not all browsers allow the use of workers when a file is navigated to locally. If this example doesn't work in your browser, try running the files through a web server.</p>
     <script>
         (function(){
-        
+
             var data = [23,4,7,9,2,14,6,651,87,41,7798,24],
                 worker = new Worker("WebWorkerExample01.js");
-                                
+
             worker.onmessage = function(event){
-                alert(event.data);
+                console.log(event.data);
             };
-            
-            worker.postMessage(data);            
-        
+
+            worker.postMessage(data);
+
         })();
-        
+
     </script>
 
 </body>

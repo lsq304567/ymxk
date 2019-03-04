@@ -5,23 +5,23 @@
     <script type="text/javascript" src="EventUtil.js"></script>
 </head>
 <body>
-    <form method="post" action="javascript:alert('Form submitted!')" id="myForm">
+    <form method="post" action="javascript:console.log('Form submitted!')" id="myForm">
         <ul>
             <li><input type="radio" name="color" value="red">Red</li>
             <li><input type="radio" name="color" value="green">Green</li>
             <li><input type="radio" name="color" value="blue">Blue</li>
         </ul>
-    </form>     
+    </form>
     <script type="text/javascript">
         (function(){
             var form = document.getElementById("myForm");
-            
+
             var colorFields = form.elements["color"];
-            alert(colorFields.length);  //3
-            
+            console.log(colorFields.length);  //3
+
             var firstColorField = colorFields[0];
             var firstFormField = form.elements[0];
-            alert(firstColorField === firstFormField);   //true
+            console.log(firstColorField === firstFormField);   //true
 
         })();
 

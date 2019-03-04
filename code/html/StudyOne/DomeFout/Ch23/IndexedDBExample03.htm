@@ -8,7 +8,7 @@
     <p>Open up the console to see the results.</p>
     <script>
     (function(){
-    
+
         var indexedDB = window.indexedDB || window.msIndexedDB || window.mozIndexedDB || window.webkitIndexedDB,
             IDBTransaction = window.IDBTransaction || window.webkitIDBTransaction,
             request,
@@ -32,36 +32,36 @@
                     firstName: "Michael",
                     lastName: "Johnson",
                     password: "secret"
-                }               
+                }
             ];
-            
+
         request = indexedDB.open("example");
         request.onerror = function(event){
-            alert("Something bad happened while trying to open: " + event.target.errorCode);
+            console.log("Something bad happened while trying to open: " + event.target.errorCode);
         };
         request.onsuccess = function(event){
             database = event.target.result;
             initializeDatabase();
-        };    
-    
+        };
+
         function initializeDatabase(){
             if (database.version != "1.0"){
                 request = database.setVersion("1.0");
                 request.onerror = function(event){
-                    alert("Something bad happened while trying to set version: " + event.target.errorCode);
+                    console.log("Something bad happened while trying to set version: " + event.target.errorCode);
                 };
                 request.onsuccess = function(event){
                     store = database.createObjectStore("users", { keyPath: "username" });
                     users.forEach(function(user){
                         store.add(user);
-                    });        
+                    });
                     outputValues();
                 };
             } else {
                 outputValues();
             }
         }
-                
+
         function outputValues(){
             var store = database.transaction("users").objectStore("users"),
                 request = store.openCursor();
@@ -80,7 +80,7 @@
                 console.error("Iteration did not succeed.");
             };
         }
-    
+
     })();
 
     </script>

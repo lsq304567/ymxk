@@ -6,7 +6,7 @@
 <body>
     <script type="text/javascript">
         window.onerror = function(message, url, line){
-            alert(message);
+            console.log(message);
             return false;
         };
         throw new Error("Something bad happened.");

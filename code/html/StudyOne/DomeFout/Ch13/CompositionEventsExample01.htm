@@ -12,15 +12,15 @@
         if (document.implementation.hasFeature("CompositionEvent", "3.0")){
             EventUtil.addHandler(textbox, "compositionstart", function(event){
                 event = EventUtil.getEvent(event);
-                alert(event.data);     
+                console.log(event.data);
             });
             EventUtil.addHandler(textbox, "compositionupdate", function(event){
                 event = EventUtil.getEvent(event);
-                alert(event.data);     
+                console.log(event.data);
             });
             EventUtil.addHandler(textbox, "compositionend", function(event){
                 event = EventUtil.getEvent(event);
-                alert(event.data);     
+                console.log(event.data);
             });
         } else {
             document.write("<p>Your browser does not support composition events.</p>");

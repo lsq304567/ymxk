@@ -9,10 +9,10 @@
     <div id="myDiv">DOMContentLoaded example - works only in Opera and Firefox</div>
     <script type="text/javascript">
     EventUtil.addHandler(window, "DOMContentLoaded", function(event){
-        alert("Content loaded.");
+        console.log("Content loaded.");
     });
     EventUtil.addHandler(window, "load", function(event){
-        alert("Window loaded.");
+        console.log("Window loaded.");
     });
     </script>
 </body>

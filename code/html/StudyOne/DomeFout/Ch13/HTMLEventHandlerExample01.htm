@@ -5,11 +5,11 @@
     <title>HTML Event Handler Example</title>
 </head>
 <body>
-    <input type="button" value="Click Me" onclick="alert('Clicked')" />
-    <input type="button" value="Click Me" onclick="alert(&quot;Clicked&quot;)" />
+    <input type="button" value="Click Me" onclick="console.log('Clicked')" />
+    <input type="button" value="Click Me" onclick="console.log(&quot;Clicked&quot;)" />
     <script type="text/javascript">
         function showMessage(){
-            alert("Hello world!");
+            console.log("Hello world!");
         }
     </script>
     <input type="button" value="Click Me" onclick="showMessage()" />

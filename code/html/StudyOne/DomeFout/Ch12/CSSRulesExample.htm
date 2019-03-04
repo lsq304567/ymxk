@@ -10,22 +10,22 @@
         }
     </style>
     <script type="text/javascript">
-    
+
         function getStyleInfo(){
             var sheet = document.styleSheets[0];
             var rules = sheet.cssRules || sheet.rules;
             var rule = rules[0];
-            alert(rule.selectorText);
-            alert(rule.style.cssText);
-            alert(rule.style.backgroundColor);
-            alert(rule.style.width);
-            alert(rule.style.height);
+            console.log(rule.selectorText);
+            console.log(rule.style.cssText);
+            console.log(rule.style.backgroundColor);
+            console.log(rule.style.width);
+            console.log(rule.style.height);
         }
-        
-        function changeStyleInfo(){        
+
+        function changeStyleInfo(){
             var sheet = document.styleSheets[0];
             var rules = sheet.cssRules || sheet.rules;
-            var rule = rules[0];    
+            var rule = rules[0];
 
             rule.style.backgroundColor = "red";
         }
@@ -37,7 +37,7 @@
     <div class="box"></div>
     <input type="button" value="Get Style Info" onclick="getStyleInfo()">
     <input type="button" value="Change Style Info" onclick="changeStyleInfo()">
-    
-    
+
+
 </body>
 </html>

@@ -8,15 +8,15 @@
     <script>
         var person = { name: "Nicholas" };
         Object.freeze(person);
-        
+
         person.age = 29;
-        alert(person.age);      //undefined
-        
+        console.log(person.age);      //undefined
+
         delete person.name;
-        alert(person.name);     //"Nicholas"
-        
+        console.log(person.name);     //"Nicholas"
+
         person.name = "Greg";
-        alert(person.name);     //"Nicholas"
+        console.log(person.name);     //"Nicholas"
     </script>
 </body>
 </html>

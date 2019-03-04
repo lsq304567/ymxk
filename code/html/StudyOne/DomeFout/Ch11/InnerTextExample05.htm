@@ -18,10 +18,10 @@
 
     <script type="text/javascript">
         function getInnerText(element){
-            return (typeof element.textContent == "string") ? 
+            return (typeof element.textContent == "string") ?
                 element.textContent : element.innerText;
         }
-        
+
         function setInnerText(element, text){
             if (typeof element.textContent == "string"){
                 element.textContent = text;
@@ -29,17 +29,17 @@
                 element.innerText = text;
             }
         }
-    
+
         function replaceTextSimple(){
-            var div = document.getElementById("content");            
+            var div = document.getElementById("content");
             setInnerText(div, "Hello world!");
-            alert(getInnerText(div));
+            console.log(getInnerText(div));
         }
 
         function replaceTextComplex(){
-            var div = document.getElementById("content");            
+            var div = document.getElementById("content");
             setInnerText(div, "Hello & welcome, <b>\"reader\"!</b>");
-            alert(getInnerText(div));
+            console.log(getInnerText(div));
         }
 
     </script>

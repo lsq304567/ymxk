@@ -12,12 +12,12 @@
     <p>Note that this example uses XHTML, since CData sections are not supported in HTML.</p>
     <script type="text/javascript">
         function getCDataSection(){
-        
+
             var div = document.getElementById("myDiv");
             var cdata = div.firstChild;
-            alert(cdata.nodeType);
-            alert(cdata.nodeValue);
-            
+            console.log(cdata.nodeType);
+            console.log(cdata.nodeValue);
+
         }
 
     </script>

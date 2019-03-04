@@ -22,30 +22,30 @@
                 throw new Error("Local storage not available.");
             }
         }
-        
+
         EventUtil.addHandler(window, "load", function(){
-            
+
             var dataStore = getLocalStorage();
             document.getElementById("name-value").innerHTML = dataStore.getItem("name");
             document.getElementById("book-value").innerHTML = dataStore.getItem("book");
-        
+
             EventUtil.addHandler(document.getElementById("delete-btn"), "click", function(){
                 //these don't work in webkit
                 //delete dataStore.name;
                 //delete dataStore.book;
                 dataStore.removeItem("name");
-                dataStore.removeItem("book");     
+                dataStore.removeItem("book");
             });
-            
+
             EventUtil.addHandler(document.getElementById("see-btn"), "click", function(){
                 var i, key, value;
                 for (var i=0, len = dataStore.length; i < len; i++){
                     key = dataStore.key(i);
                     value = dataStore.getItem(key);
-                    alert(key + "=" + value);
-                }            
+                    console.log(key + "=" + value);
+                }
             });
-            
+
             //set some data
             dataStore.setItem("name", "Nicholas");
             dataStore.setItem("book", "Professional JavaScript");

@@ -13,29 +13,29 @@
     <p>This example requires Internet Explorer 8, Firefox 2, Safari 4, Chrome 4, or Opera 10.5 to work.<br />
        This example must be run from a server; it won't work when run locally.</p>
     <script type="text/javascript">
-        
+
         EventUtil.addHandler(window, "load", function(){
-            
+
             document.getElementById("name-value").innerHTML = localStorage.getItem("name");
             document.getElementById("book-value").innerHTML = localStorage.getItem("book");
-        
+
             EventUtil.addHandler(document.getElementById("delete-btn"), "click", function(){
                 //these don't work in webkit
                 //delete localStorage.name;
                 //delete localStorage.book;
                 localStorage.removeItem("name");
-                localStorage.removeItem("book");     
+                localStorage.removeItem("book");
             });
-            
+
             EventUtil.addHandler(document.getElementById("see-btn"), "click", function(){
                 var i, key, value;
                 for (i=0, len = localStorage.length; i < len; i++){
                     key = localStorage.key(i);
                     value = localStorage.getItem(key);
-                    alert(key + "=" + value);
-                }            
+                    console.log(key + "=" + value);
+                }
             });
-            
+
             //set some data
             localStorage.setItem("name", "Nicholas");
             localStorage.setItem("book", "Professional JavaScript");

@@ -10,9 +10,9 @@
     <script type="text/javascript">
         EventUtil.addHandler(window, "scroll", function(event){
             if (document.compatMode == "CSS1Compat"){
-                alert(document.documentElement.scrollTop);
+                console.log(document.documentElement.scrollTop);
             } else {
-                alert(document.body.scrollTop);
+                console.log(document.body.scrollTop);
             }
         });
     </script>

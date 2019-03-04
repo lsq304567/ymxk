@@ -6,15 +6,15 @@
             function useRanges() {
                 var range = document.body.createTextRange(),
                     p1 = document.getElementById("p1");
-                    
+
                 range.moveToElementText(p1);
-                alert(range.htmlText);
+                console.log(range.htmlText);
             }
         </script>
     </head>
     <body><p id="p1"><b>Hello</b> world!</p>
-        <input type="button" value="Use Ranges" onclick="useRanges()" />   
+        <input type="button" value="Use Ranges" onclick="useRanges()" />
         <p><strong>Note:</strong> This example uses Internet Explorer ranges and will only work on Internet Explorer.</p>
-     
+
     </body>
 </html>

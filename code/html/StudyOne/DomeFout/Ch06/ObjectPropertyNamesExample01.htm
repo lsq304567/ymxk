@@ -3,20 +3,20 @@
 <head>
     <title>Object.getOwnPropertyNames() Example</title>
     <script type="text/javascript">
-    
+
         function Person(){
         }
-        
+
         Person.prototype.name = "Nicholas";
         Person.prototype.age = 29;
         Person.prototype.job = "Software Engineer";
         Person.prototype.sayName = function(){
-            alert(this.name);
+            console.log(this.name);
         };
-        
+
         var keys = Object.getOwnPropertyNames(Person.prototype);
-        alert(keys);   //"constructor,name,age,job,sayName"
-        
+        console.log(keys);   //"constructor,name,age,job,sayName"
+
     </script>
 </head>
 <body>

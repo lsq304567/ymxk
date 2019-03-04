@@ -10,12 +10,12 @@
     <script type="text/javascript">
         var handler = {
             message: "Event handled",
-        
+
             handleClick: function(event){
-                alert(this.message + ":" + event.type);
+                console.log(this.message + ":" + event.type);
             }
         };
-        
+
         var btn = document.getElementById("my-btn");
         EventUtil.addHandler(btn, "click", handler.handleClick.bind(handler));
 

@@ -9,7 +9,7 @@
     <p>Select a file below.</p>
     <input type="file" id="files-list">
     <script>
-    
+
         function blobSlice(blob, startByte, length){
             if (blob.slice){
                 return blob.slice(startByte, length);
@@ -21,9 +21,9 @@
                 return null;
             }
         }
-    
+
         window.onload = function(){
-            
+
             var filesList = document.getElementById("files-list");
             EventUtil.addHandler(filesList, "change", function(event){
                 var info = "",
@@ -35,7 +35,7 @@
 
                 if (blob){
                     reader.readAsText(blob);
-                    
+
                     reader.onerror = function(){
                         output.innerHTML = "Could not read file, error code is " + reader.error.code;
                     };
@@ -44,11 +44,11 @@
                         output.innerHTML = reader.result;
                     };
                 } else {
-                    alert("Your browser doesn't support slice().");
+                    console.log("Your browser doesn't support slice().");
                 }
             });
         };
-        
+
     </script>
     <pre id="output"></pre>
 </body>

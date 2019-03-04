@@ -6,7 +6,7 @@
 <body>
     <p>This example only works in Firefox 1.5+.</p>
     <script type="text/javascript;e4x=1">
-    
+
         var employees = <employees/>;
         employees.employee.name = "Nicholas C. Zakas";
         employees.employee.@position = "Software Engineer";
@@ -14,8 +14,8 @@
         employees.employee +=   <employee position="Salesperson">
                                     <name>Jim Smith</name>
                                 </employee>;
-        
-        alert(employees.toXMLString());
+
+        console.log(employees.toXMLString());
 
     </script>
 </body>

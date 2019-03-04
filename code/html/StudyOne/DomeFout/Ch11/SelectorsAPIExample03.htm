@@ -6,7 +6,7 @@
 <body class="page1">
 
     <script type="text/javascript">
-    
+
         function matchesSelector(element, selector){
             if (element.matchesSelector){
                 return element.matchesSelector(selector);
@@ -20,9 +20,9 @@
                 throw new Error("Not supported.");
             }
         }
-        
+
         if (matchesSelector(document.body, "body.page1")){
-            alert("It's page 1!");
+            console.log("It's page 1!");
         }
 
 

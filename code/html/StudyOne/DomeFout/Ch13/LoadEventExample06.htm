@@ -9,9 +9,9 @@
         EventUtil.addHandler(window, "load", function(){
             var image = new Image();
             EventUtil.addHandler(image, "load", function(event){
-                alert("Image loaded!");
+                console.log("Image loaded!");
             });
-            image.src = "smile.gif";            
+            image.src = "smile.gif";
         });
     </script>
 </body>

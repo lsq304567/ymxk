@@ -3,16 +3,16 @@
 <head>
     <title>With Statement Example 1</title>
     <script type="text/javascript">
-    
+
         with(location){
             var qs = search.substring(1);
             var hostName = hostname;      //unavailable when viewing from a local file
             var url = href;
         }
 
-        alert(qs);
-        alert(hostName);
-        alert(url);
+        console.log(qs);
+        console.log(hostName);
+        console.log(url);
 
 
 

@@ -15,15 +15,15 @@
                 return fn.apply(context, finalArgs);
             };
         }
-    
+
         var handler = {
             message: "Event handled",
-        
+
             handleClick: function(name, event){
-                alert(this.message + ":" + name + ":" + event.type);
+                console.log(this.message + ":" + name + ":" + event.type);
             }
         };
-        
+
         var btn = document.getElementById("my-btn");
         EventUtil.addHandler(btn, "click", bind(handler.handleClick, handler, "my-btn"));
 

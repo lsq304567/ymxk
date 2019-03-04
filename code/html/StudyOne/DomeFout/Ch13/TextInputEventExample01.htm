@@ -11,7 +11,7 @@
         var textbox = document.getElementById("myText");
         EventUtil.addHandler(textbox, "textInput", function(event){
             event = EventUtil.getEvent(event);
-            alert(event.data);     
+            console.log(event.data);
         });
     </script>
 </body>

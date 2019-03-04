@@ -3,24 +3,24 @@
 <head>
     <title>Execution Context Example 3</title>
     <script type="text/javascript">
-          
+
         function buildUrl() {
             var qs = "?debug=true";
-        
+
             with(location){
-                var url = href + qs;        
+                var url = href + qs;
             }
-        
+
             return url;
         }
 
         var result = buildUrl();
-        alert(result);
-      
+        console.log(result);
+
     </script>
 
 </head>
 <body>
-  
+
 </body>
 </html>

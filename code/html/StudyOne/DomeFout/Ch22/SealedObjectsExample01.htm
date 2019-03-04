@@ -8,12 +8,12 @@
     <script>
         var person = { name: "Nicholas" };
         Object.seal(person);
-        
+
         person.age = 29;
-        alert(person.age);      //undefined
-        
+        console.log(person.age);      //undefined
+
         delete person.name;
-        alert(person.name);     //"Nicholas"
+        console.log(person.name);     //"Nicholas"
     </script>
 </body>
 </html>

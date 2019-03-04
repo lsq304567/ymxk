@@ -6,12 +6,12 @@
 <body>
     <p>This example should work in all browsers.</p>
     <script type="text/javascript">
-    
+
         function createDocument(){
             if (typeof arguments.callee.activeXString != "string"){
                 var versions = ["MSXML2.DOMDocument.6.0", "MSXML2.DOMDocument.3.0",
                                 "MSXML2.DOMDocument"];
-        
+
                 for (var i=0,len=versions.length; i < len; i++){
                     try {
                         var xmldom = new ActiveXObject(versions[i]);
@@ -22,19 +22,19 @@
                     }
                 }
             }
-        
+
             return new ActiveXObject(arguments.callee.activeXString);
         }
-    
+
         function parseXml(xml){
             var xmldom = null;
-            
+
             if (typeof DOMParser != "undefined"){
                 xmldom = (new DOMParser()).parseFromString(xml, "text/xml");
                 var errors = xmldom.getElementsByTagName("parsererror");
                 if (errors.length){
                     throw new Error("XML parsing error:" + errors[0].textContent);
-                }        
+                }
             } else if (typeof ActiveXObject != "undefined"){
                 xmldom = createDocument();
                 xmldom.loadXML(xml);
@@ -44,30 +44,30 @@
             } else {
                 throw new Error("No XML parser available.");
             }
-            
+
             return xmldom;
         }
-    
+
         var xmldom = null;
         try {
             xmldom = parseXml("<root><child/></root>");
         } catch (ex){
-            alert(ex.message);
+            console.log(ex.message);
         }
-        
-        alert(xmldom.documentElement.tagName);  //"root"
-        alert(xmldom.documentElement.firstChild.tagName); //"child"
-        
+
+        console.log(xmldom.documentElement.tagName);  //"root"
+        console.log(xmldom.documentElement.firstChild.tagName); //"child"
+
         var anotherChild = xmldom.createElement("child");
         xmldom.documentElement.appendChild(anotherChild);
-        
+
         var children = xmldom.getElementsByTagName("child");
-        alert(children.length);   //2        
+        console.log(children.length);   //2
 
         try {
             xmldom = parseXml("<root>");
         } catch (ex){
-            alert("Parsing error: " + ex.message);
+            console.log("Parsing error: " + ex.message);
         }
 
 

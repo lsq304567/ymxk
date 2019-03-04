@@ -11,14 +11,14 @@
             } else {
                 url += "&";
             }
-            
+
             url += encodeURIComponent(name) + "=" + encodeURIComponent(value);
             return url;
         }
 
         var url = "http://www.somedomain.com";
         var newUrl = addQueryStringArg(url, "redir", "http://www.someotherdomain.com?a=b&c=d");
-        alert(newUrl);
+        console.log(newUrl);
     </script>
 </body>
 </html>

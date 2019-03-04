@@ -8,15 +8,15 @@
     <script type="text/javascript">
         var btn = document.getElementById("myBtn");
         btn.onclick = function(event){
-            alert(event.eventPhase);   //2
+            console.log(event.eventPhase);   //2
         };
-        
+
         document.body.addEventListener("click", function(event){
-            alert(event.eventPhase);   //1
+            console.log(event.eventPhase);   //1
         }, true);
-        
+
         document.body.onclick = function(event){
-            alert(event.eventPhase);   //3
+            console.log(event.eventPhase);   //3
         };
 
     </script>

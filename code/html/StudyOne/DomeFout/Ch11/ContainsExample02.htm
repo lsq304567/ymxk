@@ -9,9 +9,9 @@
     <input type="button" value="Does html contain body?" onclick="getContains()">
 
     <script type="text/javascript">
-    
+
         function contains(refNode, otherNode){
-            if (typeof refNode.contains == "function" && 
+            if (typeof refNode.contains == "function" &&
                     (!client.engine.webkit || client.engine.webkit >= 522)){
                 return refNode.contains(otherNode);
             } else if (typeof refNode.compareDocumentPosition == "function"){
@@ -28,10 +28,10 @@
                 return false;
             }
         }
-    
+
         function getContains(){
-            alert(contains(document.documentElement, document.body));
-            
+            console.log(contains(document.documentElement, document.body));
+
         }
 
     </script>

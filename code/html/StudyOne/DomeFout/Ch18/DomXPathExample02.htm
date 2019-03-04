@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>DOM XPath Example</title>      
+        <title>DOM XPath Example</title>
     </head>
     <body>
         <p>This example gets all nodes matching the expression <code>employee/name</code>.</p>
@@ -12,17 +12,17 @@
 
             var message = "There are " + result.snapshotLength + " matching nodes.\n";
             var count = 0;
-                       
+
             if (result != null){
-                for (var i=0; i < result.snapshotLength; i++) {                       
+                for (var i=0; i < result.snapshotLength; i++) {
                     message += serializer.serializeToString(result.snapshotItem(i)) + "\n";
                 }
             }
-                       
-            alert(message);
-            
+
+            console.log(message);
+
         </script>
- 
- 
+
+
     </body>
 </html>

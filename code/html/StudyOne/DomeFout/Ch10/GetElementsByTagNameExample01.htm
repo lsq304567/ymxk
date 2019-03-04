@@ -8,12 +8,12 @@
     <div class="hd">
         <h1>Document header</h1>
     </div>
-    
+
     <!-- document body -->
     <div class="bd">
-        <p>The body of the document.</p>    
+        <p>The body of the document.</p>
     </div>
-    
+
     <!-- document footer -->
     <div class="ft">
         <p>Document footer</p>
@@ -22,10 +22,10 @@
     <script type="text/javascript">
         function getAllElements(){
             var elements = document.getElementsByTagName("*"); //12 in most browsers, 15 in IE because it includes comments
-            alert(elements.length);
-            alert(elements[4].outerHTML);
+            console.log(elements.length);
+            console.log(elements[4].outerHTML);
         }
-    
+
     </script>
 </body>
 </html>

@@ -13,29 +13,29 @@
     <p>This example requires Firefox 2+ to work.<br />
        This example must be run from a server; it won't work when run locally.</p>
     <script type="text/javascript">
-        
+
         EventUtil.addHandler(window, "load", function(){
-            
+
             var dataStore = globalStorage[location.host];
             document.getElementById("name-value").innerHTML = dataStore.getItem("name");
             document.getElementById("book-value").innerHTML = dataStore.getItem("book");
-        
+
             EventUtil.addHandler(document.getElementById("delete-btn"), "click", function(){
                 //these don't work in webkit
                 //delete dataStore.name;
                 //delete dataStore.book;
                 dataStore.removeItem("name");
-                dataStore.removeItem("book");     
+                dataStore.removeItem("book");
             });
-            
+
             EventUtil.addHandler(document.getElementById("see-btn"), "click", function(){
                 for (var i=0, len = dataStore.length; i < len; i++){
                     var key = dataStore.key(i);
                     var value = dataStore.getItem(key);
-                    alert(key + "=" + value);
-                }            
+                    console.log(key + "=" + value);
+                }
             });
-            
+
             //set some data
             dataStore.setItem("name",  "Nicholas");
             dataStore.setItem("book", "Professional JavaScript");

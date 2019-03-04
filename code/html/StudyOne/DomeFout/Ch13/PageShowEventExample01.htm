@@ -10,14 +10,14 @@
     (function(){
         var showCount = 0;
         EventUtil.addHandler(window, "load", function(){
-            alert("Load fired");            
+            console.log("Load fired");
         });
         EventUtil.addHandler(window, "pageshow", function(event){
             showCount++;
-            alert("Show has been fired " + showCount + " times. Persisted? " + event.persisted);            
+            console.log("Show has been fired " + showCount + " times. Persisted? " + event.persisted);
         });
         EventUtil.addHandler(window, "pagehide", function(event){
-            alert("Hiding. Persisted? " + event.persisted);            
+            console.log("Hiding. Persisted? " + event.persisted);
         });
     })();
     </script>

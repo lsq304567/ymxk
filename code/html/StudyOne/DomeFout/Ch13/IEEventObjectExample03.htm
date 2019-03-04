@@ -10,12 +10,12 @@
     <script type="text/javascript">
         var btn = document.getElementById("myBtn");
         btn.onclick = function(){
-            alert("Clicked");
+            console.log("Clicked");
             window.event.cancelBubble = true;
         };
-        
+
         document.body.onclick = function(event){
-            alert("Body clicked");
+            console.log("Body clicked");
         };
     </script>
 </body>

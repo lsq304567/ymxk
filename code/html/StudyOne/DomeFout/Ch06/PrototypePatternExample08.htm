@@ -3,27 +3,27 @@
 <head>
     <title>Prototype Pattern Example</title>
     <script type="text/javascript">
-            
+
         function Person(){
         }
-        
+
         Person.prototype = {
             constructor : Person,
             name : "Nicholas",
             age : 29,
             job: "Software Engineer",
             sayName : function () {
-                alert(this.name);
+                console.log(this.name);
             }
         };
 
         var friend = new Person();
-        
-        alert(friend instanceof Object);  //true
-        alert(friend instanceof Person);  //true
-        alert(friend.constructor == Person);  //true
-        alert(friend.constructor == Object);  //false
-        
+
+        console.log(friend instanceof Object);  //true
+        console.log(friend instanceof Person);  //true
+        console.log(friend.constructor == Person);  //true
+        console.log(friend.constructor == Object);  //false
+
     </script>
 </head>
 <body>

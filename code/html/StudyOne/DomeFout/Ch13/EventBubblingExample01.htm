@@ -3,34 +3,34 @@
 <head>
     <title>Event Bubbling Example</title>
     <script type="text/javascript">
-    
+
         window.onload = function(){
             window.onclick = function(){
-                alert("Window");
+                console.log("Window");
             };
-            
+
             document.onclick = function(){
-                alert("Document");
+                console.log("Document");
             };
-            
+
             document.documentElement.onclick = function(){
-                alert("Html");
+                console.log("Html");
             };
-            
+
             document.body.onclick = function(){
-                alert("Body");
+                console.log("Body");
             };
             document.getElementById("myDiv").onclick = function(){
-                alert("Div");
+                console.log("Div");
             };
         }
-    
+
 
     </script>
 </head>
 <body>
     <div id="myDiv">Click Me</div>
 
-    
+
 </body>
 </html>

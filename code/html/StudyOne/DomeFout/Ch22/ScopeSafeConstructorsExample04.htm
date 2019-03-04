@@ -15,7 +15,7 @@
                 return new Polygon(sides);
             }
         }
-        
+
         function Rectangle(width, height){
             Polygon.call(this, 2);
             this.width = width;
@@ -24,11 +24,11 @@
                 return this.width * this.height;
             };
         }
-        
+
         Rectangle.prototype = new Polygon();
-        
+
         var rect = new Rectangle(5, 10);
-        alert(rect.sides);   //2
+        console.log(rect.sides);   //2
 
 
 

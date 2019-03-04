@@ -9,13 +9,13 @@
     <script type="text/javascript">
         var btn = document.getElementById("myBtn");
         btn.onclick = function(){
-            alert(window.event.srcElement === this);      //true
+            console.log(window.event.srcElement === this);      //true
         };
-        
+
         btn.attachEvent("onclick", function(event){
-            alert(event.srcElement === this);             //false
+            console.log(event.srcElement === this);             //false
         });
-      
+
     </script>
 </body>
 </html>

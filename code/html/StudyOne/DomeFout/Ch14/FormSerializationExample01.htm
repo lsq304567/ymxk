@@ -5,7 +5,7 @@
     <script type="text/javascript" src="EventUtil.js"></script>
 </head>
 <body>
-    <form method="post" action="javascript:alert('Form submitted!')" id="myForm">
+    <form method="post" action="javascript:console.log('Form submitted!')" id="myForm">
         <ul>
             <li><input type="radio" name="color" value="red">Red</li>
             <li><input type="radio" name="color" value="green">Green</li>
@@ -39,9 +39,9 @@
             <textarea rows="10" cols="50" id="comments" name="comments"></textarea>
         </div>
         <input type="button" value="Serialize Form" id="serialize-btn">
-    </form>     
+    </form>
     <script type="text/javascript">
-        function serialize(form){        
+        function serialize(form){
             var parts = [],
                 field = null,
                 i,
@@ -50,14 +50,14 @@
                 optLen,
                 option,
                 optValue;
-            
+
             for (i=0, len=form.elements.length; i < len; i++){
                 field = form.elements[i];
-            
+
                 switch(field.type){
                     case "select-one":
                     case "select-multiple":
-                    
+
                         if (field.name.length){
                             for (j=0, optLen = field.options.length; j < optLen; j++){
                                 option = field.options[j];
@@ -73,35 +73,35 @@
                             }
                         }
                         break;
-                        
+
                     case undefined:     //fieldset
                     case "file":        //file input
                     case "submit":      //submit button
                     case "reset":       //reset button
                     case "button":      //custom button
                         break;
-                        
+
                     case "radio":       //radio button
                     case "checkbox":    //checkbox
                         if (!field.checked){
                             break;
                         }
                         /* falls through */
-                                    
+
                     default:
                         //don't include form fields without names
                         if (field.name.length){
                             parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(field.value));
                         }
                 }
-            }        
+            }
             return parts.join("&");
         }
-        
+
         var btn = document.getElementById("serialize-btn");
         EventUtil.addHandler(btn, "click", function(event){
             var form = document.forms[0];
-            alert(serialize(form));
+            console.log(serialize(form));
         });
 
     </script>

@@ -6,12 +6,12 @@
 </head>
 <body>
     <p>Select some text in the textbox.</p>
-    <form method="post" action="javascript:alert('Form submitted!')" id="myForm">        
+    <form method="post" action="javascript:console.log('Form submitted!')" id="myForm">
         <div>
             <label for="comments">Type a phone number:</label><br>
             <input type="text" id="txtPhone" name="phone" value="">
         </div>
-    </form>     
+    </form>
     <script type="text/javascript">
         (function(){
 
@@ -20,15 +20,15 @@
                 event = EventUtil.getEvent(event);
                 var target = EventUtil.getTarget(event);
                 var charCode = EventUtil.getCharCode(event);
-                
+
                 if (!/\d/.test(String.fromCharCode(charCode)) && charCode > 9 && !event.ctrlKey){
                     EventUtil.preventDefault(event);
                 }
-                
+
             });
-            
+
         })();
-    
+
     </script>
 </body>
 </html>

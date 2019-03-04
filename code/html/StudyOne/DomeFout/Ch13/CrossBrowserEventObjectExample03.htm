@@ -9,13 +9,13 @@
     <script type="text/javascript">
         var btn = document.getElementById("myBtn");
         btn.onclick = function(event){
-            alert("Clicked");
+            console.log("Clicked");
             event = EventUtil.getEvent(event);
             EventUtil.stopPropagation(event);
         };
-        
+
         document.body.onclick = function(event){
-            alert("Body clicked");
+            console.log("Body clicked");
         };
     </script>
 </body>

@@ -3,30 +3,30 @@
 <head>
     <title>Hybrid Factory Pattern Example 2</title>
     <script type="text/javascript">
-                    
-        function SpecialArray(){       
- 
+
+        function SpecialArray(){
+
             //create the array
             var values = new Array();
-            
+
             //add the values
             values.push.apply(values, arguments);
-            
+
             //assign the method
             values.toPipedString = function(){
                 return this.join("|");
             };
-            
+
             //return it
-            return values;        
+            return values;
         }
-        
+
         var colors = new SpecialArray("red", "blue", "green");
-        alert(colors.toPipedString()); //"red|blue|green"
+        console.log(colors.toPipedString()); //"red|blue|green"
 
-        alert(colors instanceof SpecialArray);
+        console.log(colors instanceof SpecialArray);
 
-        
+
     </script>
 </head>
 <body>

@@ -5,29 +5,29 @@
 </head>
 <body>
     <div id="myDiv" style="background-color: blue; width: 10px; height: 25px"></div>
-    <input type="button" value="Get Styles" onclick="getStyles()" />      
-    <input type="button" value="Change Styles" onclick="changeStyles()" />    
- 
+    <input type="button" value="Get Styles" onclick="getStyles()" />
+    <input type="button" value="Change Styles" onclick="changeStyles()" />
+
     <script type="text/javascript">
         function changeStyles(){
             var myDiv = document.getElementById("myDiv");
-            
+
             //set the background color
             myDiv.style.backgroundColor = "red";
-            
+
             //change the dimensions
             myDiv.style.width = "100px";
             myDiv.style.height = "200px";
-            
+
             //assign a border
             myDiv.style.border = "1px solid black";
         }
-        
+
         function getStyles(){
             var myDiv = document.getElementById("myDiv");
-            alert(myDiv.style.backgroundColor);
-            alert(myDiv.style.width);
-            alert(myDiv.style.height);
+            console.log(myDiv.style.backgroundColor);
+            console.log(myDiv.style.width);
+            console.log(myDiv.style.height);
         }
 
     </script>

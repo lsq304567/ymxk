@@ -9,23 +9,23 @@
     <input type="button" value="Send keypress to the textbox" id="myBtn" />
     <p>This example works only in Firefox.</p>
     <script type="text/javascript">
-    
+
     (function(){
         var btn = document.getElementById("myBtn");
         var textbox = document.getElementById("myTextbox")
-        
+
         EventUtil.addHandler(btn, "keypress", function(event){
-            alert(event.charCode);
+            console.log(event.charCode);
         });
 
         EventUtil.addHandler(btn, "click", function(event){
             //create event object
             var event = document.createEvent("KeyEvents");
-            
+
             //initialize the event object
-            event.initKeyEvent("keydown", true, true, document.defaultView, false, false, 
+            event.initKeyEvent("keydown", true, true, document.defaultView, false, false,
                                true, false, 65, 65);
-            
+
             //fire the event
             textbox.dispatchEvent(event);
 

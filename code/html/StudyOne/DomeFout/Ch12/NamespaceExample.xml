@@ -5,19 +5,19 @@
             function getElementInfo(){
                 var html = document.documentElement;
                 var svg = document.getElementsByTagNameNS("http://www.w3.org/2000/svg", "svg")[0];
-                
-                alert(html.namespaceURI);
-                alert(html.prefix);
-                alert(html.localName);
-                alert(html.tagName);
-                
-                alert(svg.namespaceURI);
-                alert(svg.prefix);
-                alert(svg.localName);
-                alert(svg.tagName);
+
+                console.log(html.namespaceURI);
+                console.log(html.prefix);
+                console.log(html.localName);
+                console.log(html.tagName);
+
+                console.log(svg.namespaceURI);
+                console.log(svg.prefix);
+                console.log(svg.localName);
+                console.log(svg.tagName);
 
             }
-        
+
         ]]></script>
     </head>
     <body>

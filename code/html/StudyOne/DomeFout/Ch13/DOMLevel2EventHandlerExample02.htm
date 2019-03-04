@@ -9,15 +9,15 @@
     <script type="text/javascript">
         var btn = document.getElementById("myBtn");
         var handler = function(){
-            alert(this.id);
+            console.log(this.id);
         };
-        btn.addEventListener("click", handler, false); 
-        
+        btn.addEventListener("click", handler, false);
+
         var removeBtn = document.getElementById("myRemoveBtn");
         removeBtn.onclick = function(){
             btn.removeEventListener("click", handler, false);  //works!
         };
-        
+
     </script>
 </body>
 </html>

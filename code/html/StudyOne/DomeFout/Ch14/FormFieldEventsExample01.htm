@@ -6,28 +6,28 @@
 </head>
 <body>
     <p>The textbox will receive focus as soon as the page loads. You can then start typing.</p>
-    <form method="post" action="javascript:alert('Form submitted!')" id="myForm">        
+    <form method="post" action="javascript:console.log('Form submitted!')" id="myForm">
         <div>
             <label for="comments">Type numbers:</label><br />
             <input type="text" id="txtNumbers" name="numbers" />
         </div>
         <input type="submit" value="Submit Form" id="submit-btn" />
-    </form>     
+    </form>
     <script type="text/javascript">
         EventUtil.addHandler(window, "load", function(event){
             var textbox = document.forms[0].elements[0];
-            
+
             EventUtil.addHandler(textbox, "focus", function(event){
                 event = EventUtil.getEvent(event);
                 var target = EventUtil.getTarget(event);
-                
+
                 target.style.backgroundColor = "yellow";
             });
 
             EventUtil.addHandler(textbox, "blur", function(event){
                 event = EventUtil.getEvent(event);
                 var target = EventUtil.getTarget(event);
-                
+
                 if (/[^\d]/.test(target.value)){
                     target.style.backgroundColor = "red";
                 } else {
@@ -38,7 +38,7 @@
             EventUtil.addHandler(textbox, "change", function(event){
                 event = EventUtil.getEvent(event);
                 var target = EventUtil.getTarget(event);
-                
+
                 if (/[^\d]/.test(target.value)){
                     target.style.backgroundColor = "red";
                 } else {
@@ -47,9 +47,9 @@
             });
 
             textbox.focus();
-        });               
+        });
 
-    
+
     </script>
 </body>
 </html>

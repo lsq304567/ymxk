@@ -12,7 +12,7 @@
             document.body.appendChild(document.createTextNode("Hello world!"));
         });
         EventUtil.addHandler(document, "DOMSubtreeModified", function(event){
-            alert(event.type);
+            console.log(event.type);
         });
     </script>
 </body>

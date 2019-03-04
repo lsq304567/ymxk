@@ -11,12 +11,12 @@
 
         EventUtil.addHandler(document, "readystatechange", function(event){
             if (document.readyState == "interactive" || document.readyState == "complete"){
-                EventUtil.removeHandler(document, "readystatechange", arguments.callee); 
-                alert("Content loaded");                      
+                EventUtil.removeHandler(document, "readystatechange", arguments.callee);
+                console.log("Content loaded");
             }
         });
         EventUtil.addHandler(window, "load", function(event){
-            alert("Window loaded");
+            console.log("Window loaded");
         });
 
     </script>

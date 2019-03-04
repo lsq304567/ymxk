@@ -6,12 +6,12 @@
 <body>
     <p>This example will not work in Internet Explorer prior to 9.</p>
     <script type="text/javascript">
-    
-    
+
+
         var parser = new DOMParser(),
-            xmldom, 
+            xmldom,
             errors;
-            
+
         try {
             xmldom = parser.parseFromString("<root>", "text/xml");
             errors = xmldom.getElementsByTagName("parsererror");
@@ -19,7 +19,7 @@
                 throw new Error("XML Parsing Error:" + (new XMLSerializer()).serializeToString(xmldom, "text/xml"));
             }
         } catch (ex) {
-            alert(ex.message);
+            console.log(ex.message);
         }
 
 
