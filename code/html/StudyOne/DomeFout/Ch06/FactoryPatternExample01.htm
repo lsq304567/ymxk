@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Factory Pattern Example</title>
-    <script type="text/javascript">
+  <title>工厂模式</title>
+  <script type="text/javascript">
+    function createPerson(name, age, job) {
+      var o = new Object();
+      o.name = name;
+      o.age = age;
+      o.job = job;
+      o.sayName = function () {
+        console.log(this.name);
+      };
+      return o;
+    }
+    var person1 = createPerson("Nicholas", 29, "Software Engineer");
+    var person2 = createPerson("Greg", 27, "Doctor");
+    person1.sayName(); //"Nicholas"
+    person2.sayName(); //"Greg"
 
-        function createPerson(name, age, job){
-            var o = new Object();
-            o.name = name;
-            o.age = age;
-            o.job = job;
-            o.sayName = function(){
-                console.log(this.name);
-            };
-            return o;
-        }
-
-        var person1 = createPerson("Nicholas", 29, "Software Engineer");
-        var person2 = createPerson("Greg", 27, "Doctor");
-
-        person1.sayName();   //"Nicholas"
-        person2.sayName();   //"Greg"
-    </script>
+    //构造函数模式替代工厂模式
+    function Person(name, age, job) {
+      this.name = name;
+      this.age = age;
+      this.job = job;
+      this.sayName = function () {
+        alert(this.name);
+      };
+    }
+    var person3=new Person("没有锅",24,"码畜");
+    Person("Greg", 27, "Doctor"); // 作为普通函数调用
+添加到 window
+  </script>
 </head>
+
 <body>
 
 </body>
+
 </html>

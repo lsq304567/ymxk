@@ -6,7 +6,7 @@
 
         var person = {};
         Object.defineProperty(person, "name", {
-            configurable: false,
+            configurable: false,//禁止通过delete删除属性及重新定义属性
             value: "Nicholas"
         });
 

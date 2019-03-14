@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Constructor Pattern Example 2</title>
-    <script type="text/javascript">
+  <title>作用域 2</title>
+  <script type="text/javascript">
+    function Person(name, age, job) {
+      this.name = name;
+      this.age = age;
+      this.job = job;
+      this.sayName = function () {
+        console.log(this.name);
+      };
+    }
 
-        function Person(name, age, job){
-            this.name = name;
-            this.age = age;
-            this.job = job;
-            this.sayName = function(){
-                console.log(this.name);
-            };
-        }
+    var person = new Person("Nicholas", 29, "Software Engineer");
+    console.table(person);
+    person.sayName(); //"Nicholas"
 
-        var person = new Person("Nicholas", 29, "Software Engineer");
-        console.table(person);
-        person.sayName();   //"Nicholas"
+    Person("Greg", 27, "Doctor"); //adds to window
+    window.sayName(); //"Greg"
 
-        Person("Greg", 27, "Doctor");  //adds to window
-        console.table(person);
-        window.sayName();   //"Greg"
-
-        var o = new Object();
-        Person.call(o, "Kristen", 25, "Nurse");
-        o.sayName();    //"Kristen"
-
-    </script>
+    var o = new Object();
+    //创建对象时执行构造函数
+    Person.call(o, "Kristen", 25, "Nurse");
+    o.sayName(); //"Kristen"
+  </script>
 </head>
+
 <body>
 
 </body>
+
 </html>

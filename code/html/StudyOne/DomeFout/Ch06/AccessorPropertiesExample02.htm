@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Accessor Properties Example</title>
+    <title>访问器属性</title>
     <script type="text/javascript">
 
         var book = {
@@ -21,9 +21,11 @@
             }
         });
 
-
+        console.log(book._year);
         book.year = 2005;
         console.log(book.edition);   //2
+        console.log(book._year);
+        console.log(book.year);
 
     </script>
 </head>

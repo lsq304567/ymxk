@@ -6,10 +6,11 @@
 
         var person = {};
         Object.defineProperty(person, "name", {
-            writable: false,
+            writable: false,//禁止写入
             value: "Nicholas"
         });
-
+        console.log(typeof person);
+        console.log(person instanceof Array);
         console.log(person.name);
         person.name = "Michael";
         console.log(person.name);
