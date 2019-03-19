@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Get Property Descriptor Example</title>
-    <script type="text/javascript">
+  <title>Get Property Descriptor Example</title>
+  <script type="text/javascript">
+    var book = {};
 
-        var book = {};
+    Object.defineProperties(book, {
+      _year: {
+        value: 2004
+      },
 
-        Object.defineProperties(book, {
-            _year: {
-                value: 2004
-            },
+      edition: {
+        value: 1
+      },
 
-            edition: {
-                value: 1
-            },
+      year: {
+        get: function () {
+          return this._year;
+        },
 
-            year: {
-                get: function(){
-                    return this._year;
-                },
+        set: function (newValue) {
+          if (newValue > 2004) {
+            this._year = newValue;
+            this.edition += newValue - 2004;
+          }
+        }
+      }
+    });
 
-                set: function(newValue){
-                    if (newValue > 2004) {
-                        this._year = newValue;
-                        this.edition += newValue - 2004;
-                    }
-                }
-            }
-        });
+    var descriptor = Object.getOwnPropertyDescriptor(book, "_year");
+    console.log(descriptor.value); //2004
+    console.log(descriptor.configurable); //false
+    console.log(typeof descriptor.get); //"undefined"
 
-        var descriptor = Object.getOwnPropertyDescriptor(book, "_year");
-        console.log(descriptor.value);          //2004
-        console.log(descriptor.configurable);   //false
-        console.log(typeof descriptor.get);     //"undefined"
-
-        var descriptor = Object.getOwnPropertyDescriptor(book, "year");
-        console.log(descriptor.value);          //undefined
-        console.log(descriptor.enumerable);     //false
-        console.log(typeof descriptor.get);     //"function"
-
-
-    </script>
+    var descriptor = Object.getOwnPropertyDescriptor(book, "year");
+    console.log(descriptor.value); //undefined
+    console.log(descriptor.enumerable); //false
+    console.log(typeof descriptor.get); //"function"
+  </script>
 </head>
+
 <body>
-    <p>Note: this example only works in browsers t.xt� ���|�hE�\�[»^e ECMAS�ipt 5 <c^LLD��a�#�q��	�7:7����lB�P
-#U4�ʟ9�ٿ�B�G�:�t�Ug��}� ���Db�\]j�D�~�L��W
+  <p>Note: this example only works in browsers</p>
+</body>
+
+</html>
