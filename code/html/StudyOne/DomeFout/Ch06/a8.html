@@ -14,11 +14,49 @@
   <!--每30秒钟刷新当前页面-->
   <!-- <meta http-equiv="refresh" content="30"> -->
   <link rel="icon" href="../favicon.jpg">
-  <title></title>
+  <title>原型链</title>
   <base href="" target="_blank">
 
   <script>
+    function SuperType() {
+      this.property = true;
+    }
+    SuperType.prototype.getSuperValue = function () {
+      return this.property;
+    };
 
+    function SubType() {
+      this.subproperty = false;
+    }
+    //继承了 SuperType
+    SubType.prototype = new SuperType();
+    //添加新方法  放在替换原型语句之后
+    SubType.prototype.getSubValue = function () {
+      return this.subproperty;
+    };
+    // 重写超类型中的方法
+    SubType.prototype.getSuperValue = function () {
+      return false;
+    };
+    var instance = new SubType();
+    console.log(instance.getSuperValue()); //true
+    //instanceof操作符  确认原型与实例之间关系
+    console.log(instance instanceof Object); //true
+    console.log(instance instanceof SuperType); //true
+    console.log(instance instanceof SubType); //true
+    //isPrototypeOf()方法  确认原型与实例之间关系
+    console.log(Object.prototype.isPrototypeOf(instance)); //true
+    console.log(SuperType.prototype.isPrototypeOf(instance)); //true
+    console.log(SubType.prototype.isPrototypeOf(instance)); //true
+    // // 使用字面量添加新方法，会导致替换原型语句失效
+    // SubType.prototype = {
+    //   getSubValue: function () {
+    //     return this.subproperty;
+    //   },
+    //   someOtherMethod: function () {
+    //     return false;
+    //   }
+    // };
   </script>
 </head>
 

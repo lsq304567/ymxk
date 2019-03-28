@@ -14,10 +14,25 @@
   <!--每30秒钟刷新当前页面-->
   <!-- <meta http-equiv="refresh" content="30"> -->
   <link rel="icon" href="../favicon.jpg">
-  <title>组合继承(伪经典继承)</title>
+  <title>寄生组合式继承</title>
   <base href="" target="_blank">
 
   <script>
+    function object(o) {
+      function F() {}
+      F.prototype = o;
+      return new F();
+    }
+    //寄生组合式继承的基本模式
+    function inheritPrototype(subType, superType) {
+      //第一步是创建超类型原型的一个副本
+      var prototype = object(superType.prototype); //创建对象
+      //第二步是为创建的副本添加 constructor 属性，从而弥补因重写原型而失去的默认的 constructor 属性
+      prototype.constructor = subType; //增强对象
+      //最后一步，将新创建的对象（即副本）赋值给子类型的原型
+      subType.prototype = prototype; //指定对象
+    }
+
     function SuperType(name) {
       this.name = name;
       this.colors = ["red", "blue", "green"];
@@ -27,25 +42,19 @@
     };
 
     function SubType(name, age) {
-      //继承属性
-      SuperType.call(this, name); // 问题：第二次调用 SuperType()
+      SuperType.call(this, name);
       this.age = age;
     }
-    //继承方法
-    SubType.prototype = new SuperType(); // 问题：第一次调用 SuperType()
-    SubType.prototype.constructor = SubType; //通过 constructor 重新指向SubType
+    inheritPrototype(SubType, SuperType);
     SubType.prototype.sayAge = function () {
       console.log(this.age);
     };
-    var instance1 = new SubType("Nicholas", 29);
-    instance1.colors.push("black");
-    console.log(instance1.colors); //"red,blue,green,black"
-    instance1.sayName(); //"Nicholas";
-    instance1.sayAge(); //29
-    var instance2 = new SubType("Greg", 27);
-    console.log(instance2.colors); //"red,blue,green"
-    instance2.sayName(); //"Greg";
-    instance2.sayAge(); //27
+    var instance = new SubType("Nicholas", 29);
+    console.log(instance.name); //"Nicholas";
+    console.log(instance.colors);
+    instance.colors.push("yellow");
+    console.log(instance.colors);
+    console.log(instance.age); //29
   </script>
 </head>
 

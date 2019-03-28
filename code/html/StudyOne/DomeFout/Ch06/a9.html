@@ -14,11 +14,23 @@
   <!--每30秒钟刷新当前页面-->
   <!-- <meta http-equiv="refresh" content="30"> -->
   <link rel="icon" href="../favicon.jpg">
-  <title>原型链</title>
+  <title>借用构造函数(经典继承)</title>
   <base href="" target="_blank">
 
   <script>
+    function SuperType(name) {
+      this.name = name;
+    }
 
+    function SubType() {
+      //继承了 SuperType，同时还传递了参数
+      SuperType.call(this, "Nicholas");
+      //实例属性
+      this.age = 29;
+    }
+    var instance = new SubType();
+    console.log(instance.name); //"Nicholas";
+    console.log(instance.age); //29
   </script>
 </head>
 
