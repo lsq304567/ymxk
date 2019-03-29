@@ -408,3 +408,32 @@ a.heading-size--lrg:hover {
   height: auto;
   max-width: 100%;
 }
+
+.q_icon_width_title.tiny .icon_text_holder{
+  padding: 0px 0 0 29px;
+}
+.q_icon_width_title .icon_text_holder h5.icon_title{
+  font-size: 16px;
+  font-weight:600;
+}
+.q_icon_width_title .icon_text_inner p{
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+  font-weight: 500;
+}
+
+
+
+
+
+
+[vc_row css_animation="" row_type="row" use_row_as_full_screen_section="no" type="full_width" angled_section="no" text_align="left" background_image_as_pattern="without_pattern" z_index=""][vc_column width="2/3"][qode_elements_holder number_of_columns="one_column"][qode_elements_holder_item item_padding="0px 29px 0 17px" advanced_animations="no"][vc_separator type="transparent" up="-15"][vc_column_text]
+<h5>这是我的故事</h5>
+<h5>[/vc_column_text][vc_empty_space height="14px"][vc_column_text]具有5年以上证券投资风险管理相关工作经验;熟悉各大证券交易所、银行间市场、期货交易所的投资和交易模式;对股票、债券、衍生品、信托、理财等常见金融投资大类,有多项比较了解;工作细致、耐心,熟练使用 office 软件。[/vc_column_text][vc_empty_space height="21px"][vc_column_text]沟通交流能力强,能主导跨部门的风险讨论;工作细致、严谨;善于学习,心态开放;拥有团队合作精神,能承担一定的工作压力。[/vc_column_text][vc_empty_space height="43px"][qode_advanced_image_gallery type="grid" enable_image_shadow="no" number_of_columns="three" space_between_items="tiny" images="623,622,621" image_size="full"][/qode_elements_holder_item][/qode_elements_holder][/vc_column][vc_column width="1/3"][qode_elements_holder number_of_columns="one_column"][qode_elements_holder_item item_padding="7px 0 0 9px" advanced_animations="no"][vc_column_text]</h5>
+<h4>教育经历</h4>
+<h5>[/vc_column_text][vc_empty_space height="16px"][icon_text box_type="normal" icon="fa-circle" icon_type="normal" icon_position="left" icon_size="fa-lg" use_custom_icon_size="yes" custom_icon_size="8" title="哈佛大学" title_tag="h5" separator="no" text="2004年哈佛商学院工商管理硕士" icon_color="#4886ff" title_color="#3b3f45" text_color="#7c7c7c"][icon_text box_type="normal" icon="fa-circle" icon_type="normal" icon_position="left" icon_size="fa-lg" use_custom_icon_size="yes" custom_icon_size="8" title="密歇根大学" title_tag="h5" separator="no" text="2006年BBA专业班" icon_color="#4886ff" title_color="#3b3f45" text_color="#7c7c7c"][vc_empty_space height="16px"][vc_column_text]</h5>
+<h4>工作经历</h4>
+<h5>[/vc_column_text][vc_empty_space height="16px"][icon_text box_type="normal" icon="fa-circle" icon_type="normal" icon_position="left" icon_size="fa-lg" use_custom_icon_size="yes" custom_icon_size="8" title="淘宝" title_tag="h5" separator="no" text="工业主管" icon_color="#4886ff" title_color="#3b3f45" text_color="#7c7c7c"][icon_text box_type="normal" icon="fa-circle" icon_type="normal" icon_position="left" icon_size="fa-lg" use_custom_icon_size="yes" custom_icon_size="8" title="自由职业" title_tag="h5" separator="no" text="投资顾问" icon_color="#4886ff" title_color="#3b3f45" text_color="#7c7c7c"][/qode_elements_holder_item][/qode_elements_holder][/vc_column][/vc_row]</h5>
+
