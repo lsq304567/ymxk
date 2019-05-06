@@ -1,41 +1,92 @@
 /* CSS reset */
+/*! minireset.css v0.0.4 | MIT License | github.com/jgthms/minireset.css */
+html,
 body,
-div,
+p,
+ol,
+ul,
+li,
 dl,
 dt,
 dd,
-ul,
-ol,
-li,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-pre,
-form,
-fieldset,
-input,
-textarea,
-p,
-blockquote,
-th,
-td {
+h6 {
   margin: 0;
-  padding: 0;
+  padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal
+}
+
+ul {
+  list-style: none
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0
+}
+
+html {
+  box-sizing: border-box
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit
+}
+
+img,
+embed,
+iframe,
+object,
+video {
+  height: auto;
+  max-width: 100%
+}
+
+audio {
+  max-width: 100%
+}
+
+iframe {
+  border: 0
 }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing: 0
 }
 
-fieldset,
-img {
-  border: 0;
+td,
+th {
+  padding: 0;
+  text-align: left
 }
 
+/* minireset.css end */
 address,
 caption,
 cite,
@@ -47,36 +98,6 @@ th,
 var {
   font-style: normal;
   font-weight: normal;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-caption,
-th {
-  text-align: left;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 100%;
-  font-weight: normal;
-}
-
-q:before,
-q:after {
-  content: ""
-}
-
-abbr,
-article {
-  border: 0;
 }
 
 /* 文字排版 */
