@@ -1,7 +1,7 @@
 /**
  * 参考文档：http://ask.dcloud.net.cn/article/431
  * 升级文件为JSON格式数据，如下：
- * 
+ *
  * 需升级
  {
 	"status":1,
@@ -14,6 +14,21 @@
 * 无需升级
 {"status":0}
  */
+// {
+//   "appid": "H5291D269",
+//   "iOS": {
+//     "version": "1.2.0",
+//     "title": "Hello MUI版本更新",
+//     "note": "修复offcanvas偶发性出现菜单不能自动关闭的问题\n修复offcanvas中输入类控件无法focus的问题\n修复当list数据过多，swipeout菜单引起crash的bug\nhello mui支持双击顶部、列表滚到顶部功能",
+//     "url": "itms-services://?action=download-manifest&url=https://d.dcloud.net.cn/hellomui/HelloMUI.plist"
+//   },
+//   "Android": {
+//     "version": "2.4.0",
+//     "title": "Hello MUI版本更新",
+//     "note": "修复轮播组件和原生滚动冲突的bug；\n修复列表控件不显示上边框的bug；",
+//     "url": "http://www.dcloud.io/hellomui/HelloMUI.apk"
+//   }
+// }
 var server = "http://www.dcloud.io/check/update"; //获取升级描述文件服务器地址
 
 function update() {
