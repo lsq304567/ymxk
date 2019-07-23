@@ -21,11 +21,11 @@
     {
       "type": "chrome",
       "request": "launch",
-      "name": "2Launch index.html",
+      "name": "Launch Chrome index.html",
       "file": "${workspaceFolder}/index.html"
     },
     {
-      "name": "3Launch index.html (disable sourcemaps)",
+      "name": "Launch Chrome folder (disable sourcemaps)",
       "type": "chrome",
       "request": "launch",
       "sourceMaps": false,
